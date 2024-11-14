@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2e9e5f0f6fdaca60",
+        "id": "b4646f34dd149cbc",
         "type": "tabs",
         "children": [
           {
-            "id": "769ca8425d1271bc",
+            "id": "8adbb6a94073e1ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Modos de adquisición"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Modos de adquisición"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Modos de adquisición"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Modos de adquisición"
             }
           }
         ]
@@ -154,14 +162,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "8adbb6a94073e1ee",
   "lastOpenFiles": [
+    "Análise Forense Informático/Toma de evidencias/Factores en la toma de evidencias.md",
+    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+    "Análise Forense Informático/Adquisición de Evidencias/Tipos de Incidente.md",
+    "Análise Forense Informático/Toma de evidencias",
+    "Análise Forense Informático/Adquisición de Evidencias",
+    "Análise Forense Informático",
+    "Hacking Ético/Documentación/Ejercicios/nmap.md",
+    "Hacking Ético/Documentación/Editores/Typora.md",
+    "Hacking Ético/Documentación/Ejercicios",
     "img_misc",
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
     "Hacking Ético/Documentación/Guías.md",
     "Hacking Ético/Documentación/Editores",
-    "Hacking Ético/Documentación/Editores/Typora.md",
     "Hacking Ético/Documentación/Editores/Cherry Tree.md",
     "Hacking Ético/Documentación",
     "Hacking Ético"

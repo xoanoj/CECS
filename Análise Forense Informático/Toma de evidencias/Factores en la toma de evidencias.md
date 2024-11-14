@@ -1,0 +1,26 @@
+- Tipos de Incidente
+- Colaboración
+	- Dependerá de Quien participa
+	- Dependerá de a quien hay que mantener informado
+	- Dependerá de las contraseñas(/autorización) necesarias
+- Autorización (esencial, y escrita)
+- Entrada y registro
+	- Se debe hacer con intervención del juez o titular
+	- Se debe ser aséptico para evitar tensiónes con el titular
+	- Se debe registrar un acta descriptiva al terminar
+- Se debe realizar un inventario (etiquetado y fotografia)
+	- Marcas
+	- Modelos
+	- Especificaciones
+	- Responsable
+	- Dueño
+	- Etc.
+- Preparación de herramientas (de antemano)
+	- Discos duros
+	- USBs
+	- USBs booteables
+	- USBs con herramientas forenes
+	- Destornilladores
+	- Clonadora forense, bloqueadores de escritura
+	- Bases para insertar discos duros
+	- Bolsas para evidencias y jaulas de faraday
