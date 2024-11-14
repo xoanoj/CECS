@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "6fb1a4985d3c6103",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e9e5f0f6fdaca60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "769ca8425d1271bc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a68cd2cd7e846ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d50eadfe08733cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f33e7ace1770851",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "54d3d6c2da35a0ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ae62cedda213c278",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d9dd359720384e93",
+    "type": "split",
+    "children": [
+      {
+        "id": "63390c694218e614",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2d50f203fc4e363",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "942c0e8eb64cf892",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "1e78544b9db71f1e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "af93606cce6424bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9f33e7ace1770851",
+  "lastOpenFiles": [
+    "img_misc",
+    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
+    "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
+    "Hacking Ético/Documentación/Guías.md",
+    "Hacking Ético/Documentación/Editores",
+    "Hacking Ético/Documentación/Editores/Typora.md",
+    "Hacking Ético/Documentación/Editores/Cherry Tree.md",
+    "Hacking Ético/Documentación",
+    "Hacking Ético"
+  ]
+}

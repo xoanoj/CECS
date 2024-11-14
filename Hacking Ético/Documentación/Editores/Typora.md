@@ -1,0 +1,1 @@
+Similar a obsidian funciona mediante md pero más mínimo.
