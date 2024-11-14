@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Directrices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modos de adquisición"
+              "title": "Directrices"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Directrices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Modos de adquisición"
+              "title": "Backlinks for Directrices"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Directrices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Modos de adquisición"
+              "title": "Outgoing links from Directrices"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md"
+                "file": "Análise Forense Informático/Toma de evidencias/Directrices.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Modos de adquisición"
+              "title": "Outline of Directrices"
             }
           }
         ]
@@ -164,8 +164,9 @@
   },
   "active": "8adbb6a94073e1ee",
   "lastOpenFiles": [
-    "Análise Forense Informático/Toma de evidencias/Factores en la toma de evidencias.md",
     "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+    "Análise Forense Informático/Toma de evidencias/Directrices.md",
+    "Análise Forense Informático/Toma de evidencias/Factores en la toma de evidencias.md",
     "Análise Forense Informático/Adquisición de Evidencias/Tipos de Incidente.md",
     "Análise Forense Informático/Toma de evidencias",
     "Análise Forense Informático/Adquisición de Evidencias",
