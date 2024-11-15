@@ -27,14 +27,12 @@
 
 ### Ingenieria Social:
 
-- Hunting VS Farming:
-- Redes sociales:
-- Phishing:
-- Spoofing:
-- Ataques escalables, automáticos y telemáticos:
-- Ataques personales:
-- Otras estafas:
-- Otros:
+- Hunting VS Farming: Hunting se refiere a ataques con interacción directa entre atacante y usuario mientras que farming consiste en ataques donde el atacante utiliza sistemas intermedios y no tiene contacto directo con la víctima.
+- Redes sociales: Aplicaciones que se basan en la interacción masiva entre usuarios.
+- Phishing: Ataques que consisten en influenciar a un usuario para que permita que su sistema se infecte con contenido malicioso.
+- Spoofing: Aquellas tecnicas que consisten en manipular un dato o contenido con fines maliciosos.
+- Ataques escalables, automáticos y telemáticos: Ataques realizados de forma automatizada y masiva que pueden cambiar su volumen y alcance de forma fácil.
+- Ataques personales: Ataques de ingenieria social enfocados a una persona individual, como el Spear Phishing.
 
 ### Ataques:
 
@@ -42,6 +40,7 @@
 - Denegación de servicios: Tipo de ataque que consiste en evitar que un sistema pueda realizar su objetivo.
 - Ataques a servidores web: Tipos de ataque que tienen como objetivo sistemas webserver como Apache y Nginx.
 - Defacement: Tipo de ataque tipicamente usado contra una página web que busca eliminar la imagen corporativa o reemplazarla con un mensaje.
+- Inyección de SQL: Tipo de ataque que consiste en explotar un sistema de base de datos relacional mediante inyecciones de código en campos mal sanitizados.
 - DNS Hijacking: Colección de ataques que consisten en tomar la posesión de un nombre de dominio o sistema de nombre de dominios.
 - Cybersquatting: La acción de registrar un nombre de dominio para una web maliciosa siendo este similar al de una web benigna conocida.
 -  Pharming: Ataque que consiste en la redirección de tráfico a una web maliciosa.
@@ -56,8 +55,8 @@
 
 ### Otros Conceptos:
 
-- 0-Day: 
-- Puerta trasera:
-- Bug:
-- XSS:
-- Parche de Seguridad:
+- 0-Day: Vulnerabilidad que afecta a un sistema o colección de sistemas y aún no ha sido reportada y parcheada publicamente.
+- Puerta trasera: Herramienta implementada en un sistema comprometido a forma de persistencia para poder volver a ganar acceso a el facilmente
+- Bug: Fallo informático, en el caso de la ciberseguridad es aquel fallo que genera una vulnerabilidad
+- XSS: Tipo de vulnerabilidad nacida del pretexto de una inyección de HTML que permite a un atacante ejecutar código malicioso (tipicamente JavaScript) en el sistema de un usuario. Puede ser Reflejado, Almacenado o basado en el DOM.
+- Parche de Seguridad: Corrección aplicada a un sistema para arreglar una vulnerabilidad.

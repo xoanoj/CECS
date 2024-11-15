@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2db7aa58bb8b5f7f",
+        "id": "23754564c68e2016",
         "type": "tabs",
         "children": [
           {
-            "id": "b530568e2394a802",
+            "id": "f532d09e6fcf3f2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -162,20 +162,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "f532d09e6fcf3f2c",
   "lastOpenFiles": [
-    "Incidentes de Ciberseguridade/Ex Tema 1",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
-    "Incidentes de Ciberseguridade",
-    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
+    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
+    "Análise Forense Informático/Toma de evidencias/Directrices.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1",
+    "Incidentes de Ciberseguridade",
     "Hacking Ético/Documentación/Editores/Typora.md",
     "Hacking Ético/Documentación/Editores/Cherry Tree.md",
     "Hacking Ético/Documentación/Ejercicios/nmap.md",
     "Hacking Ético/Documentación/Guías.md",
     "img_misc/oceans8-samy-video-nmap-scene-cropscalefix-640x317.jpg",
     "img_misc/trinity-nmapscreen-hd-crop-1200x728.jpg",
-    "Análise Forense Informático/Toma de evidencias/Directrices.md",
     "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
     "Análise Forense Informático/Toma de evidencias/Factores en la toma de evidencias.md",
     "Análise Forense Informático/Adquisición de Evidencias/Tipos de Incidente.md",
