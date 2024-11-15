@@ -1,3 +1,5 @@
+Parte de [[Analise Forense]]
+
 - Notas detalladas
 - Especificar hora (UTC o en hora local)
 - Prepararse para testificar lo realizado

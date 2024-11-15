@@ -1,3 +1,5 @@
+Parte de [[Analise Forense]]
+
 - Tipos de Incidente
 - Colaboración
 	- Dependerá de Quien participa

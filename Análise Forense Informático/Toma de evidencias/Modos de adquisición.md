@@ -1,3 +1,5 @@
+Parte de [[Analise Forense]]
+
 ## Modo "Dead" o estático:
 
 Apagar el ordenador tirando del cable, es el modo recomendado en muchas ocasiones, permite clonación exacta, no obtiene datos volátiles.
