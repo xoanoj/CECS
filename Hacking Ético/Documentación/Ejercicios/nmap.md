@@ -9,7 +9,7 @@ El comando ``` nmap -A -n -T4 -oN nmap_tcp.txt 10.0.0.104``` es un ejemplo de do
 
 Para ver el fichero:
 
-```
+``` java
 Nmap scan report for 10.0.0.104
 Host is up (0.00057s latency).
 Not shown: 994 closed ports
