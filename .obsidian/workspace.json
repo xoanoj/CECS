@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "40633e5cae779b3a",
+        "id": "15a3c6fb1da289de",
         "type": "tabs",
         "children": [
           {
-            "id": "2fd723966033c595",
+            "id": "9a8373a363b2850d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Ejercicio Bash.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ejercicio Bash"
+              "title": "Práctica 1 - Clonación de un pendrive"
             }
           }
         ]
@@ -162,10 +162,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd723966033c595",
+  "active": "9a8373a363b2850d",
   "lastOpenFiles": [
-    "Hacking Ético/Comandos Bash.md",
+    "Pasted image 20241121212631.png",
+    "img_misc/Pasted image 20241121210951.png",
+    "Análise Forense Informático/Toma de evidencias/Untitled.md",
+    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
+    "Análise Forense Informático/Toma de evidencias/Práctica 1",
     "Hacking Ético/Ejercicio Bash.md",
+    "Hacking Ético/Flujo de pestañas con Kitty.md",
+    "Hacking Ético/Comandos Bash.md",
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
@@ -173,7 +179,6 @@
     "Hacking Ético/Documentación/Ejercicios/nmap.md",
     "Bastionado de Redes e Sistemas/Diseño de planes de seguridad/Plan director de seguridad.md",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
-    "Hacking Ético/Flujo de pestañas con Kitty.md",
     "Hacking Ético/Hacking Ético.md",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Normativa/Normativa.md",
@@ -194,11 +199,9 @@
     "Incidentes de Ciberseguridade",
     "img_misc/oceans8-samy-video-nmap-scene-cropscalefix-640x317.jpg",
     "img_misc/trinity-nmapscreen-hd-crop-1200x728.jpg",
-    "Análise Forense Informático/Adquisición de Evidencias/Tipos de Incidente.md",
     "Análise Forense Informático/Toma de evidencias",
     "Análise Forense Informático/Adquisición de Evidencias",
     "Análise Forense Informático",
-    "Hacking Ético/Documentación/Ejercicios",
-    "img_misc"
+    "Hacking Ético/Documentación/Ejercicios"
   ]
 }
