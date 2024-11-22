@@ -1,4 +1,4 @@
-
+Parte de [[Incidentes de Ciberseguridade]]
 ### Tipos gerales de incidentes
 
 - Ciberterrorismo: Terrorismo llevado acabo en el ámbito del ciberespacio.
