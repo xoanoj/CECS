@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "300b0b3dd9baedc4",
+        "id": "00e3cc0e12d2af46",
         "type": "tabs",
         "children": [
           {
-            "id": "ae92babe6bb6bcb7",
+            "id": "f4574386cf8dd14c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normativa/Bases do cumplimento normativo/Compliance.md",
+                "file": "Hacking Ético/Ejercicio Bash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Compliance"
+              "title": "Ejercicio Bash"
             }
           }
         ]
@@ -162,8 +162,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "f4574386cf8dd14c",
   "lastOpenFiles": [
+    "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Normativa/Normativa.md",
     "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "img_misc/Pasted image 20241125212913.png",
@@ -197,7 +198,6 @@
     "Hacking Ético/Documentación/Editores/Cherry Tree.md",
     "Hacking Ético/Documentación/Ejercicios/nmap.md",
     "Hacking Ético/Hacking Ético.md",
-    "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Normativa/Bases do cumplimento normativo",
     "Normativa",
     "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",

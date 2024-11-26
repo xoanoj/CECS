@@ -550,13 +550,71 @@ kali:/home/kali:/usr/bin/zsh
 Comando usado:
 
 ``` bash
-
+cut -d ":" -f 1,7 /etc/passwd
 ```
 
 Salida:
 
 ```
-
+root:/usr/bin/zsh
+daemon:/usr/sbin/nologin
+bin:/usr/sbin/nologin
+sys:/usr/sbin/nologin
+sync:/bin/sync
+games:/usr/sbin/nologin
+man:/usr/sbin/nologin
+lp:/usr/sbin/nologin
+mail:/usr/sbin/nologin
+news:/usr/sbin/nologin
+uucp:/usr/sbin/nologin
+proxy:/usr/sbin/nologin
+www-data:/usr/sbin/nologin
+backup:/usr/sbin/nologin
+list:/usr/sbin/nologin
+irc:/usr/sbin/nologin
+_apt:/usr/sbin/nologin
+nobody:/usr/sbin/nologin
+systemd-network:/usr/sbin/nologin
+systemd-timesync:/usr/sbin/nologin
+messagebus:/usr/sbin/nologin
+tss:/bin/false
+strongswan:/usr/sbin/nologin
+tcpdump:/usr/sbin/nologin
+sshd:/usr/sbin/nologin
+usbmux:/usr/sbin/nologin
+dnsmasq:/usr/sbin/nologin
+avahi:/usr/sbin/nologin
+speech-dispatcher:/bin/false
+pulse:/usr/sbin/nologin
+lightdm:/bin/false
+saned:/usr/sbin/nologin
+polkitd:/usr/sbin/nologin
+rtkit:/usr/sbin/nologin
+colord:/usr/sbin/nologin
+nm-openvpn:/usr/sbin/nologin
+nm-openconnect:/usr/sbin/nologin
+_galera:/usr/sbin/nologin
+mysql:/bin/false
+stunnel4:/usr/sbin/nologin
+_rpc:/usr/sbin/nologin
+geoclue:/usr/sbin/nologin
+Debian-snmp:/bin/false
+sslh:/usr/sbin/nologin
+ntpsec:/usr/sbin/nologin
+redsocks:/usr/sbin/nologin
+rwhod:/usr/sbin/nologin
+_gophish:/usr/sbin/nologin
+iodine:/usr/sbin/nologin
+miredo:/usr/sbin/nologin
+statd:/usr/sbin/nologin
+redis:/usr/sbin/nologin
+postgres:/bin/bash
+mosquitto:/usr/sbin/nologin
+inetsim:/usr/sbin/nologin
+_gvm:/usr/sbin/nologin
+kali:/usr/bin/zsh
+cups-pk-helper:/usr/sbin/nologin
+bacula:/usr/sbin/nologin
 ```
 
 ### Igual que antes pero ordenados alfabéticamente
@@ -564,13 +622,71 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d ":" -f 7 /etc/passwd | sort
 ```
 
 Salida:
 
 ```
-
+/bin/bash
+/bin/false
+/bin/false
+/bin/false
+/bin/false
+/bin/false
+/bin/sync
+/usr/bin/zsh
+/usr/bin/zsh
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
 ```
 
 ### Igual que antes pero sin que aparezcan repetidos
@@ -578,13 +694,17 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d ":" -f 7 /etc/passwd | sort -u
 ```
 
 Salida:
 
 ```
-
+/bin/bash
+/bin/false
+/bin/sync
+/usr/bin/zsh
+/usr/sbin/nologin
 ```
 
 ### Di cuantos usuarios tienen cada uno de los tipos de shell 
@@ -592,13 +712,17 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d ":" -f 7 /etc/passwd | sort | uniq -c
 ```
 
 Salida:
 
 ```
-
+      1 /bin/bash
+      5 /bin/false
+      1 /bin/sync
+      2 /usr/bin/zsh
+     50 /usr/sbin/nologin
 ```
 
 ### Di cuantos usuarios tienen cada uno de los tipos de shell , ordenándolos de mayor a menor
@@ -606,13 +730,17 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d ":" -f 7 /etc/passwd | sort | uniq -c | sort -n
 ```
 
 Salida:
 
 ```
-
+      1 /bin/bash
+      1 /bin/sync
+      2 /usr/bin/zsh
+      5 /bin/false
+     50 /usr/sbin/nologin
 ```
 
 ### Mostrar usuarios usando `awk`
@@ -620,13 +748,71 @@ Salida:
 Comando usado:
 
 ``` bash
-
+awk -F ":" '{print $1}' /etc/passwd
 ```
 
 Salida:
 
 ```
-
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+systemd-timesync
+messagebus
+tss
+strongswan
+tcpdump
+sshd
+usbmux
+dnsmasq
+avahi
+speech-dispatcher
+pulse
+lightdm
+saned
+polkitd
+rtkit
+colord
+nm-openvpn
+nm-openconnect
+_galera
+mysql
+stunnel4
+_rpc
+geoclue
+Debian-snmp
+sslh
+ntpsec
+redsocks
+rwhod
+_gophish
+iodine
+miredo
+statd
+redis
+postgres
+mosquitto
+inetsim
+_gvm
+kali
+cups-pk-helper
+bacula
 ```
 
 ### Mostrar por pantalla los usuarios del fichero /etc/passwd junto con su directorio home y su shell usando `awk`
@@ -634,13 +820,71 @@ Salida:
 Comando usado:
 
 ``` bash
-
+awk -F ":" '{print $1,$6,$7}' /etc/passwd
 ```
 
 Salida:
 
 ```
-
+root /root /usr/bin/zsh
+daemon /usr/sbin /usr/sbin/nologin
+bin /bin /usr/sbin/nologin
+sys /dev /usr/sbin/nologin
+sync /bin /bin/sync
+games /usr/games /usr/sbin/nologin
+man /var/cache/man /usr/sbin/nologin
+lp /var/spool/lpd /usr/sbin/nologin
+mail /var/mail /usr/sbin/nologin
+news /var/spool/news /usr/sbin/nologin
+uucp /var/spool/uucp /usr/sbin/nologin
+proxy /bin /usr/sbin/nologin
+www-data /var/www /usr/sbin/nologin
+backup /var/backups /usr/sbin/nologin
+list /var/list /usr/sbin/nologin
+irc /run/ircd /usr/sbin/nologin
+_apt /nonexistent /usr/sbin/nologin
+nobody /nonexistent /usr/sbin/nologin
+systemd-network / /usr/sbin/nologin
+systemd-timesync / /usr/sbin/nologin
+messagebus /nonexistent /usr/sbin/nologin
+tss /var/lib/tpm /bin/false
+strongswan /var/lib/strongswan /usr/sbin/nologin
+tcpdump /nonexistent /usr/sbin/nologin
+sshd /run/sshd /usr/sbin/nologin
+usbmux /var/lib/usbmux /usr/sbin/nologin
+dnsmasq /var/lib/misc /usr/sbin/nologin
+avahi /run/avahi-daemon /usr/sbin/nologin
+speech-dispatcher /run/speech-dispatcher /bin/false
+pulse /run/pulse /usr/sbin/nologin
+lightdm /var/lib/lightdm /bin/false
+saned /var/lib/saned /usr/sbin/nologin
+polkitd / /usr/sbin/nologin
+rtkit /proc /usr/sbin/nologin
+colord /var/lib/colord /usr/sbin/nologin
+nm-openvpn /var/lib/openvpn/chroot /usr/sbin/nologin
+nm-openconnect /var/lib/NetworkManager /usr/sbin/nologin
+_galera /nonexistent /usr/sbin/nologin
+mysql /nonexistent /bin/false
+stunnel4 /var/run/stunnel4 /usr/sbin/nologin
+_rpc /run/rpcbind /usr/sbin/nologin
+geoclue /var/lib/geoclue /usr/sbin/nologin
+Debian-snmp /var/lib/snmp /bin/false
+sslh /nonexistent /usr/sbin/nologin
+ntpsec /nonexistent /usr/sbin/nologin
+redsocks /var/run/redsocks /usr/sbin/nologin
+rwhod /var/spool/rwho /usr/sbin/nologin
+_gophish /var/lib/gophish /usr/sbin/nologin
+iodine /run/iodine /usr/sbin/nologin
+miredo /var/run/miredo /usr/sbin/nologin
+statd /var/lib/nfs /usr/sbin/nologin
+redis /var/lib/redis /usr/sbin/nologin
+postgres /var/lib/postgresql /bin/bash
+mosquitto /var/lib/mosquitto /usr/sbin/nologin
+inetsim /var/lib/inetsim /usr/sbin/nologin
+_gvm /var/lib/openvas /usr/sbin/nologin
+kali /home/kali /usr/bin/zsh
+cups-pk-helper /nonexistent /usr/sbin/nologin
+bacula /var/lib/bacula /usr/sbin/nologin
 ```
 
 ### Idem pero separando los campos con :
@@ -648,13 +892,71 @@ Salida:
 Comando usado:
 
 ``` bash
-
+awk -F ":" '{print $1":"$6":"$7}' /etc/passwd
 ```
 
 Salida:
 
 ```
-
+root:/root:/usr/bin/zsh
+daemon:/usr/sbin:/usr/sbin/nologin
+bin:/bin:/usr/sbin/nologin
+sys:/dev:/usr/sbin/nologin
+sync:/bin:/bin/sync
+games:/usr/games:/usr/sbin/nologin
+man:/var/cache/man:/usr/sbin/nologin
+lp:/var/spool/lpd:/usr/sbin/nologin
+mail:/var/mail:/usr/sbin/nologin
+news:/var/spool/news:/usr/sbin/nologin
+uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:/bin:/usr/sbin/nologin
+www-data:/var/www:/usr/sbin/nologin
+backup:/var/backups:/usr/sbin/nologin
+list:/var/list:/usr/sbin/nologin
+irc:/run/ircd:/usr/sbin/nologin
+_apt:/nonexistent:/usr/sbin/nologin
+nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:/:/usr/sbin/nologin
+systemd-timesync:/:/usr/sbin/nologin
+messagebus:/nonexistent:/usr/sbin/nologin
+tss:/var/lib/tpm:/bin/false
+strongswan:/var/lib/strongswan:/usr/sbin/nologin
+tcpdump:/nonexistent:/usr/sbin/nologin
+sshd:/run/sshd:/usr/sbin/nologin
+usbmux:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:/run/avahi-daemon:/usr/sbin/nologin
+speech-dispatcher:/run/speech-dispatcher:/bin/false
+pulse:/run/pulse:/usr/sbin/nologin
+lightdm:/var/lib/lightdm:/bin/false
+saned:/var/lib/saned:/usr/sbin/nologin
+polkitd:/:/usr/sbin/nologin
+rtkit:/proc:/usr/sbin/nologin
+colord:/var/lib/colord:/usr/sbin/nologin
+nm-openvpn:/var/lib/openvpn/chroot:/usr/sbin/nologin
+nm-openconnect:/var/lib/NetworkManager:/usr/sbin/nologin
+_galera:/nonexistent:/usr/sbin/nologin
+mysql:/nonexistent:/bin/false
+stunnel4:/var/run/stunnel4:/usr/sbin/nologin
+_rpc:/run/rpcbind:/usr/sbin/nologin
+geoclue:/var/lib/geoclue:/usr/sbin/nologin
+Debian-snmp:/var/lib/snmp:/bin/false
+sslh:/nonexistent:/usr/sbin/nologin
+ntpsec:/nonexistent:/usr/sbin/nologin
+redsocks:/var/run/redsocks:/usr/sbin/nologin
+rwhod:/var/spool/rwho:/usr/sbin/nologin
+_gophish:/var/lib/gophish:/usr/sbin/nologin
+iodine:/run/iodine:/usr/sbin/nologin
+miredo:/var/run/miredo:/usr/sbin/nologin
+statd:/var/lib/nfs:/usr/sbin/nologin
+redis:/var/lib/redis:/usr/sbin/nologin
+postgres:/var/lib/postgresql:/bin/bash
+mosquitto:/var/lib/mosquitto:/usr/sbin/nologin
+inetsim:/var/lib/inetsim:/usr/sbin/nologin
+_gvm:/var/lib/openvas:/usr/sbin/nologin
+kali:/home/kali:/usr/bin/zsh
+cups-pk-helper:/nonexistent:/usr/sbin/nologin
+bacula:/var/lib/bacula:/usr/sbin/nologin
 ```
 
 ### Quedarse con el campo 1 del fichero puertos.txt usando `cut`
@@ -662,13 +964,18 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d " " -f 1 puertos.txt
 ```
 
 Salida:
 
 ```
-
+135/tcp
+139/tcp
+445/tcp
+1025/tcp
+1026/tcp
+8089/tcp
 ```
 
 ### Quedarse con el campo 3 (servicio) del fichero puertos.txt usando `cut`
@@ -676,13 +983,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+---
 ```
 
 Salida:
 
 ```
-
+---
 ```
 
 ### Repetir anterior usando `awk`
@@ -690,13 +997,18 @@ Salida:
 Comando usado:
 
 ``` bash
-
+awk -F " " '{print $3}' puertos.txt
 ```
 
 Salida:
 
 ```
-
+msrpc
+netbios-ssn
+microsoft-ds
+msrpc
+msrpc
+ssl/http
 ```
 
 ### Partiendo del fichero nmap_A_scan_tcp.txt hacer un listado de los puertos abiertos y en cuantos equipos en total están abiertos. Ordena el resultado de mayor a menor.
@@ -704,13 +1016,52 @@ Salida:
 Comando usado:
 
 ``` bash
-
+grep 'open' nmap_A_scan_tcp.txt | sort -n | awk -F " " '{print $1}' | grep -v 'Warning' | uniq -c | sort -nr
 ```
 
 Salida:
 
 ```
-
+      5 445/tcp
+      5 139/tcp
+      4 135/tcp
+      3 8089/tcp
+      2 80/tcp
+      2 53/tcp
+      1 88/tcp
+      1 8180/tcp
+      1 8009/tcp
+      1 6667/tcp
+      1 636/tcp
+      1 6000/tcp
+      1 593/tcp
+      1 5900/tcp
+      1 5432/tcp
+      1 514/tcp
+      1 513/tcp
+      1 512/tcp
+      1 49161/tcp
+      1 49158/tcp
+      1 49157/tcp
+      1 49155/tcp
+      1 49154/tcp
+      1 464/tcp
+      1 389/tcp
+      1 3306/tcp
+      1 3269/tcp
+      1 3268/tcp
+      1 25/tcp
+      1 23/tcp
+      1 22/tcp
+      1 21/tcp
+      1 2121/tcp
+      1 2049/tcp
+      1 1524/tcp
+      1 111/tcp
+      1 1099/tcp
+      1 1026/tcp
+      1 1025/tcp
+                 
 ```
 
 ### Para hacer un ataque de contraseñas, extrae una lista de usuarios a partir del fichero nmap_smb_users.txt y guardala en un fichero llamado usuarios.txt
@@ -718,13 +1069,47 @@ Salida:
 Comando usado:
 
 ``` bash
-
+grep "METASPLOITABLE" nmap_smb_users.txt | awk -F "\\" '{print $2}' | awk -F " " '{print $1}' | tee usuarios.txt
 ```
 
 Salida:
 
 ```
-
+backup
+bin
+bind
+daemon
+dhcp
+distccd
+ftp
+games
+gnats
+irc
+klog
+libuuid
+list
+lp
+mail
+man
+msfadmin
+mysql
+news
+nobody
+postfix
+postgres
+proftpd
+proxy
+root
+service
+sshd
+sync
+sys
+syslog
+telnetd
+tomcat55
+user
+uucp
+www-data
 ```
 
 ### Log Apache --> fichero access_log.txt
@@ -734,13 +1119,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+wc -l access_log.txt
 ```
 
 Salida:
 
 ```
-
+1173 access_log.txt
 ```
 
 #### Ver última línea y analizar la estructura
@@ -748,13 +1133,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+tail -n 1 access_log.txt
 ```
 
 Salida:
 
 ```
-
+70.194.129.34 - - [25/Apr/2013:15:55:42 -0700] "GET / HTTP/1.1" 200 4023 "-" "Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SCH-I535 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30" "www.random-site.com"
 ```
 
 #### Ver IPs de clientes
@@ -762,13 +1147,21 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d " " -f 1 access_log.txt | sort -u
 ```
 
 Salida:
 
 ```
-
+201.21.152.44
+208.115.113.91
+208.54.80.244
+208.68.234.99
+70.194.129.34
+72.133.47.242
+88.112.192.2
+98.238.13.253
+99.127.177.95
 ```
 
 #### Ver IPs de clientes y el nº de peticiones que hacen ordenadas de mayor a menor
@@ -776,13 +1169,21 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d " " -f 1 access_log.txt | sort | uniq -c | sort -nr
 ```
 
 Salida:
 
 ```
-
+   1038 208.68.234.99
+     59 208.115.113.91
+     22 208.54.80.244
+     21 99.127.177.95
+      8 98.238.13.253
+      8 88.112.192.2
+      8 72.133.47.242
+      8 70.194.129.34
+      1 201.21.152.44
 ```
 
 #### Ver códigos de respuesta
@@ -790,13 +1191,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+cut -d " " -f 9 access_log.txt
 ```
 
 Salida:
 
 ```
-
+[...]
 ```
 
 #### Ver peticiones del equipo más activo
@@ -804,13 +1205,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+grep $(cut -d " " -f 1 access_log.txt | sort | uniq -c | sort -nr | awk -F " " '{print $2}' | head -n 1) access_log.txt
 ```
 
 Salida:
 
 ```
-
+[...]
 ```
 
 #### Ver user-agent y cuantas peticiones se ejecutan con cada uno de ellos
