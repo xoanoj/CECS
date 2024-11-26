@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "600f519119efb968",
+        "id": "300b0b3dd9baedc4",
         "type": "tabs",
         "children": [
           {
-            "id": "89c8f094a544eab3",
+            "id": "ae92babe6bb6bcb7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
+                "file": "Normativa/Bases do cumplimento normativo/Compliance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Práctica 1 - Clonación de un pendrive"
+              "title": "Compliance"
             }
           }
         ]
@@ -162,9 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "89c8f094a544eab3",
+  "active": "9f33e7ace1770851",
   "lastOpenFiles": [
-    "Pasted image 20241125212913.png",
+    "Normativa/Normativa.md",
+    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
+    "img_misc/Pasted image 20241125212913.png",
     "img_misc/Pasted image 20241125212902.png",
     "img_misc/Pasted image 20241125212444.png",
     "img_misc/Pasted image 20241125210604.png",
@@ -177,7 +179,6 @@
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Docker/Docker Compose.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
-    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md",
@@ -188,7 +189,6 @@
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
     "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
-    "img_misc/Pasted image 20241121210951.png",
     "Análise Forense Informático/Toma de evidencias/Untitled.md",
     "Análise Forense Informático/Toma de evidencias/Práctica 1",
     "Hacking Ético/Ejercicio Bash.md",
@@ -198,7 +198,6 @@
     "Hacking Ético/Documentación/Ejercicios/nmap.md",
     "Hacking Ético/Hacking Ético.md",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
-    "Normativa/Normativa.md",
     "Normativa/Bases do cumplimento normativo",
     "Normativa",
     "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",

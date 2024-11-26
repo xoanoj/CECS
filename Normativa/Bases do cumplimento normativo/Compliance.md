@@ -18,3 +18,33 @@ Caracteristicas:
 - A observación das normas debe integrarse nos procesos organizativos
 - Facilitar informes continuos e apoio técnico
 - Impulsar actividades de formación e concienciación
+
+Principios:
+- Cultura
+- Leis
+- Independencia
+
+Tipos:
+- Compliance Potestativo
+- Compliance Cuasi-Potestativo
+- Compliance Imperativo
+
+3 Líneas de defensa:
+- 1º Linea
+	- Controles de gerencia
+	- Medidas de control interno
+- 2º Linea
+	- Controles financieros
+	- Seguridad
+	- Gestión de riesgos
+	- Calidad
+	- Inspección
+	- Cumplimiento
+- 3º Linea
+	- Auditoria Interna
+
+Risco do compliance:
+- Sancións
+- Riscos económicos
+- Pérdidas Financieras
+- Pérdida da reputación
