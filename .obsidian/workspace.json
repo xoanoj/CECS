@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d405bcff864ba7cb",
+        "id": "b0be38361278d9f1",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e44ee2c962ddfa",
+            "id": "a9babd904a94d6b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Políticas de ciberseguridad para un instituto"
             }
           }
         ]
@@ -158,8 +162,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "a9babd904a94d6b6",
   "lastOpenFiles": [
+    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
+    "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
+    "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Posta en Producción Segura/Prácticas Python/Ex8.py",
     "Posta en Producción Segura/Ex8.py",
     "Posta en Producción Segura/Prácticas Python/Ex2.py",
@@ -172,7 +181,6 @@
     "Hacking Ético/Ejercicio Bash.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md",
-    "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Normativa/Normativa.md",
     "img_misc/Pasted image 20241125212913.png",
     "img_misc/Pasted image 20241125212902.png",
@@ -192,9 +200,6 @@
     "Bastionado de Redes e Sistemas/Diseño de planes de seguridad/Plan director de seguridad.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
-    "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
     "Análise Forense Informático/Toma de evidencias/Untitled.md",
     "Análise Forense Informático/Toma de evidencias/Práctica 1",
     "Hacking Ético/Flujo de pestañas con Kitty.md",
@@ -202,7 +207,6 @@
     "Hacking Ético/Documentación/Ejercicios/nmap.md",
     "Hacking Ético/Hacking Ético.md",
     "Normativa/Bases do cumplimento normativo",
-    "Normativa",
     "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",
     "Análise Forense Informático/Toma de evidencias/Directrices.md",
     "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md"
