@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d814ee53a9df868b",
+        "id": "d405bcff864ba7cb",
         "type": "tabs",
         "children": [
           {
-            "id": "628cd5e99add6534",
+            "id": "e5e44ee2c962ddfa",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -158,8 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "628cd5e99add6534",
+  "active": "9f33e7ace1770851",
   "lastOpenFiles": [
+    "Posta en Producción Segura/Prácticas Python/Ex8.py",
+    "Posta en Producción Segura/Ex8.py",
+    "Posta en Producción Segura/Prácticas Python/Ex2.py",
+    "Posta en Producción Segura/Ex2.py",
+    "Posta en Producción Segura/Prácticas Python/Ex15.py",
+    "Posta en Producción Segura/Prácticas Python",
+    "Posta en Producción Segura",
     "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "Hacking Ético/Comandos Bash.md",
     "Hacking Ético/Ejercicio Bash.md",
@@ -198,12 +205,6 @@
     "Normativa",
     "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",
     "Análise Forense Informático/Toma de evidencias/Directrices.md",
-    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
-    "Bastionado de Redes e Sistemas/Diseño de planes de seguridad",
-    "Incidentes de Ciberseguridade/Ex Tema 1",
-    "Incidentes de Ciberseguridade",
-    "Análise Forense Informático/Toma de evidencias",
-    "Análise Forense Informático/Adquisición de Evidencias",
-    "Análise Forense Informático"
+    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md"
   ]
 }
