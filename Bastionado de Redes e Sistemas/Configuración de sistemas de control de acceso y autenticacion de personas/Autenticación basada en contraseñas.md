@@ -19,3 +19,16 @@ Recomendaciones para contraseñas seguras:
 - Camibiar las contraseñas con regularidad
 - Utilizar signos de puntuación si se permite
 - Comprobar las contraseñas a utilizar en las bases de datos de leaks
+
+Acciones a evitar:
+- Repetir contraseñas
+- Utilizar información personal en la contraseña
+- Evitar secuencias básicas de teclado
+- No repetir los mismos caracteres
+- Evitar utilizar solamente números
+
+Parámetros de gestión de contraseñas:
+- Número de intentos limitados
+- Longitud mínima
+- Restricciones de formato
+- Envejecimiento y expiración de contraseñas

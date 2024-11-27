@@ -1150,6 +1150,8 @@ Comando usado:
 cut -d " " -f 1 access_log.txt | sort -u
 ```
 
+De ordenar con sort -uV usaria toda la ip en vez de solo los primeros digitos
+
 Salida:
 
 ```
