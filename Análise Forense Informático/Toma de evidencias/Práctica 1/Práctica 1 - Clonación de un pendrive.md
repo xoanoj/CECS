@@ -143,10 +143,14 @@ Podemos ver que son diferentes a los realizados con dc3dd, esto se debe a que al
 
 ![[Pasted image 20241128194332.png]]
 
+El fallo seguramente se deba a que cree el filtro para el puerto 0007 y el día de la clonación con dd el puerto aparecia como 0005
+
 ---
 ### Clonación de un pendrive haciendo uso de una máquina virtual con Windows 10 Professional
 
-Al conectar un pendrive (no el de la evidencia) a la máquina de Windows me dio cuenta de que anteriormente se monta en el anfitrión Debian12 aunque tenga un filtro de USB que debería pasar todas las conexiones, para tratar de evitar este montaje (que cambiaria metadatos y el hash en consecuencia) voy a copiar los filtros de la máquina de Debian, aunque quizás fallen como ya sospecho que hicieron en el ejercicio anterior.
+#### Explicación de problema con el paso de USB
+
+Al conectar un pendrive (no el de la evidencia) a la máquina de Windows me doy cuenta de que anteriormente se monta en el anfitrión Debian12 aunque tenga un filtro de USB que debería pasar todas las conexiones, para tratar de evitar este montaje (que cambiaria metadatos y el hash en consecuencia) voy a copiar los filtros de la máquina de Debian, aunque quizás fallen como ya sospecho que hicieron en el ejercicio anterior.
 
 ![[Pasted image 20241128201453.png]]
 
@@ -154,12 +158,89 @@ Y copio también este filtro de USB para hacer pruebas sin comprometer la eviden
 
 ![[Pasted image 20241128201616.png]]
 
-Al conectar el USB de prueba se monta en el afitrión de forma automática, con lo que esta técnica no funciona y al conectar la evidencia el montado en Debian12 podría potencialmente cambiar metadatos. De encontrar cambios en los hashes otra vez podriamos asumir que se debe a esto.
+Tras hacer pruebas he logrado automontar los pendrives en Windows copiando los filtros de la máquina SIFT, aunque en este proceso el USB de evidencia se automontó en Windows con lo cual es posible que los metadatos se vieran comprometidos.
 
-De todos modos, cuando a continuación se vea que el SSD Sabrent pasa a la máquina virtual de Windows automáticamente se debe tener en cuenta que esto es porque se monto a Debian12 primero y despúes se creo un filtro, esto funciona correctamente, el problema surge con la evidencia ya que idealmente no queremos arriesgarnos a montarlo ni para crear el filtro.
+En resumen el fallo se debe a haber utilizado puertos distintos del dispositivo sin darme cuenta.
 
-Otra opción que podemos probar es utilizar el host de Windows del sistema para ver si así logramos que no se automonten en el sistema.
 #### Enunciado 1
 
-> Enchufe el segundo (no el de la evidencia) dispositivo USB (el de más de 5GB libres) y compruebe si la máquina lo monta automáticamente. En Linux, algunos comandos como dmesg y sudo fdisk -l detectan si el pendrive está enchufado (detectado), mientras que otros como mount, df, etc, detectan si el pendrive está montado.
+> Enchufe el segundo (no el de la evidencia) dispositivo USB y compruebe si la máquina lo monta automáticamente. En este caso, para saber si el pendrive se automonta basta con ver que Windows saca el popup que pregunta qué hacer con él, le asigna una unidad como F: y permite trabajar con ella
 
+![[Pasted image 20241128205231.png]]
+
+Si, lo hace.
+
+#### Enunciado 2
+
+> Pruebe si los siguientes mecanismos logran que, al enchufar el pendrive, éste se detecte pero no se monte. No se olvide de deshacer los cambios tras probar cada uno de los métodos.
+
+##### Enunciado 2/a
+
+> Mediante el comando automount disable de la herramienta diskpart.
+
+![[Pasted image 20241128205637.png]]
+
+Probamos a desconectar y volver a conectar el dispositivo y se sigue montando.
+
+Deshago los pasos con 
+
+``` powershell
+automount enable
+```
+
+##### Enunciado 2/b
+
+>A través del comando mountvol /N
+
+![[Pasted image 20241128210128.png]]
+
+Al reconectar el dispositivo tambien se monta automáticamente, deshago con:
+
+``` powershell
+mountvol /E
+```
+
+##### Enunciado 2/c
+
+> A través de la clave de registro HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MountMgr\NoAutoMount
+
+![[Pasted image 20241128210800.png]]
+
+Al reconectar el disco se sigue automontando con lo que deshago los cambios y paso a la siguiente técnica.
+
+##### Enunciado 2/d
+
+> A través de las directivas de grupo local (gpedit.msc), yendo a Configuración del Equipo Plantillas Administrativas – Sistema – Acceso de almacenamiento extraíble, y estableciendo a “Habilitada” las tres propiedades de discos extraíbles. A saber:
+	▪ Discos extraíbles: denegar acceso de ejecución.
+	▪ Discos extraíbles: denegar acceso de lectura.
+	▪ Discos extraíbles: denegar acceso de escritura.
+
+Habilito estas 3 opciones:
+
+![[Pasted image 20241128211251.png]]
+
+Finalmente vemos que con estas opciones el volumen NO se automonta.
+
+![[Pasted image 20241128211918.png]]
+
+#### Enunciado 3
+
+>Haciendo uso de la herramienta FTK® Imager, realice la clonación del pendrive evidencia a una imagen en un único archivo denominado pen_drive_3.dd. Si puede, configure dicho programa para que calcule el hash sha256 y sha512. Si no, calcúlelo con otros comandos. Finalmente, guarde la imagen obtenida fuera de la máquina virtual para usar en posteriores prácticas
+
+Hago la instalación de FTK Imager:
+
+![[Pasted image 20241128212325.png]]
+
+Configuro el programa e inicio la clonación
+
+![[Pasted image 20241128213208.png]]
+
+El programa solo proporciona los hashes en MD5 y SHA1
+
+![[Pasted image 20241128214202.png]]
+
+Calculos los hashes con el sistema
+
+![[Pasted image 20241128214416.png]]
+
+Una vez más son diferentes, pero dado el problema explicado es de esperar
