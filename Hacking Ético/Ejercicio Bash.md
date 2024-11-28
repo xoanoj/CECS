@@ -1210,6 +1210,17 @@ Comando usado:
 grep $(cut -d " " -f 1 access_log.txt | sort | uniq -c | sort -nr | awk -F " " '{print $2}' | head -n 1) access_log.txt
 ```
 
+---
+Nota
+
+``` bash
+grep "^208.68.234.99" acces_log.txt
+```
+
+Grep regex para ver solo esa cadena al principio de cada linea
+
+---
+
 Salida:
 
 ```
@@ -1221,13 +1232,22 @@ Salida:
 Comando usado:
 
 ``` bash
-
+awk -F "\"" '{print $6}' access_log.txt | sort | uniq -c | sort -nr
 ```
 
 Salida:
 
 ```
-
+   1038 Teh Forest Lobster
+     59 Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+     22 Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; SGH-T989 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+     21 Mozilla/5.0 (iPad; CPU OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329
+      8 Mozilla/5.0 (Windows NT 5.1; rv:20.0) Gecko/20100101 Firefox/20.0
+      8 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31
+      8 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17
+      8 Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; SCH-I535 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30
+      1 Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+              
 ```
 
 #### Buscar las peticiones realizadas por el User-Agent _Teh Forest Lobster_
@@ -1235,13 +1255,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+grep "Teh Forest Lobster" access_log.txt
 ```
 
 Salida:
 
 ```
-
+[...]
 ```
 
 #### Ver peticiones donde aparezca la palabra admin
@@ -1249,13 +1269,25 @@ Salida:
 Comando usado:
 
 ``` bash
+grep "admin" access_log.txt
+```
 
+o
+
+``` bash
+grep "//admin" acces_log.txt
+```
+
+o
+
+``` bash
+awk -F "\"" '$2 ~ /admin/' access_log.txt
 ```
 
 Salida:
 
 ```
-
+[...]
 ```
 
 #### Buscar la IP de los solicitantes entre las peticiones donde apareza la palabra 
@@ -1265,29 +1297,39 @@ Salida:
 Comando usado:
 
 ``` bash
-
+awk -F "\"" '$2 ~ /admin/' access_log.txt | awk -F " " '{print $1}' | sort -uV
 ```
 
 Salida:
 
 ```
-
+208.68.234.99
 ```
 
-#### Buscar entre las peticiones donde apareza la palabra admin, los códigos de 
-
-#### respuesta para ver si alguna solicitud tuvo éxito
+#### Buscar entre las peticiones donde apareza la palabra admin, los códigos de respuesta para ver si alguna solicitud tuvo éxito
 
 Comando usado:
 
 ``` bash
+grep "admin" access_log.txt | grep -v "401"
+```
 
+o
+
+``` bash
+grep "admin" access_log.txt | grep "200"
+```
+
+o
+
+``` bash
+awk -F "\"" '$2 ~ /admin/' | awk '$9 == 200'
 ```
 
 Salida:
 
 ```
-
+208.68.234.99 - admin [22/Apr/2013:07:51:25 -0500] "GET //admin HTTP/1.1" 200 575 "-" "Teh Forest Lobster"
 ```
 
 #### Localizar la línea donde la solicitud _admin_ obtuvo éxito y mostrar 2 líneas anteriores y posteriores
@@ -1295,7 +1337,13 @@ Salida:
 - con `grep/awk` y `sed` en dos comandos
 - con `awk` y `grep`
 
+grep -a (after), grep -b (before), grep -c (after&before)
+
 Comando usado:
+
+``` bash
+
+```
 
 ``` bash
 
