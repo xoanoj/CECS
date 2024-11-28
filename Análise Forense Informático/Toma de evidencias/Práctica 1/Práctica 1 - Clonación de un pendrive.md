@@ -115,7 +115,7 @@ La herramienta dd no permite calcular los hashes de forma automática, con lo cu
 El comando de dd será:
 
 ``` bash
-sudo dd if=/dev/sdb1 of=pen_drive_2.dd bs=64K conv=noerror,sync status=progress
+sudo dd if=/dev/sdc1 of=pen_drive_2.dd bs=64K conv=noerror,sync status=progress
 ```
 
 Y depués:
@@ -124,3 +124,42 @@ Y depués:
 sha256sum pen_drive_2.dd | tee checksum_sha256.txt
 sha512sum pen_drive_2.dd | tee checksum_sha512.txt
 ```
+
+O de una forma más comoda
+
+``` bash
+sha256sum pen_drive_2.dd | tee checksum_sha256.txt && sha512sum pen_drive_2.dd | tee checksum_sha512.txt
+```
+
+Imagen de la clonación realizandose:
+
+![[Pasted image 20241128193650.png]]
+
+Al finalizar el cálculo de hashes:
+
+![[Pasted image 20241128194130.png]]
+
+Podemos ver que son diferentes a los realizados con dc3dd, esto se debe a que al conectar el pendrive evidencia al equipo este se monto de manera automática al sistema debian12 anfitrión por un fallo en la configuración del filtro de passthrough the USBs de VirtualBox:
+
+![[Pasted image 20241128194332.png]]
+
+---
+### Clonación de un pendrive haciendo uso de una máquina virtual con Windows 10 Professional
+
+Al conectar un pendrive (no el de la evidencia) a la máquina de Windows me dio cuenta de que anteriormente se monta en el anfitrión Debian12 aunque tenga un filtro de USB que debería pasar todas las conexiones, para tratar de evitar este montaje (que cambiaria metadatos y el hash en consecuencia) voy a copiar los filtros de la máquina de Debian, aunque quizás fallen como ya sospecho que hicieron en el ejercicio anterior.
+
+![[Pasted image 20241128201453.png]]
+
+Y copio también este filtro de USB para hacer pruebas sin comprometer la evidencia:
+
+![[Pasted image 20241128201616.png]]
+
+Al conectar el USB de prueba se monta en el afitrión de forma automática, con lo que esta técnica no funciona y al conectar la evidencia el montado en Debian12 podría potencialmente cambiar metadatos. De encontrar cambios en los hashes otra vez podriamos asumir que se debe a esto.
+
+De todos modos, cuando a continuación se vea que el SSD Sabrent pasa a la máquina virtual de Windows automáticamente se debe tener en cuenta que esto es porque se monto a Debian12 primero y despúes se creo un filtro, esto funciona correctamente, el problema surge con la evidencia ya que idealmente no queremos arriesgarnos a montarlo ni para crear el filtro.
+
+Otra opción que podemos probar es utilizar el host de Windows del sistema para ver si así logramos que no se automonten en el sistema.
+#### Enunciado 1
+
+> Enchufe el segundo (no el de la evidencia) dispositivo USB (el de más de 5GB libres) y compruebe si la máquina lo monta automáticamente. En Linux, algunos comandos como dmesg y sudo fdisk -l detectan si el pendrive está enchufado (detectado), mientras que otros como mount, df, etc, detectan si el pendrive está montado.
+
