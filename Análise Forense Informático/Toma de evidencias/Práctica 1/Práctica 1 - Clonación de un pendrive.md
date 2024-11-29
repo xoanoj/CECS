@@ -235,11 +235,7 @@ Configuro el programa e inicio la clonación
 
 ![[Pasted image 20241128213208.png]]
 
-El programa solo proporciona los hashes en MD5 y SHA1
-
-![[Pasted image 20241128214202.png]]
-
-Calculos los hashes con el sistema
+El programa solo proporciona los hashes en MD5 y SHA1 asi que calculo los hashes con el sistema
 
 ![[Pasted image 20241128214416.png]]
 
