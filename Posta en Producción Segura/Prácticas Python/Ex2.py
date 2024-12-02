@@ -5,8 +5,10 @@
 import random as r
 
 def throwDice():
+    MIN_INT = 1
+    MAX_INT = 20
 
-    return [r.randrange(1,6),r.randrange(1,6)]
+    return [r.randrange(MIN_INT,MAX_INT),r.randrange(MIN_INT,MAX_INT)]
 
 def checkDice():
     
