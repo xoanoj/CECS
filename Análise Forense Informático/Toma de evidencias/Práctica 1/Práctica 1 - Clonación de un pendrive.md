@@ -240,3 +240,38 @@ El programa solo proporciona los hashes en MD5 y SHA1 asi que calculo los hashes
 ![[Pasted image 20241128214416.png]]
 
 Una vez más son diferentes, pero dado el problema explicado es de esperar
+
+#### Enunciado 5
+
+##### Enunciado 5/1
+
+>Haga una fotografía de los elementos que se encuentran en el estuche e indique en qué consiste cada uno de ellos y para qué sirven
+
+##### Enunciado 5/2
+
+> Si no está en hora, póngalo en hora UTC. Revise la configuración por defecto de la generación de imágenes (formato, directorio de destino, compresión…)
+
+Estaba en la hora correcta aunque adelantado por 1 minuto, con lo que reducimos la diferencia a 0 segundos configurando la hora.
+
+
+##### Enunciado 5/3
+
+>Haga una imagen en formato Ex01 del pendrive evidencia en otro pendrive con espacio libre suficiente.
+
+
+##### Enunciado 5/4
+
+>¿Cuál es el directorio de destino de la imagen? ¿Qué algoritmos de hash calcula el dispositivo al hacer una imagen? ¿Cuánto ocupa la imagen creada?
+
+Cuál es el directorio destino de la imagen: 
+![[Pasted image 20241202204842.png]]
+
+![[Pasted image 20241202205033.png]]
+
+Hashes: MD5, SHA1 y SHA256.
+Cuanto ocupa la imagen: 126mb
+##### Enunciado 5/5
+
+>Haga otra imagen en formato RAW/dd del pendrive. ¿Cuánto ocupa la imagen creada? ¿Coinciden los hashes?
+
+Los hashes coinciden.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemas Criptográficos"
+              "title": "Práctica 1 - Clonación de un pendrive"
             }
           }
         ]
@@ -162,8 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "840bb21b617c26ac",
   "lastOpenFiles": [
+    "Pasted image 20241202205033.png",
+    "img_misc/Pasted image 20241202204842.png",
+    "Análise Forense Informático/Analise Forense.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
     "Posta en Producción Segura/Prácticas Python/Ex16.py",
     "Posta en Producción Segura/Prácticas Python/Ex5.py",
     "Posta en Producción Segura/Ex5.py",
@@ -172,7 +176,6 @@
     "img_misc/Pasted image 20241202171226.png",
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
     "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Bastionado de Redes e Sistemas/Criptografía",
@@ -193,7 +196,6 @@
     "img_misc/Pasted image 20241128214416.png",
     "img_misc/Pasted image 20241128213208.png",
     "img_misc/Pasted image 20241128212325.png",
-    "img_misc/Pasted image 20241128211918.png",
     "Hacking Ético/Ejercicio Bash.md",
     "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
@@ -201,14 +203,12 @@
     "Posta en Producción Segura/Ex8.py",
     "Posta en Producción Segura/Prácticas Python/Ex2.py",
     "Posta en Producción Segura/Ex2.py",
-    "Posta en Producción Segura/Prácticas Python/Ex15.py",
     "Hacking Ético/Comandos Bash.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md",
     "Normativa/Normativa.md",
     "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
     "Bastionado de Redes e Sistemas/Diseño de planes de seguridad/Plan director de seguridad.md",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
-    "Análise Forense Informático/Toma de evidencias/Untitled.md",
-    "Hacking Ético/Flujo de pestañas con Kitty.md"
+    "Análise Forense Informático/Toma de evidencias/Untitled.md"
   ]
 }
