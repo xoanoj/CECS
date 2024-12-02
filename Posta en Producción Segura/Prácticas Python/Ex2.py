@@ -14,15 +14,15 @@ def checkDice():
     
     if results[0] > results[1]:
 
-        print(str(results[0])+'>'+str(+results[1]))
+        print(f"{str(results[0])}>{str(results[1])}")
 
     elif results[0] == results[1]:
 
-        print(str(results[0])+'='+str(results[1]))
+        print(f"{str(results[0])}={str(results[1])}")
 
     else:
 
-        print(str(results[0])+'<'+str(results[1]))
+        print(f"{str(results[0])}<{str(results[1])}")
 
 
 if __name__ == '__main__':

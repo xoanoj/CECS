@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "be3878cdc1cab687",
+        "id": "9c4fad4c2fb677cc",
         "type": "tabs",
         "children": [
           {
-            "id": "ddb7327d4bcca1c0",
+            "id": "840bb21b617c26ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Tareas/Passbolt.md",
+                "file": "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Passbolt"
+              "title": "Sistemas Criptográficos"
             }
           }
         ]
@@ -162,19 +162,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ddb7327d4bcca1c0",
+  "active": "840bb21b617c26ac",
   "lastOpenFiles": [
+    "img_misc/Pasted image 20241202171349.png",
+    "img_misc/Pasted image 20241202171226.png",
+    "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
+    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
+    "Bastionado de Redes e Sistemas/Criptografía",
+    "Bastionado de Redes e Sistemas/Untitled.md",
     "img_misc/Pasted image 20241129194917.png",
     "img_misc/Pasted image 20241129194422.png",
     "img_misc/Pasted image 20241129194109.png",
-    "Bastionado de Redes e Sistemas/Tareas/Passbolt.md",
-    "Bastionado de Redes e Sistemas/Tareas",
+    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas",
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Docker/Docker Compose.md",
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
     "img_misc/Pasted image 20241128214202.png",
@@ -184,8 +191,6 @@
     "img_misc/Pasted image 20241128212325.png",
     "img_misc/Pasted image 20241128211918.png",
     "img_misc/Pasted image 20241128211251.png",
-    "img_misc/Pasted image 20241128210800.png",
-    "img_misc/Pasted image 20241128210128.png",
     "Hacking Ético/Ejercicio Bash.md",
     "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
@@ -204,11 +209,6 @@
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
     "Análise Forense Informático/Toma de evidencias/Untitled.md",
-    "Análise Forense Informático/Toma de evidencias/Práctica 1",
-    "Hacking Ético/Flujo de pestañas con Kitty.md",
-    "Hacking Ético/Documentación/Editores/Cherry Tree.md",
-    "Hacking Ético/Documentación/Ejercicios/nmap.md",
-    "Hacking Ético/Hacking Ético.md",
-    "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md"
+    "Hacking Ético/Flujo de pestañas con Kitty.md"
   ]
 }
