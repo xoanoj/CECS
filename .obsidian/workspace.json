@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9c4fad4c2fb677cc",
+        "id": "5c0a528426aab585",
         "type": "tabs",
         "children": [
           {
-            "id": "840bb21b617c26ac",
+            "id": "553994c3153c0d38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
+                "file": "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Práctica 1 - Clonación de un pendrive"
+              "title": "Metodologías de reconocimiento pasivo"
             }
           }
         ]
@@ -162,8 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "553994c3153c0d38",
   "lastOpenFiles": [
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
+    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+    "Hacking Ético/Bash/Ejercicio Bash.md",
+    "Hacking Ético/Bash/Comandos Bash.md",
+    "Hacking Ético/Bash",
+    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "img_misc/Pasted image 20241202205033.png",
     "img_misc/Pasted image 20241202204842.png",
     "Análise Forense Informático/Analise Forense.md",
@@ -175,7 +182,6 @@
     "img_misc/Pasted image 20241202171349.png",
     "img_misc/Pasted image 20241202171226.png",
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
-    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
     "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Bastionado de Redes e Sistemas/Criptografía",
@@ -192,23 +198,17 @@
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
     "img_misc/Pasted image 20241128214202.png",
-    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "img_misc/Pasted image 20241128214416.png",
     "img_misc/Pasted image 20241128213208.png",
-    "img_misc/Pasted image 20241128212325.png",
-    "Hacking Ético/Ejercicio Bash.md",
     "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Posta en Producción Segura/Prácticas Python/Ex8.py",
     "Posta en Producción Segura/Ex8.py",
     "Posta en Producción Segura/Prácticas Python/Ex2.py",
-    "Posta en Producción Segura/Ex2.py",
-    "Hacking Ético/Comandos Bash.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md",
     "Normativa/Normativa.md",
     "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
     "Bastionado de Redes e Sistemas/Diseño de planes de seguridad/Plan director de seguridad.md",
-    "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
-    "Análise Forense Informático/Toma de evidencias/Untitled.md"
+    "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md"
   ]
 }

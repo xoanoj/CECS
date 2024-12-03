@@ -1,5 +1,5 @@
 
-Ejercicio de [[Hacking Ético]]
+Ejercicio de [[Hacking Ético]] y [[Comandos Bash]]
 
 ### Contar el nº de líneas del fichero Nmap.md
 
@@ -1342,7 +1342,7 @@ grep -a (after), grep -b (before), grep -c (after&before)
 Comando usado:
 
 ``` bash
-
+sed -n 1024,1028p access_log.txt
 ```
 
 ``` bash
@@ -1352,7 +1352,7 @@ Comando usado:
 Salida:
 
 ```
-
+[...]
 ```
 
 #### Búsquedas peticiones donde aparezca la palabra dallas
@@ -1360,13 +1360,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+grep dallas access_log.txt
 ```
 
 Salida:
 
 ```
-
+[...]
 ```
 
 ###  ENISA 1: fichero 24022007.txt
@@ -1376,13 +1376,13 @@ Salida:
 Comando usado:
 
 ``` bash
-
+wc -l 24022007.txt
 ```
 
 Salida:
 
 ```
-
+500001 24022007.txt
 ```
 
 #### Ver las primeras líneas para hacernos una idea de la estructura de las mismas
@@ -1390,27 +1390,111 @@ Salida:
 Comando usado:
 
 ``` bash
-
+head 24022007.txt
 ```
 
 Salida:
 
 ```
-
+Date flow start          Duration Proto      Src IP Addr:Port          Dst IP Addr:Port   Packets    Bytes Flows
+2007-02-24 04:54:54.917    42.682 UDP      84.77.114.176:57024 ->    10.16.54.6:19522        2       58     1
+2007-02-24 04:55:06.552    15.202 UDP      84.77.114.176:57024 ->    10.16.54.6:18278        2       58     1
+2007-02-24 04:54:54.806    13.998 UDP      84.77.114.176:57024 ->    10.16.54.6:31991        2       58     1
+2007-02-24 04:54:52.434    96.322 UDP        89.106.22.3:54606 ->    10.16.54.6:38662      166     4814     1
+2007-02-24 04:55:03.714    72.352 UDP      84.77.114.176:57024 ->    10.16.54.6:34016        2       58     1
+2007-02-24 04:54:34.830    91.019 UDP    213.144.110.130:3656  ->    10.16.54.6:4027       160     4640     1
+2007-02-24 04:54:54.941    80.638 UDP      84.77.114.176:57024 ->    10.16.54.6:34197        2       58     1
+2007-02-24 04:52:22.421   232.040 UDP     207.150.178.78:1225  ->    10.16.54.6:44569      213     6177     1
+2007-02-24 04:53:04.149   160.703 UDP       89.106.24.78:2483  ->    10.16.54.6:1740       388    11252     1
 ```
 
 #### Crear una lista de IPs de posibles atacantes ordenándolas en base al número de apariciones y después mostrar el nº  de apariciones y el nº total de equipos
 
 > Generate a list of unique attacking IP addresses. How many distinct source hosts were taking part in the attack? (Assume that attacking packets = UDP packets). Descartando las IPs privadas de clase A:
 
+> Ejercicio subdividido por Regal
+
+> Mostrar solo IPs que hayan utilizado el protocolo UDP, no duplicados
+
 Comando usado:
 
 ``` bash
-
+grep UDP 24022007.txt | awk -F " " '{print $5}' | cut -d ":" -f 1 | sort -uV
 ```
 
 Salida:
 
 ```
+10.16.54.100
+10.16.54.129
+10.16.54.140
+10.16.54.2
+10.16.54.29
+12.166.24.72
+12.47.192.116
+125.130.3.142
+125.76.238.162
+128.242.113.131
+128.242.113.132
+128.63.2.53
+128.8.10.90
+130.239.5.114
+[...]
+```
 
+> Un listado de IPs origen sin duplicados y que han usado el protoclo UDP pero que no sean IPs de la red privada 10
+
+Comando usado:
+
+``` bash
+grep UDP 24022007.txt | awk -F " " '{print $5}' | cut -d ":" -f 1 | sort -uV | grep -v '^10\.'
+```
+
+Salida:
+
+```
+8.10.120.246
+12.47.192.116
+12.166.24.72
+24.177.176.36
+24.177.176.38
+24.178.80.36
+24.196.252.61
+35.52.216.193
+60.11.125.47
+[...]
+```
+
+> Listado de IPs en las que se vea el número de veces que aparece cada uno, ordenado de mayor a menor y sin las IPs privadas de la red 10
+
+Comando usado:
+
+``` bash
+grep UDP 24022007.txt | awk -F " " '{print $5}' | cut -d ":" -f 1 | sort -V | grep -v '^10\.' | uniq -c | sort -nr | head -n 20
+```
+
+Salida:
+
+```
+ 116956 213.144.110.130
+ 115142 207.150.178.78
+  91692 89.106.22.3
+  90229 89.106.24.78
+  83334 84.77.114.176
+    507 221.208.208.91
+    205 202.97.238.204
+    118 221.208.208.92
+    111 61.138.137.10
+     85 221.208.208.212
+     72 71.146.22.111
+     51 221.12.113.247
+     30 35.52.216.193
+     12 72.30.177.83
+      9 74.6.86.121
+      9 62.121.117.72
+      6 220.73.220.4
+      6 217.98.63.167
+      6 213.254.204.197
+      6 206.132.100.105
+                         
 ```
