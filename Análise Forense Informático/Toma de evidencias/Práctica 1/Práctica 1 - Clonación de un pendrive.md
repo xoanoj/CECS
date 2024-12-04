@@ -247,16 +247,58 @@ Una vez más son diferentes, pero dado el problema explicado es de esperar
 
 >Haga una fotografía de los elementos que se encuentran en el estuche e indique en qué consiste cada uno de ellos y para qué sirven
 
+![[Pasted image 20241204200202.png]]
+
+- Rojo: Cables SATA
+	- Sirven para conectar los discos duros a la clonadora
+- Verde: Clonadora de discos por hardware
+	- Sirve para clonar discos por bloques dun dispotivo a outro
+- Azul: Fuente de alimentación de la clonadora
+	- Para dar electricidade a clonadora
+
+![[Pasted image 20241204200458.png]]
+
+- Guía de refencia
+	- Para ver los controles de la clonadora
+
+![[Pasted image 20241204200553.png]]
+
+- Imagen con más detalles de los distintos cables para discos duros
 ##### Enunciado 5/2
 
 > Si no está en hora, póngalo en hora UTC. Revise la configuración por defecto de la generación de imágenes (formato, directorio de destino, compresión…)
 
 Estaba en la hora correcta aunque adelantado por 1 minuto, con lo que reducimos la diferencia a 0 segundos configurando la hora.
 
+![[Pasted image 20241204200642.png]]
 
 ##### Enunciado 5/3
 
 >Haga una imagen en formato Ex01 del pendrive evidencia en otro pendrive con espacio libre suficiente.
+
+Primero conectamos los dos USB a la clonadora apagada:
+
+![[Pasted image 20241204200814.png]]
+
+Cambiamos el archivo a Ex01
+
+![[Pasted image 20241204200844.png]]
+
+Comenzamos la duplicación sin verificación
+
+![[Pasted image 20241204200906.png]]
+
+Vemos el proceso
+
+![[Pasted image 20241204200926.png]]
+
+Resultados de la clonación:
+
+![[Pasted image 20241204200944.png]]
+
+Vemos el hash SHA256 que coincide con el esperado (Evidencia de Salvador Candedo Pazos)
+
+![[Pasted image 20241204201034.png]]
 
 
 ##### Enunciado 5/4
@@ -273,5 +315,9 @@ Cuanto ocupa la imagen: 126mb
 ##### Enunciado 5/5
 
 >Haga otra imagen en formato RAW/dd del pendrive. ¿Cuánto ocupa la imagen creada? ¿Coinciden los hashes?
+
+Configuramos la clonadora para que utilice RAW/DD
+
+![[Pasted image 20241204201135.png]]
 
 Los hashes coinciden.

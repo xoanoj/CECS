@@ -1,5 +1,6 @@
 Parte de [[Bastionado de Redes e Sistemas]] y [[Criptografía]]
 
+
 ### Criptografía simétrica:
 
 También llamado "de clave privada".

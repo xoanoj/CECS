@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5c0a528426aab585",
+        "id": "ea2d6b6d9701d7b4",
         "type": "tabs",
         "children": [
           {
-            "id": "553994c3153c0d38",
+            "id": "c0dec53b97232321",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metodologías de reconocimiento pasivo"
+              "title": "Práctica 1 - Clonación de un pendrive"
             }
           }
         ]
@@ -162,53 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "553994c3153c0d38",
+  "active": "c0dec53b97232321",
   "lastOpenFiles": [
+    "Pasted image 20241204201135.png",
+    "Pasted image 20241204201034.png",
+    "Pasted image 20241204200944.png",
+    "Pasted image 20241204200926.png",
+    "Pasted image 20241204200906.png",
+    "Pasted image 20241204200844.png",
+    "img_misc/Pasted image 20241204200814.png",
+    "img_misc/Pasted image 20241204200642.png",
+    "img_misc/Pasted image 20241204200553.png",
+    "img_misc/Pasted image 20241204200458.png",
+    "img_misc/Pasted image 20241204200202.png",
+    "Normativa/Bases do cumplimento normativo/Compliance.md",
+    "Incidentes de Ciberseguridade/Desenvolvemento Seguro/Exercicios.md",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
+    "Incidentes de Ciberseguridade/Desenvolvemento Seguro",
+    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso",
+    "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
+    "Hacking Ético/Recopilación de información/Info Gathering.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
-    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
     "Hacking Ético/Bash/Ejercicio Bash.md",
     "Hacking Ético/Bash/Comandos Bash.md",
     "Hacking Ético/Bash",
     "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
-    "img_misc/Pasted image 20241202205033.png",
-    "img_misc/Pasted image 20241202204842.png",
     "Análise Forense Informático/Analise Forense.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
     "Posta en Producción Segura/Prácticas Python/Ex16.py",
     "Posta en Producción Segura/Prácticas Python/Ex5.py",
     "Posta en Producción Segura/Ex5.py",
     "Posta en Producción Segura/Ex5.pu",
-    "img_misc/Pasted image 20241202171349.png",
-    "img_misc/Pasted image 20241202171226.png",
-    "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Bastionado de Redes e Sistemas/Criptografía",
     "Bastionado de Redes e Sistemas/Untitled.md",
-    "img_misc/Pasted image 20241129194917.png",
-    "img_misc/Pasted image 20241129194422.png",
-    "img_misc/Pasted image 20241129194109.png",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas",
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Docker/Docker Compose.md",
-    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
-    "img_misc/Pasted image 20241128214202.png",
-    "img_misc/Pasted image 20241128214416.png",
-    "img_misc/Pasted image 20241128213208.png",
     "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
-    "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Posta en Producción Segura/Prácticas Python/Ex8.py",
-    "Posta en Producción Segura/Ex8.py",
-    "Posta en Producción Segura/Prácticas Python/Ex2.py",
-    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md",
-    "Normativa/Normativa.md",
-    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
-    "Bastionado de Redes e Sistemas/Diseño de planes de seguridad/Plan director de seguridad.md",
-    "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md"
+    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md"
   ]
 }
