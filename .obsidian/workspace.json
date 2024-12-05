@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c84851a07ac7e9f9",
+        "id": "ff62f51a062a5066",
         "type": "tabs",
         "children": [
           {
-            "id": "06c61a2927fdb84d",
+            "id": "cee11ff88df71c04",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Metodologías de reconocimiento activo"
             }
           }
         ]
@@ -158,8 +162,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "cee11ff88df71c04",
   "lastOpenFiles": [
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
+    "Hacking Ético/Recopilación de información/Info Gathering.md",
+    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
+    "Hacking Ético/Recopilación de información/Sistemas DNS.md",
+    "Posta en Producción Segura/Desenvolvemento Seguro/Exercicios.md",
+    "Posta en Producción Segura/Posta en Producción Segura.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "img_misc/Pasted image 20241204201135.png",
     "img_misc/Pasted image 20241204201034.png",
@@ -172,17 +184,13 @@
     "img_misc/Pasted image 20241204200553.png",
     "img_misc/Pasted image 20241204200458.png",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
-    "Incidentes de Ciberseguridade/Desenvolvemento Seguro/Exercicios.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
-    "Incidentes de Ciberseguridade/Desenvolvemento Seguro",
+    "Posta en Producción Segura/Desenvolvemento Seguro",
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso",
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
     "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
-    "Hacking Ético/Recopilación de información/Info Gathering.md",
-    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
-    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
     "Hacking Ético/Bash/Ejercicio Bash.md",
     "Hacking Ético/Bash/Comandos Bash.md",
@@ -192,7 +200,6 @@
     "Posta en Producción Segura/Prácticas Python/Ex5.py",
     "Posta en Producción Segura/Ex5.py",
     "Posta en Producción Segura/Ex5.pu",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Bastionado de Redes e Sistemas/Criptografía",
     "Bastionado de Redes e Sistemas/Untitled.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas",
@@ -202,8 +209,6 @@
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
-    "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
-    "Posta en Producción Segura/Prácticas Python/Ex8.py",
-    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md"
+    "Posta en Producción Segura/Prácticas Python/Ex8.py"
   ]
 }
