@@ -160,7 +160,7 @@ Y copio también este filtro de USB para hacer pruebas sin comprometer la eviden
 
 Tras hacer pruebas he logrado automontar los pendrives en Windows copiando los filtros de la máquina SIFT, aunque en este proceso el USB de evidencia se automontó en Windows con lo cual es posible que los metadatos se vieran comprometidos.
 
-En resumen el fallo se debe a haber utilizado puertos distintos del dispositivo sin darme cuenta.
+En resumen el fallo se debe muy probablemente a haber utilizado puertos distintos del dispositivo sin darme cuenta.
 
 #### Enunciado 1
 
@@ -241,9 +241,66 @@ El programa solo proporciona los hashes en MD5 y SHA1 asi que calculo los hashes
 
 Una vez más son diferentes, pero dado el problema explicado es de esperar
 
-#### Enunciado 5
+---
+### Conclusión
 
-##### Enunciado 5/1
+>Durante la práctica se pide calcular los códigos hash de las imágenes obtenidas. Si se realizan dos clonaciones seguidas del mismo dispositivo, como las del apartado 1.4 y 1.5 ¿es capaz de obtener el mismo hash? Si la respuesta es afirmativa ¡enhorabuena! ¡Va por el buen camino! Sin embargo, hay ocasiones en las que verá que no es posible obtener el mismo hash, y sin embargo no es culpa de la persona que ha realizado el proceso. Justifique por qué puede ser esto. 
+
+Los hashes no coincidieron en ninguna de las clonaciones, el motivo sea con una gran probabilidad la mala configuración de los filtros de USB de VirtualBox. Este fallo se documenta y se trata de explicar en mayor detalle al inicio del apartado de clonación con FTK Imager con Windows y al final del apartado de clonado con SIFT Workstation.
+
+---
+### Clonación con bloqueador de escritura (por tríos)
+
+> Durante la práctica se pide calcular los códigos hash de las imágenes obtenidas. Si se realizan dos clonaciones seguidas del mismo dispositivo, como las del apartado 1.4 y 1.5 ¿es capaz de obtener el mismo hash? Si la respuesta es afirmativa ¡enhorabuena! ¡Va por el buen camino! Sin embargo, hay ocasiones en las que verá que no es posible obtener el mismo hash, y sin embargo no es culpa de la persona que ha realizado el proceso. Justifique por qué puede ser esto.
+
+Miembros del grupo:
+- Diego Casal Carballal
+- Salvador Candedo Pazos
+- Xoán Manuel Otero Jorge
+
+#### Enunciado 1
+
+>Haga una fotografía de los elementos que se encuentran en el estuche e indique en qué consiste cada uno de ellos y para qué sirven
+
+![[Pasted image 20241206180543.png]]
+
+De izquierda a derecha:
+- Manual de instrucciones: Incluye una breve guía sobre como utilizar el dispositivo
+- Cable de alimentación: Necesario para permitir el funcionamiento del bloqueador
+- Bloqueador de escritura: Permite conectar un dispositivo de almacenamiento (en este caso un pendrive) a un ordenador en un modo de lectura extricta, bloqueando toda la entrada de datos
+- Bolsa antiestática: Mantiene el dispositivo en buen estado mientras no se está utilizando ya que es sensible a la electricidad
+- Cable de datos: Permite conectar la bloqueadora al ordenador para iniciar las operaciones de lectura/clonado seguras
+
+#### Enunciado 2
+
+>Conéctelos adecuadamente y realice una imagen del pendrive usando SIFT (nombre pen_drive_4.dd). Calcule sus hashes sha256 y sha512
+
+![[Pasted image 20241206181102.png]]
+
+Conectamos el pendrive a la clonadora, la clonadora al ordenador y la clonadora a la corriente en ese orden.
+
+Recibimos un mensaje de OK del dispositivo
+
+![[Pasted image 20241206181352.png]]
+
+Realizamos el clonado con dc3dd sobre la evidencia (en este caso, el pendrive es de Salvador Candedo Pazos)
+
+![[Pasted image 20241206181226.png]]
+
+#### Enunciado 3
+
+> Clonación de un pendrive haciendo uso de una máquina virtual con Windows 10 Professional
+
+Realizamos la clonación con FTK Imager en la máquina virtual de W10 Profesional utilizando el bloqueador de escritura con la misma metodología y orden de pasos que el apartado anterior.
+
+![[Pasted image 20241206181953.png]]
+
+Recibimos los mismos hashes
+
+---
+### Clonación hardware (por tríos)
+
+#### Enunciado 1
 
 >Haga una fotografía de los elementos que se encuentran en el estuche e indique en qué consiste cada uno de ellos y para qué sirven
 
@@ -264,7 +321,7 @@ Una vez más son diferentes, pero dado el problema explicado es de esperar
 ![[Pasted image 20241204200553.png]]
 
 - Imagen con más detalles de los distintos cables para discos duros
-##### Enunciado 5/2
+#### Enunciado 2
 
 > Si no está en hora, póngalo en hora UTC. Revise la configuración por defecto de la generación de imágenes (formato, directorio de destino, compresión…)
 
@@ -272,7 +329,7 @@ Estaba en la hora correcta aunque adelantado por 1 minuto, con lo que reducimos 
 
 ![[Pasted image 20241204200642.png]]
 
-##### Enunciado 5/3
+#### Enunciado 3
 
 >Haga una imagen en formato Ex01 del pendrive evidencia en otro pendrive con espacio libre suficiente.
 
@@ -301,7 +358,7 @@ Vemos el hash SHA256 que coincide con el esperado (Evidencia de Salvador Candedo
 ![[Pasted image 20241204201034.png]]
 
 
-##### Enunciado 5/4
+#### Enunciado 4
 
 >¿Cuál es el directorio de destino de la imagen? ¿Qué algoritmos de hash calcula el dispositivo al hacer una imagen? ¿Cuánto ocupa la imagen creada?
 
