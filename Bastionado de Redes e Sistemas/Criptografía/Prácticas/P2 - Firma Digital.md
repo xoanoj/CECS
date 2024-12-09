@@ -1,4 +1,6 @@
 
+Práctica de [[Bastionado de Redes e Sistemas]] e [[Criptografía]]
+
 ![[Pasted image 20241209164809.png]]
 
 Lanzamiento del contenedor de la práctica:

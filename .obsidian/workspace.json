@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "18e68ff1350313d6",
+        "id": "48736d32582e2638",
         "type": "tabs",
         "children": [
           {
-            "id": "2266cb7b2cc4a7b5",
+            "id": "1368c82cab7704bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Práctica 1 - Clonación de un pendrive"
+              "title": "New tab"
             }
           }
         ]
@@ -163,25 +159,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2266cb7b2cc4a7b5",
+  "active": "9f33e7ace1770851",
   "lastOpenFiles": [
+    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
+    "Excalidraw/Drawing 2024-12-09 18.56.11.excalidraw.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P1 - Criptografía.md",
+    "Posta en Producción Segura/Desenvolvemento Seguro/Exercicios.md",
+    "Excalidraw",
+    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
+    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
     "img_misc/Pasted image 20241206181953.png",
     "img_misc/Pasted image 20241206181352.png",
     "img_misc/Pasted image 20241206181226.png",
     "img_misc/Pasted image 20241206181102.png",
     "img_misc/Pasted image 20241206180543.png",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/Drawing 2024-12-09 16.49.56.excalidraw.md",
-    "Posta en Producción Segura/Desenvolvemento Seguro/Exercicios.md",
     "img_misc/Pasted image 20241209173502.png",
     "img_misc/Pasted image 20241209173437.png",
     "img_misc/Pasted image 20241209173134.png",
     "Hacking Ético/Bash/Ejercicio Bash.md",
     "img_misc/Pasted image 20241209172315.png",
     "img_misc/Pasted image 20241209171625.png",
-    "img_misc/Pasted image 20241209171513.png",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/Drawing 2024-12-09 17.05.54.excalidraw.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P1 - Criptografía.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas",
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
     "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
@@ -189,11 +189,9 @@
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
     "Hacking Ético/Recopilación de información/Info Gathering.md",
-    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
     "Hacking Ético/Recopilación de información/Sistemas DNS.md",
     "Posta en Producción Segura/Posta en Producción Segura.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
-    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
     "Posta en Producción Segura/Desenvolvemento Seguro",
@@ -208,8 +206,6 @@
     "Posta en Producción Segura/Ex5.py",
     "Posta en Producción Segura/Ex5.pu",
     "Bastionado de Redes e Sistemas/Criptografía",
-    "Bastionado de Redes e Sistemas/Untitled.md",
-    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas",
-    "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md"
+    "Bastionado de Redes e Sistemas/Untitled.md"
   ]
 }
