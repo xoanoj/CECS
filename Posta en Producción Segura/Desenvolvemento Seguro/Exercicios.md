@@ -2,7 +2,7 @@ Parte de [[Posta en Producción Segura]]
 
 1. Investiga cales son as linguaxes de programación máis usados. ¿Cal é o criterio que se utiliza para facer esta clasificación?
 
-
+Javascript, Python, PHP. Segun os máis empregados en GitHub
 
 3. Investiga cales son as linguaxes de programación máis seguras
 
