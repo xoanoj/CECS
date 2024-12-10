@@ -1,3 +1,5 @@
+Parte de [[Analise Forense]]
+
 Herramientas:
 - Sysinternals de Microsoft
 - Nirsoft

@@ -1,3 +1,5 @@
+Parte de [[Analise Forense]]
+
 >Son los diferentes elementos del sistema que pueden determinar la actividad de un malware o de un usuario malicioso, así como las evidencias necesarias para una prueba
 
 Dos tipos:

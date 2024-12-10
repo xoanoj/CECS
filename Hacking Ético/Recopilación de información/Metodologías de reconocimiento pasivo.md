@@ -51,3 +51,10 @@ La forma apropiada sería utilizar una herramienta de fuerza bruta activa como F
 
 Transferencias de zona: ver [[Metodologías de reconocimiento activo]]
 
+---
+Ver subdominios con dorking:
+
+``` bash
+site:[domain] -www
+```
+

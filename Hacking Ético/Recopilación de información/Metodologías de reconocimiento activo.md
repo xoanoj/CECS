@@ -32,3 +32,31 @@ host -la zonetransfer.me nsztm2.digi.ninja
 ```
 
 Vemos la información.
+
+Para herramientas de automatizado ver [[DNS Zone Transfer]]
+
+Regal menciona dnsrecon como en:
+
+``` bash
+dnsrecon -d [domain]
+```
+
+Y en ataques de fuerza bruta:
+
+``` bash
+dnsrecon -d [domain] -t brt -D /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+```
+
+Y para transferencias de zona:
+
+``` bash
+dnsrecon -d [domain] -t axfr
+```
+
+Para comprobar mediante crt.sh (Esto es [[Metodologías de reconocimiento pasivo]])
+
+``` bash
+dnsrecon -d [domain/OrganizationName] -t crt
+```
+
+Tambien menciona DNSenum, DNSdumpster, censys, Dorks 
