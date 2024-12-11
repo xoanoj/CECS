@@ -11,10 +11,14 @@
             "id": "4c46a9144e687fc3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Incidentes de Ciberseguridade/Ex Tema 1/Plan de Formación y Concienciación Sobre Contraseñas Seguras.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Plan de Formación y Concienciación Sobre Contraseñas Seguras"
             }
           }
         ]
@@ -161,6 +165,8 @@
   },
   "active": "4c46a9144e687fc3",
   "lastOpenFiles": [
+    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Plan de Formación y Concienciación Sobre Contraseñas Seguras.md",
     "img_misc/Pasted image 20241211172450.png",
     "autocommit.sh~",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
@@ -199,7 +205,6 @@
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas",
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
     "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
     "Posta en Producción Segura/Desenvolvemento Seguro",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso",
     "Hacking Ético/Bash",
