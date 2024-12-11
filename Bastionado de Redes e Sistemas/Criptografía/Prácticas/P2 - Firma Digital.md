@@ -55,3 +55,9 @@ Configuramos el anfitrión y el contenedor para tener salida gráfica:
 ![[Pasted image 20241209173437.png]]
 
 ![[Pasted image 20241209173502.png]]
+
+El programa se lanza:
+
+![[Pasted image 20241211160955.png]]![[Pasted image 20241211162108.png]]
+
+![[Pasted image 20241211162132.png]]![[Pasted image 20241211162149.png]]

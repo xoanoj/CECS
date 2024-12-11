@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "aeb4debaef8c6cbc",
+        "id": "884b4cf4ae805410",
         "type": "tabs",
         "children": [
           {
-            "id": "26d74d63b205b9cb",
+            "id": "8bffd2041d4e8399",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+                "file": "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metodologías de reconocimiento pasivo"
+              "title": "P4 -  Certificados de cliente"
             }
           }
         ]
@@ -163,31 +163,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "26d74d63b205b9cb",
+  "active": "8bffd2041d4e8399",
   "lastOpenFiles": [
-    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
+    "Pasted image 20241211173332.png",
+    "Pasted image 20241211173231.png",
+    "Pasted image 20241211173229.png",
+    "Pasted image 20241211172719.png",
+    "Pasted image 20241211172450.png",
+    "img_misc/Pasted image 20241211171633.png",
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P3 - Certificados.md",
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
+    "img_misc/Pasted image 20241211170117.png",
+    "img_misc/Pasted image 20241211171520.png",
+    "img_misc/Pasted image 20241211171434.png",
+    "img_misc/Pasted image 20241211171357.png",
+    "img_misc/Pasted image 20241211171253.png",
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
+    "Excalidraw/Drawing 2024-12-11 16.39.40.excalidraw.md",
+    "Excalidraw",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
     "Análise Forense Informático/Toma de evidencias/Adquisicion de evidencias en vivo en Windows.md",
     "Análise Forense Informático/Toma de evidencias/Artefactos Windows.md",
     "Excalidraw/Drawing 2024-12-10 20.00.22.excalidraw.md",
-    "Excalidraw",
     "Hacking Ético/Recopilación de información/Info Gathering.md",
     "Hacking Ético/Recopilación de información/Sistemas DNS.md",
     "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
-    "img_misc/Pasted image 20241209210540.png",
-    "img_misc/Pasted image 20241209210034.png",
-    "img_misc/Pasted image 20241209210025.png",
-    "img_misc/Pasted image 20241209205622.png",
-    "img_misc/Pasted image 20241209205615.png",
-    "img_misc/Pasted image 20241209205608.png",
-    "img_misc/Pasted image 20241209205222.png",
-    "img_misc/Pasted image 20241209204657.png",
-    "img_misc/Pasted image 20241209204326.png",
-    "img_misc/Pasted image 20241209204319.png",
     "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "Excalidraw/Drawing 2024-12-09 19.40.52.excalidraw.md",
     "Excalidraw/Drawing 2024-12-09 18.56.11.excalidraw.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P1 - Criptografía.md",
     "Posta en Producción Segura/Desenvolvemento Seguro/Exercicios.md",
     "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
@@ -198,12 +203,7 @@
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
     "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
     "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
-    "Posta en Producción Segura/Posta en Producción Segura.md",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
-    "Normativa/Bases do cumplimento normativo/Compliance.md",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
     "Posta en Producción Segura/Desenvolvemento Seguro",
-    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso",
     "Hacking Ético/Bash",
     "Posta en Producción Segura/Prácticas Python/Ex16.py",
