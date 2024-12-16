@@ -1,4 +1,6 @@
 
+Práctica de [[Bastionado de Redes e Sistemas]]
+
 ![[Pasted image 20241211164828.png]]
 
 Contenedor para la práctica:

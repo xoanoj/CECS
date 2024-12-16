@@ -1,3 +1,6 @@
+
+Ejercicio de [[Incidentes de Ciberseguridade]]
+
 ## Objetivo del Plan:
 El objetivo principal de este plan es concienciar a toda la comunidad educativa (alumnos, docentes y personal administrativo) sobre la importancia de crear contraseñas seguras y cómo implementarlas correctamente. Este plan está alineado con las políticas de seguridad del centro educativo y se centra en reducir el riesgo de ciberataques debido a contraseñas débiles.
 

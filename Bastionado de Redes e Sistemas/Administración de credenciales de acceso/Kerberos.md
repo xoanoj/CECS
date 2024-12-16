@@ -1,4 +1,4 @@
-Parte de [[Bastionado de Redes e Sistemas]]
+Parte de [[Bastionado de Redes e Sistemas]], ver también [[P1 - Kerberos]]
 
 Sistema de utilizado para implementar autorización a lo largo de una red
 
@@ -25,7 +25,7 @@ Utiliza por defecto los puertos 88/tcp y 88/udp
 El intercambio cuenta con 5 fases:
 
 ![[Pasted image 20241216161849.png]]
-La autenticación utiliza marcas de tiempo para que solo sea aceptable durante una cantidad limitada de tiempo y asi evitar ataques de repetición. Se utiliza el hash NTLM como clave para cifrar el desafio, ya que este solo lo debe tener el usuario la base de datos del AS. Si se valida se responde con un KRB_AS_REP (que contiene el TGT):
+La autenticación utiliza marcas de tiempo para que solo sea aceptable durante una cantidad limitada de tiempo y asi evitar ataques de repetición. Se utiliza el hash NTLM como clave para cifrar el desafio(PERO NO SE ENVIA EL HASH NTLM), ya que este solo lo debe tener el usuario la base de datos del AS. Si se valida se responde con un KRB_AS_REP (que contiene el TGT):
 
 ![[Pasted image 20241216162208.png]]
 
@@ -40,3 +40,4 @@ Si el TGS determina que el usuario tiene permisos para acceder al servicio que s
 Tras esto el usuario puede acceder al servicio:
 
 ![[Pasted image 20241216162954.png]]
+
