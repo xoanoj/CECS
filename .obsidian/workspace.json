@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "c7f54a35bc6f6ac0",
+        "id": "be91160cdad5bcf1",
         "type": "tabs",
         "children": [
           {
-            "id": "0822f42bd659729f",
+            "id": "9d9e2b01d2b17f97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
+                "file": "Análise Forense Informático/Toma de evidencias/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Básicas de Docker"
+              "title": "Practica 2 - Analisis de evidencias en disco"
+            }
+          },
+          {
+            "id": "c3ada70445830a07",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,19 +176,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0822f42bd659729f",
+  "active": "9f33e7ace1770851",
   "lastOpenFiles": [
+    "img_misc/Pasted image 20241216213915.png",
+    "img_misc/Pasted image 20241216212622.png",
+    "img_misc/Pasted image 20241216212553.png",
+    "img_misc/Pasted image 20241216212327.png",
+    "img_misc/Pasted image 20241216212254.png",
+    "img_misc/Pasted image 20241216211104.png",
+    "img_misc/Pasted image 20241216210339.png",
+    "img_misc/Pasted image 20241216205606.png",
+    "img_misc/Pasted image 20241216205417.png",
+    "img_misc/Pasted image 20241216204914.png",
+    "img_misc/Pasted image 20241216204450.png",
+    "Análise Forense Informático/Toma de evidencias/Adquisicion de evidencias en vivo en Windows.md",
+    "Análise Forense Informático/Toma de evidencias/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
+    "Análise Forense Informático/Toma de evidencias/Práctica 2",
+    "Análise Forense Informático/Toma de evidencias/Artefactos Windows.md",
+    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
-    "Pasted image 20241216180327.png",
-    "Pasted image 20241216180248.png",
-    "Pasted image 20241216180053.png",
-    "img_misc/Pasted image 20241216175408.png",
-    "img_misc/Pasted image 20241216175011.png",
-    "img_misc/Pasted image 20241216174718.png",
-    "img_misc/Pasted image 20241216174702.png",
-    "img_misc/Pasted image 20241216170329.png",
-    "img_misc/Pasted image 20241216170118.png",
-    "img_misc/Pasted image 20241216165449.png",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
@@ -193,8 +212,6 @@
     "Excalidraw/Drawing 2024-12-11 16.39.40.excalidraw.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
-    "Análise Forense Informático/Toma de evidencias/Adquisicion de evidencias en vivo en Windows.md",
-    "Análise Forense Informático/Toma de evidencias/Artefactos Windows.md",
     "Excalidraw/Drawing 2024-12-10 20.00.22.excalidraw.md",
     "Hacking Ético/Recopilación de información/Info Gathering.md",
     "Hacking Ético/Recopilación de información/Sistemas DNS.md",
@@ -202,13 +219,10 @@
     "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
     "Excalidraw/Drawing 2024-12-09 19.40.52.excalidraw.md",
     "Excalidraw/Drawing 2024-12-09 18.56.11.excalidraw.md",
-    "Posta en Producción Segura/Desenvolvemento Seguro/Exercicios.md",
-    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas",
     "Posta en Producción Segura/Desenvolvemento Seguro",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso",
     "Hacking Ético/Bash",
-    "Posta en Producción Segura/Prácticas Python/Ex16.py",
-    "Posta en Producción Segura/Prácticas Python/Ex5.py"
+    "Posta en Producción Segura/Prácticas Python/Ex16.py"
   ]
 }
