@@ -58,3 +58,22 @@ Ver subdominios con dorking:
 site:[domain] -www
 ```
 
+---
+
+theHarvester requiere claves de API para algunos sources, se utiliza en buena parte para reconocimiento de empresas
+
+```
+theHarvester -d [dominio] -a
+```
+
+---
+
+También existe h8mail (no viene por defecto en kali)
+
+```
+h8mail -t [cuentadecorreo]
+```
+
+---
+
+Para buscar cuentas de usuarios en distintos servicios podemos utilizar whatsmyname.app, sherlock...
