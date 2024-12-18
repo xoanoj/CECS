@@ -1,3 +1,5 @@
+Reto de [[Hacking Ético]] y [[Info Gathering]]
+
 > Responde a las siguientes preguntas sobre RepublicOfKoffee.com
 
 ## 1. Nombre de la compañía encargada del registro del dominio?

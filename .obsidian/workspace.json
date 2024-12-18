@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7210b9c639e682d2",
+        "id": "b704a850c22825e2",
         "type": "tabs",
         "children": [
           {
-            "id": "f38b3779be4eb1ef",
+            "id": "5f3279aa0aeb8b75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Retos/Reto 2.md",
+                "file": "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reto 2"
+              "title": "Kerberos"
             }
           }
         ]
@@ -165,11 +165,14 @@
   },
   "active": "9f33e7ace1770851",
   "lastOpenFiles": [
+    "autocommit.sh~",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
+    "Hacking Ético/Recopilación de información/Retos/Reto 1.md",
+    "Hacking Ético/Recopilación de información/Retos/Reto 2.md",
     "img_misc/Pasted image 20241217203746.png",
     "img_misc/Pasted image 20241217202850.png",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
-    "Hacking Ético/Retos/Reto 2.md",
-    "Hacking Ético/Retos/Reto 1.md",
     "Hacking Ético/Recopilación de información/Sistemas DNS.md",
     "img_misc/Pasted image 20241217190415.png",
     "img_misc/Pasted image 20241217190358.png",
@@ -181,19 +184,16 @@
     "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
     "img_misc/Pasted image 20241217185220.png",
     "img_misc/Pasted image 20241217184815.png",
-    "Hacking Ético/Retos",
+    "Hacking Ético/Recopilación de información/Retos",
     "Análise Forense Informático/Toma de evidencias/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
     "Análise Forense Informático/Analise Forense.md",
     "img_misc/Pasted image 20241216213915.png",
     "img_misc/Pasted image 20241216212622.png",
-    "img_misc/Pasted image 20241216212553.png",
     "Análise Forense Informático/Toma de evidencias/Adquisicion de evidencias en vivo en Windows.md",
     "Análise Forense Informático/Toma de evidencias/Práctica 2",
     "Análise Forense Informático/Toma de evidencias/Artefactos Windows.md",
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Plan de Formación y Concienciación Sobre Contraseñas Seguras.md",
@@ -203,7 +203,6 @@
     "Excalidraw/Drawing 2024-12-11 20.02.48.excalidraw.md",
     "Excalidraw",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
-    "autocommit.sh~",
     "autocommit.sh",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
     "Excalidraw/Drawing 2024-12-11 16.39.40.excalidraw.md",

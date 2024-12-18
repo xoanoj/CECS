@@ -1,3 +1,5 @@
+Reto de [[Hacking Ético]] y [[Info Gathering]]
+
 > A partir de la imagen, responde a las siguientes preguntas:
 > 1. Cual es el avatar del autor de la foto?
 
