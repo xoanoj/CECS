@@ -1,4 +1,6 @@
 
+Taller de [[Analise Forense]]
+
 - PRNU (Photo Response Non Uniformity): Patron de ruido propio de cada sensor debido a imperfecciones de sensor y filtrados que permite identificar dispositivos(comunmente instancias de un modelo, no modelos en si). Para conseguir el PRNU de un dispositivo hay que eliminar el ruido de la imagen.
 - Se pueden realizar analisis del PRNU de una imagen bloque a bloque para identificar inserciones.
 
