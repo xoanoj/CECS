@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b704a850c22825e2",
+        "id": "49a4f4dc63d2fd96",
         "type": "tabs",
         "children": [
           {
-            "id": "5f3279aa0aeb8b75",
+            "id": "97b974506b800fcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
+                "file": "Análise Forense Informático/Taller Charla/Analisis de imagenes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberos"
+              "title": "Analisis de imagenes"
             }
           }
         ]
@@ -163,11 +163,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "97b974506b800fcd",
   "lastOpenFiles": [
+    "Análise Forense Informático/Taller Charla/Analisis de imagenes.md",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
+    "Análise Forense Informático/Taller Charla",
+    "Excalidraw/Drawing 2024-12-18 16.53.33.excalidraw.md",
+    "Excalidraw",
     "autocommit.sh~",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
     "Hacking Ético/Recopilación de información/Retos/Reto 1.md",
     "Hacking Ético/Recopilación de información/Retos/Reto 2.md",
     "img_misc/Pasted image 20241217203746.png",
@@ -201,14 +205,11 @@
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P3 - Certificados.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P1 - Criptografía.md",
     "Excalidraw/Drawing 2024-12-11 20.02.48.excalidraw.md",
-    "Excalidraw",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "autocommit.sh",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
-    "Excalidraw/Drawing 2024-12-11 16.39.40.excalidraw.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas",
     "Posta en Producción Segura/Desenvolvemento Seguro",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso",
-    "Hacking Ético/Bash"
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso"
   ]
 }
