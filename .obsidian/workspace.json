@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ed244410d7282025",
+        "id": "04f706ef7abba110",
         "type": "tabs",
         "children": [
           {
-            "id": "feada340bc0e6c44",
+            "id": "4106294c6ef6454c",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -159,11 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "feada340bc0e6c44",
+  "active": "4106294c6ef6454c",
   "lastOpenFiles": [
+    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Excalidraw/Drawing 2024-12-18 16.53.33.excalidraw.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
-    "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
     "Hacking Ético/Recopilación de información/Retos/Reto 4.md",
     "img_misc/Pasted image 20241219203000.png",
