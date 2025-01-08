@@ -1,4 +1,4 @@
-Parte de [[Bastionado de Redes e Sistemas]], relacionado con [[Kerberos]]
+ls -laParte de [[Bastionado de Redes e Sistemas]], relacionado con [[Kerberos]]
 
 Repositorio:
 

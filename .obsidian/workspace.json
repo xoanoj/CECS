@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "04f706ef7abba110",
+        "id": "f7abd2b5cb527e55",
         "type": "tabs",
         "children": [
           {
-            "id": "4106294c6ef6454c",
+            "id": "fcdd78e898f9882b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "P1 - Kerberos"
             }
           }
         ]
@@ -159,23 +163,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4106294c6ef6454c",
+  "active": "fcdd78e898f9882b",
   "lastOpenFiles": [
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
+    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
+    "__Notas finales/Hacking Ético/Técnicas de reconocimiento en sistemas web reales.md",
+    "__Notas finales/Hacking Ético/NF - Hacking Ético.md",
+    "__Notas finales/Notas finales.md",
+    "__Notas finales/Hacking Ético",
+    "__Notas finales",
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
+    "Hacking Ético/Recopilación de información/Retos/Reto 4.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
     "Excalidraw/Drawing 2024-12-18 16.53.33.excalidraw.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Tareas/Passbolt.md",
     "Bastionado de Redes e Sistemas/Bastionado de Redes e Sistemas.md",
-    "Hacking Ético/Recopilación de información/Retos/Reto 4.md",
     "img_misc/Pasted image 20241219203000.png",
     "img_misc/Pasted image 20241219202905.png",
     "Hacking Ético/Recopilación de información/Retos/Reto 2.md",
     "Hacking Ético/Recopilación de información/Retos/Reto 1.md",
     "Análise Forense Informático/Taller Charla/Analisis de imagenes.md",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Kerberos.md",
     "Análise Forense Informático/Taller Charla",
     "Excalidraw",
     "autocommit.sh~",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas/P1 - Kerberos.md",
     "img_misc/Pasted image 20241217203746.png",
     "img_misc/Pasted image 20241217202850.png",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
@@ -199,13 +209,7 @@
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas",
     "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Firma Digital y Certificados.md",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Plan de Formación y Concienciación Sobre Contraseñas Seguras.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P3 - Certificados.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P1 - Criptografía.md",
     "autocommit.sh",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas",
-    "Posta en Producción Segura/Desenvolvemento Seguro",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso"
+    "Bastionado de Redes e Sistemas/Criptografía/Prácticas"
   ]
 }
