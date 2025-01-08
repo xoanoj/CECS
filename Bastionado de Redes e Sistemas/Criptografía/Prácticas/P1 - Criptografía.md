@@ -1,5 +1,5 @@
 
-Práctica de [[Bastionado de Redes e Sistemas]] e [[Criptografía]]
+Práctica de [[Criptografía]]
 
 Comando para container basado en debian:
 

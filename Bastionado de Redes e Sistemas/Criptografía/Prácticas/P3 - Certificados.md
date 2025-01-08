@@ -1,5 +1,5 @@
 
-Práctica de [[Bastionado de Redes e Sistemas]]
+Práctica de [[Criptografía]]
 
 ![[Pasted image 20241211164828.png]]
 

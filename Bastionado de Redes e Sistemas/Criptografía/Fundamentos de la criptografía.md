@@ -1,4 +1,4 @@
-Parte de [[Bastionado de Redes e Sistemas]] y [[Criptografía]]
+Parte de [[Criptografía]]
 
 - Criptoanalisis: Ciencia basada en el analisis de algoritmos criptograficos con el fin de "romper" el cifrado y asi recuperar los datos originales sin las claves requeridas.
 

@@ -1,4 +1,4 @@
-Parte de [[Bastionado de Redes e Sistemas]] y [[Criptografía]]
+Parte de [[Criptografía]]
 
 
 ### Criptografía simétrica:
