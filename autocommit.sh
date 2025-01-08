@@ -26,8 +26,8 @@ schedule["16:50-17:40"]="BRS"
 schedule["17:40-18:30"]="PPS"
 schedule["18:30-19:20"]="PPS"
 schedule["19:20-20:10"]="ICS"
-schedule["20:10-21:00"]="AFI"
-schedule["21:00-21:50"]="AFI"
+schedule["20:10-21:00"]="ICS"
+schedule["21:00-21:50"]="ICS"
 
 # Thursday (XOVES)
 schedule["16:00-16:50"]="BRS"
