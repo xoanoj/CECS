@@ -1,4 +1,4 @@
-Relacionado con [[Básicas de Docker]], Parte de [[Bastionado de Redes e Sistemas]]
+Relacionado con [[Básicas de Docker]], Parte de [[Docker]]
 
 Los volúmenes son unidades de almacenamiento que pueden conectarse a un container. 
 

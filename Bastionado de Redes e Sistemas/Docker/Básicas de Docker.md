@@ -1,4 +1,4 @@
-Parte de [[Bastionado de Redes e Sistemas]]
+Parte de [[Docker]]
 
 Para conectarse a un contenedor de docker activo podemos usar:
 

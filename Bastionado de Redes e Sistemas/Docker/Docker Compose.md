@@ -1,4 +1,4 @@
-Parte de [[Bastionado de Redes e Sistemas]], relacionado con [[Básicas de Docker]].
+Parte de [[Docker]] relacionado con [[Básicas de Docker]].
 
 
 Es una herramienta que permite gestionar los docker container como servicios descritos atrave de un archivo de definición YML

@@ -1,4 +1,4 @@
-Relacionado con [[Básicas de Docker]], Parte de [[Bastionado de Redes e Sistemas]]
+Relacionado con [[Básicas de Docker]], Parte de [[Docker]]
 
 
 - FROM: Indica la imagen a actualizar.
