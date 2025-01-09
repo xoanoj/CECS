@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "74d68a82fa700ef4",
+        "id": "982039751afc3fd0",
         "type": "tabs",
         "children": [
           {
-            "id": "7278cd201420190a",
+            "id": "978dca6715eef97f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Incidentes de Ciberseguridade/Phishing/Artefactos de correos.md",
+                "file": "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Artefactos de correos"
+              "title": "ARP Sweep"
             }
           }
         ]
@@ -163,10 +163,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7278cd201420190a",
+  "active": "978dca6715eef97f",
   "lastOpenFiles": [
-    "Incidentes de Ciberseguridade/Phishing/Phishing.md",
+    "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
+    "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
+    "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
     "Incidentes de Ciberseguridade/Phishing/Artefactos de correos.md",
+    "Hacking Ético/Enumeracion de Servicios",
+    "Incidentes de Ciberseguridade/Phishing/Phishing.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Importante para exame.md",
     "Incidentes de Ciberseguridade/Phishing",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
@@ -189,9 +193,6 @@
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Docker/Docker Compose.md",
     "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
-    "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
-    "Bastionado de Redes e Sistemas/Docker/Docker.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Diseño de Redes de Computadoras Seguras.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras",
     "__Notas finales/Hacking Ético",
     "__Notas finales",
@@ -209,7 +210,6 @@
     "img_misc/Pasted image 20241217185220.png",
     "img_misc/Pasted image 20241217184815.png",
     "Hacking Ético/Recopilación de información/Retos",
-    "Análise Forense Informático/Toma de evidencias/Práctica 2",
-    "Bastionado de Redes e Sistemas/Administración de credenciales de acceso/Prácticas"
+    "Análise Forense Informático/Toma de evidencias/Práctica 2"
   ]
 }
