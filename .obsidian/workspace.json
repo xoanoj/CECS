@@ -165,6 +165,7 @@
   },
   "active": "978dca6715eef97f",
   "lastOpenFiles": [
+    "autocommit.sh~",
     "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
     "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
     "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
@@ -192,7 +193,6 @@
     "Hacking Ético/Bash/Ejercicio Bash.md",
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Docker/Docker Compose.md",
-    "Bastionado de Redes e Sistemas/Docker/Creación de imágenes con docker file.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras",
     "__Notas finales/Hacking Ético",
     "__Notas finales",
@@ -200,7 +200,6 @@
     "img_misc/Pasted image 20241219202905.png",
     "Análise Forense Informático/Taller Charla",
     "Excalidraw",
-    "autocommit.sh~",
     "img_misc/Pasted image 20241217203746.png",
     "img_misc/Pasted image 20241217202850.png",
     "img_misc/Pasted image 20241217190415.png",
