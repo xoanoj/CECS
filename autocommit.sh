@@ -37,13 +37,11 @@ schedule["20:10-21:00"]="AFI"
 schedule["21:00-21:50"]="AFI"
 
 # Friday (VENRES)
-schedule["16:00-16:50"]="BRS"
-schedule["16:50-17:40"]="BRS"
-schedule["17:40-18:30"]="PPS"
-schedule["18:30-19:20"]="PPS"
-schedule["19:20-20:10"]="ICS"
-schedule["20:10-21:00"]="AFI"
-schedule["21:00-21:50"]="AFI"
+schedule["16:00-16:50"]="ICS"
+schedule["16:50-17:40"]="ICS"
+schedule["17:40-18:30"]="ICS"
+schedule["18:30-19:20"]="BRS"
+schedule["19:20-20:10"]="BRS"
 
 # Get the current time in hours and minutes
 current_hour=$(date +"%H")
