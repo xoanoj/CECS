@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "982039751afc3fd0",
+        "id": "2be59d67f03e02b5",
         "type": "tabs",
         "children": [
           {
-            "id": "978dca6715eef97f",
+            "id": "f80423140215630a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
+                "file": "Incidentes de Ciberseguridade/Phishing/Ex - Analise de Correo Phishing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ARP Sweep"
+              "title": "Ex - Analise de Correo Phishing"
             }
           }
         ]
@@ -163,21 +163,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9f33e7ace1770851",
+  "active": "f80423140215630a",
   "lastOpenFiles": [
+    "Incidentes de Ciberseguridade/Phishing/Medida contra phishing.md",
+    "Incidentes de Ciberseguridade/Phishing/Ex - Analise de Correo Phishing.md",
+    "Incidentes de Ciberseguridade/Phishing/Phishing.md",
+    "Incidentes de Ciberseguridade/Phishing/Artefactos de correos.md",
+    "Incidentes de Ciberseguridade/Ex Tema 1/Importante para exame.md",
+    "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
+    "__Notas finales/Normativa de Ciberseguridade/NF - Normativa de Ciberseguridade.md",
+    "__Notas finales/Incidentes de Ciberseguridade/NF - Incidentes de Ciberseguridade.md",
+    "__Notas finales/Hacking Ético/NF - Hacking Ético.md",
+    "__Notas finales/Bastionado de Redes e Sistemas/NF - Bastionado de Redes e Sistemas.md",
+    "__Notas finales/Analise Forense Informatico/NF - Analise Forense Informatico.md",
+    "__Notas finales/Analise Forense Informatico",
+    "__Notas finales/Incidentes de Ciberseguridade",
+    "__Notas finales/Normativa de Ciberseguridade",
+    "__Notas finales/Hacking Ético/Técnicas de reconocimiento en sistemas web reales.md",
+    "__Notas finales/Bastionado de Redes e Sistemas",
+    "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
     "autocommit.sh~",
     "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
-    "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
     "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
-    "Incidentes de Ciberseguridade/Phishing/Artefactos de correos.md",
     "Hacking Ético/Enumeracion de Servicios",
-    "Incidentes de Ciberseguridade/Phishing/Phishing.md",
-    "Incidentes de Ciberseguridade/Ex Tema 1/Importante para exame.md",
     "Incidentes de Ciberseguridade/Phishing",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para un instituto.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Políticas de ciberseguridad para teletrabajo.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Plan de Formación y Concienciación Sobre Contraseñas Seguras.md",
-    "Incidentes de Ciberseguridade/Incidentes de Ciberseguridade.md",
     "Incidentes de Ciberseguridade/Ex Tema 1/Tipos xerales de incidente.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Mecanismos de autenticación.md",
     "Bastionado de Redes e Sistemas/Configuración de sistemas de control de acceso y autenticacion de personas/Autenticación basada en contraseñas.md",
@@ -186,20 +198,11 @@
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P3 - Certificados.md",
     "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
     "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
-    "Bastionado de Redes e Sistemas/Diseño de planes de seguridad/Plan director de seguridad.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/CIDR VLSM.md",
-    "Hacking Ético/Bash/Ejercicio Bash.md",
-    "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
-    "Bastionado de Redes e Sistemas/Docker/Docker Compose.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras",
     "__Notas finales/Hacking Ético",
     "__Notas finales",
     "img_misc/Pasted image 20241219203000.png",
     "img_misc/Pasted image 20241219202905.png",
-    "Análise Forense Informático/Taller Charla",
-    "Excalidraw",
     "img_misc/Pasted image 20241217203746.png",
     "img_misc/Pasted image 20241217202850.png",
     "img_misc/Pasted image 20241217190415.png",
@@ -207,8 +210,6 @@
     "img_misc/Pasted image 20241217190309.png",
     "img_misc/Pasted image 20241217190144.png",
     "img_misc/Pasted image 20241217185220.png",
-    "img_misc/Pasted image 20241217184815.png",
-    "Hacking Ético/Recopilación de información/Retos",
-    "Análise Forense Informático/Toma de evidencias/Práctica 2"
+    "img_misc/Pasted image 20241217184815.png"
   ]
 }

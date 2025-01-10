@@ -16,3 +16,7 @@ Phishing:
 	- Metodos reactivos
 	- Informes
 - Ejercicio practico sobre phishing (sacar informacion)
+
+---
+
+Dar ejemplos de seguridad preventivo e reactivo
