@@ -65,3 +65,39 @@ Thank you! Home Depot
 
 hxxp\[://]t\[.]teckbe\[.]com/p/?j3=EOowFcEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET==
 
+---
+
+## Informe Email 1
+
+### Artefactos:
+
+- From: newsletter@ant\[.]anki-tech\[.]com
+- Display name: ADT Security Services
+- Sender: newsletter@ant\[.]anki-tech\[.]com
+- To: alexa@yahoo\[.]com
+- CC: None
+- In-Reply-To: None
+- Timestamp: 05:35 pm, Jun 21st 2021
+- Reply-To: reply@ant\[.]anki-tech\[.]com
+- Message-Id: \<mid-34511e6d7ca189088b5e6e69df06a139-109@ant\[.]anki-tech\[.]com>
+- Return-Path: reback-a3970-837890-838253-c8b776d9=952622232=8@ant\[.]anki-tech\[.]com
+- Originating IP: 43\[.]255\[.]56\[.]161
+- rDNS: FAST-INTERNET-43-255-56-161\[.]solnet\[.]net\[.]id
+- URLs:
+	- hxxps\[://]ant\[.]anki-tech\[.]com/ga/click/2-952622232-3970-423304-838253-590962-350694bcf9-17b3b9c21a
+	- hxxps\[://]ant\[.]anki-tech\[.]com/ga/unsubscribe/2-952622232-3970-423304-838253-d0890c7eb0b8a71-17b3b9c21a
+	- hxxps\[://]ant\[.]anki-tech\[.]com/ga/open/2-952622232-3970-423304-838253-17b3b9c21a
+
+### Informe:
+
+El correo encontrado en una campaña de phishing se hacia pasar por la empresa de seguridad ADH enviando un newsletter con opciones de ver mas y desuscribirse de la lista de correos que redirigian al dominio ant\[.]anki-tech\[.]com, dominio que segun Fortinet es malicioso y sospechoso de actividades de spam (https://www.virustotal.com/gui/url/347867eb67e011f1d7b2d4eb37ce38b3ba745552388a4ed0c540e2d078df5d7a)
+
+Quizas no sea buena idea bloquear la IP, ya que pertenece a una empresa de hosting llamada Sol One que podria hostear a usuarios legitimos
+
+Bloquear el Display Name tampoco parece una buena idea ya que es una cabecera que ADH podria utilizar comunmente.
+
+La mejor opcion seria bloquear el dominio de correo ant\[.]anki-tech\[.]com ya que ha sido reconocido como spam anteriormente por Fortinet
+
+### Conclusion:
+
+Para evitar seguir recibiendo spam de este tipo se bloquea el dominio de correo del que procede, ya que otras normas podrian evitar el tragico legitimo 
