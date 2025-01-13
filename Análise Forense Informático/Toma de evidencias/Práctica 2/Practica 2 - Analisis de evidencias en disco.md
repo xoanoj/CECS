@@ -172,7 +172,9 @@ Seguramente existan varias versiones debido a variaciones en el plan (que asemej
 
 >Encontrar qué marca y modelo de tarjeta gráfica tiene el equipo en base a los drivers instalados en el sistema. Confirmar que era dicha gráfica con Windows Registry Recovery.
 
+NVIDIA NVS 5200M segun el Hive SYSTEM:
 
+![[Pasted image 20250113214446.png]]
 ### Enunciado H
 
 >¿Cómo se llama la otra persona que tiene acceso a las cuentas en la nube de jcloudy?
