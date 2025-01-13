@@ -29,3 +29,14 @@ ip route add default via [gateway]
 
 Desde el punto de vista de la seguridad es mejor idea no usar esto ya que algunas subredes no deberian tener acceso a otras. (Aunque es la norma para gateways que salen a internet ya que no sabes a que red acabaras conectado)
 
+---
+
+Los routers operan a nivel de capa 2 con lo que no tienen niguna capacidad de enrutado, para ello es necesario un router que opera a nivel de capa 3 y tiene una tarjeta de red por subred con la que se vaya a comunicar. Esa tarjeta tiene que tener una IP en el rango de esas subredes.
+
+---
+
+En caso de normas de enrutamiento duplicadas, se utiliza las mas especifica (no importa el orden). La mas especifica seria con una IP/32 ya que seria un unico host especifico. (Mas especifica quiere decir la de mascara mas larga).
+
+---
+
+Una interfaz de red fisica puede tener varias IPs

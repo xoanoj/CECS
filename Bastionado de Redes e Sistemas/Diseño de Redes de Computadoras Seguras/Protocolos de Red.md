@@ -16,3 +16,7 @@ Como modelo practico no se utiliza OSI, pero si como conceptual.
 Una puerta de enlace puede cambiar el protocolo que utiliza, por ejemplo recibir packets de IP bajo Ethernet pero enviarlos hacia fuera mediante otro protocolo, por ejemplo WiFi.
 
 Las puertas de enlace operan a un maximo de capa de red, nunca por encima. (Recordar que un enrutador cambia la MAC del paquete, no la IP destino)
+
+---
+
+El protocolo IPv6 tiene un estandar de cabecera menor que IPv4 pero implementa la seccion next header, que permite usar cabeceras extensibles
