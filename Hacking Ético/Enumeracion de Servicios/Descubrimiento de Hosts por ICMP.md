@@ -18,3 +18,4 @@ Tambien se puede intentar averiguar el tipo de SO del host objetivo segun el TTL
 
 En redes locales se puede utilizar el [[ARP Sweep]]
 
+Usando traceroute con la opción -I (ICMP) podemos ver las trazas de rutas hasta objetivo, aunque tambien se puede usar con el protocol TCP o UDP si ICMP se esta bloqueando
