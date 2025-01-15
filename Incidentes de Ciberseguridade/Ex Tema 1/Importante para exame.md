@@ -19,4 +19,5 @@ Phishing:
 
 ---
 
-Dar ejemplos de seguridad preventivo e reactivo
+Dar ejemplos de seguridad preventivo e reactivo (Y sus fases, y que acciones se llevarian a cabo en cada fase)
+SPF, DKIM y DMARC ideas generales

@@ -163,7 +163,7 @@ Tambien visita GunBroker, una tienda de armas online:
 
 >Encontrar todas las ocurrencias del archivo “Planning.docx”. ¿Cuál fue la primera en aparecer en el sistema? ¿Por qué motivo crees que hay varias?
 
-Parece aparecer por primera vez el 2018-'3-30 a las 04:16:48 UTC+0
+Parece aparecer por primera vez el 2018-3-30 a las 04:16:48 UTC+0
 
 ![[Pasted image 20250113212731.png]]
 
@@ -175,6 +175,10 @@ Seguramente existan varias versiones debido a variaciones en el plan (que asemej
 NVIDIA NVS 5200M segun el Hive SYSTEM:
 
 ![[Pasted image 20250113214446.png]]
+
+Segun Autopsy:
+
+![[Pasted image 20250115193854.png]]
 ### Enunciado H
 
 >¿Cómo se llama la otra persona que tiene acceso a las cuentas en la nube de jcloudy?

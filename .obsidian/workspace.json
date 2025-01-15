@@ -165,6 +165,7 @@
   },
   "active": "9b337e7854476f79",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "img_misc/Pasted image 20250115171506.png",
     "img_misc/Pasted image 20250115171406.png",
     "img_misc/Pasted image 20250115170443.png",
@@ -179,6 +180,8 @@
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Dispositivos de red.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos con IPTables.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral",
+=======
+>>>>>>> Stashed changes
     "Incidentes de Ciberseguridade/Phishing/Registros Anti-Spoofing.md",
     "Incidentes de Ciberseguridade/Phishing/Exercicio Identificacion de Phishing.md",
     "img_misc/Pasted image 20250115195848.png",
@@ -191,6 +194,12 @@
     "img_misc/Pasted image 20250115193854.png",
     "img_misc/Pasted image 20250113214446.png",
     "img_misc/Pasted image 20250113212731.png",
+<<<<<<< Updated upstream
+=======
+    "img_misc/Pasted image 20250113212511.png",
+    "img_misc/Pasted image 20250113212244.png",
+    "img_misc/Pasted image 20250113212040.png",
+>>>>>>> Stashed changes
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/CIDR VLSM.md",
     "__Notas finales/Hacking Ético/Técnicas de reconocimiento en sistemas web reales.md",
     "__Notas finales/Hacking Ético/NF - Hacking Ético.md",
@@ -206,6 +215,13 @@
     "Excalidraw",
     "eJPT_Notes/Security Auditing/Types Of Audits.md",
     "eJPT_Notes/Security Auditing",
+<<<<<<< Updated upstream
+=======
+    "eJPT_Notes/Post Exploitation/Privilege Escalation/Windows/Windows Kernel Exploits.md",
+    "eJPT_Notes/Post Exploitation/Privilege Escalation/Windows/Bypassing UAC with UACMe.md",
+    "eJPT_Notes/Post Exploitation/Privilege Escalation/Windows/Access Token Impersonation.md",
+    "eJPT_Notes/Post Exploitation/Privilege Escalation/Linux/Linux Kernel Exploits.md",
+>>>>>>> Stashed changes
     "eJPT_Notes/Post Exploitation/Privilege Escalation/Windows",
     "eJPT_Notes/Post Exploitation/Privilege Escalation/Linux",
     "eJPT_Notes/Post Exploitation/Windows Credential Dumping",
