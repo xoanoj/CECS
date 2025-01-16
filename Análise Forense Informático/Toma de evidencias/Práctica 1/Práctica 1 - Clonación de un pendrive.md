@@ -1,4 +1,4 @@
-Práctica de [[Analise Forense]]
+Práctica de [[Toma de evidencias]]
 ## Creación de la máquina virtual de trabajo
 
 ![[Pasted image 20241121210951.png]]

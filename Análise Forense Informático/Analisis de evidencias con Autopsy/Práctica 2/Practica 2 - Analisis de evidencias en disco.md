@@ -1,5 +1,5 @@
 
-Práctica de [[Analise Forense]]
+Práctica de [[Analisis de Evidencias con Autopsy]]
 
 ## Ejercicio 1
 

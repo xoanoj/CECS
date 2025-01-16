@@ -1,4 +1,4 @@
-Parte de [[Analise Forense]]
+Parte de [[Toma de evidencias]]
 
 Herramientas:
 - Sysinternals de Microsoft

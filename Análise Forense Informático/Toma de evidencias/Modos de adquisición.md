@@ -1,4 +1,4 @@
-Parte de [[Analise Forense]]
+Parte de [[Toma de evidencias]]
 
 ## Modo "Dead" o estático:
 

@@ -1,4 +1,4 @@
-Parte de [[Analise Forense]]
+Parte de [[Toma de evidencias]]
 
 Las copias deben ser bit a bit
 

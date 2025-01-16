@@ -68,3 +68,7 @@ sudo nmap -n -Pn -sV -p [puertos] [ip]
 ```
 
 Para la deteccion del sistema operativo se puede usar -O (funciona de forma inconsistente) (se recomienda poner un puerto que esta abierto y otro que esta cerrado para que la deteccion funcione mejor)
+
+---
+
+Utilizar -A = -sC -sV -O

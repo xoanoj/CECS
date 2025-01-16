@@ -1,4 +1,4 @@
-Parte de [[Analise Forense]]
+Parte de [[Toma de evidencias]]
 
 - Eliminar agentes de cambio
 - Recolectar con herramientas especializadas

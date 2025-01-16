@@ -1,4 +1,4 @@
-Parte de [[Analise Forense]]
+Parte de [[Toma de evidencias]]
 
 - Notas detalladas
 - Especificar hora (UTC o en hora local)

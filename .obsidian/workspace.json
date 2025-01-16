@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6516d084a1bc0f18",
+        "id": "fafe1a78d0d347db",
         "type": "tabs",
         "children": [
           {
-            "id": "085abb1cd5418a9d",
+            "id": "81538697317f7b45",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Barrido de enumeracion completa"
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Barrido de enumeracion completa"
             }
           },
           {
@@ -107,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Barrido de enumeracion completa"
             }
           },
           {
@@ -132,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Barrido de enumeracion completa"
             }
           }
         ]
@@ -155,18 +163,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "085abb1cd5418a9d",
+  "active": "81538697317f7b45",
   "lastOpenFiles": [
+    "Hacking Ético/Enumeracion de Servicios/Exploracion de puertos.md",
+    "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
+    "Hacking Ético/Enumeracion de Servicios/Documentacion con nmap.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
+    "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
+    "Hacking Ético/Enumeracion de Servicios/Scripting Engine de nmap.md",
+    "Análise Forense Informático/Analisis de evidencias con Autopsy/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
+    "Análise Forense Informático/Analisis de evidencias con Autopsy/Analisis de Evidencias con Autopsy.md",
+    "Análise Forense Informático/Analisis de evidencias con Autopsy/Artefactos Windows.md",
+    "Análise Forense Informático/Analisis de evidencias con Autopsy",
+    "Análise Forense Informático/Toma de evidencias/Práctica 1/Práctica 1 - Clonación de un pendrive.md",
+    "Análise Forense Informático/Analise Forense.md",
+    "Análise Forense Informático/Toma de evidencias/Toma de evidencias.md",
+    "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",
+    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+    "Análise Forense Informático/Toma de evidencias/Factores en la toma de evidencias.md",
+    "Análise Forense Informático/Toma de evidencias/Directrices.md",
+    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
+    "Análise Forense Informático/Toma de evidencias/Adquisicion de evidencias en vivo en Windows.md",
+    "Hacking Ético/Hacking Ético.md",
     "__Notas finales/Análise Forense Informático/NF - Análise Forense Informático.md",
     "__Notas finales/Bastionado de Redes e Sistemas/NF - Bastionado de Redes e Sistemas.md",
-    "Hacking Ético/Enumeracion de Servicios/Scripting Engine de nmap.md",
     "Incidentes de Ciberseguridade/Phishing/Registros Anti-Spoofing.md",
-    "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
-    "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
-    "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
-    "Hacking Ético/Enumeracion de Servicios/Exploracion de puertos.md",
-    "Análise Forense Informático/Toma de evidencias/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
-    "Análise Forense Informático/Toma de evidencias/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
     "img_misc/img.jpg"
   ]
 }

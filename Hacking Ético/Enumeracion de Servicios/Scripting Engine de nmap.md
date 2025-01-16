@@ -78,3 +78,8 @@ MAC Address: 08:00:27:7B:8B:9E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
 
 Nmap done: 1 IP address (1 host up) scanned in 1.52 seconds
 ```
+
+Tambien permite hacer ciertos tipos de ataques de fuerza bruta.
+
+Podemos lanzar todos los scripts de una categoria con --script \[categoria\]
+
