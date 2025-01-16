@@ -183,3 +183,8 @@ Segun Autopsy:
 
 >¿Cómo se llama la otra persona que tiene acceso a las cuentas en la nube de jcloudy?
 
+Podemos ver en este archivo que menciona dejar claves a las copias de sus archivos a un tal Paul:
+
+![[img.jpg]]
+
+![[Pasted image 20250116155710.png]]
