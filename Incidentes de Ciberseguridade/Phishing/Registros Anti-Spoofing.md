@@ -1,3 +1,5 @@
+Parte de [[Phishing]]
+
 Son registros TXT de los DNSs
 Se pueden ver en el encabezado de los correos
 
