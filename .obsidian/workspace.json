@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fafe1a78d0d347db",
+        "id": "cb14072f45378eef",
         "type": "tabs",
         "children": [
           {
-            "id": "81538697317f7b45",
+            "id": "90f51fe4fb3c3388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
+                "file": "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Practicas/Firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gift"
+              "title": "Firewall"
             }
           }
         ]
@@ -163,10 +163,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "81538697317f7b45",
+  "active": "90f51fe4fb3c3388",
   "lastOpenFiles": [
-    "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos con IPTables.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Practicas/Firewall.md",
+    "img_misc/Pasted image 20250117195229.png",
+    "img_misc/Pasted image 20250117194452.png",
+    "img_misc/Pasted image 20250117185703.png",
+    "img_misc/Pasted image 20250117185645.png",
+    "img_misc/Pasted image 20250117185623.png",
+    "img_misc/Pasted image 20250117184314.png",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Practicas",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Dispositivos de red.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Seguridad Perimetral.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Tecnologias Inalambricas.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VPNs.md",
+    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad/Taxonomia.md",
+    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad/Ejercicio Taxonomia.md",
+    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad/Auditoria de Incidentes.md",
+    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad",
     "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
     "Hacking Ético/Enumeracion de Servicios/Exploracion de puertos.md",
     "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
     "Hacking Ético/Enumeracion de Servicios/Documentacion con nmap.md",
@@ -182,13 +199,6 @@
     "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",
     "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
     "Análise Forense Informático/Toma de evidencias/Factores en la toma de evidencias.md",
-    "Análise Forense Informático/Toma de evidencias/Directrices.md",
-    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
-    "Análise Forense Informático/Toma de evidencias/Adquisicion de evidencias en vivo en Windows.md",
-    "Hacking Ético/Hacking Ético.md",
-    "__Notas finales/Análise Forense Informático/NF - Análise Forense Informático.md",
-    "__Notas finales/Bastionado de Redes e Sistemas/NF - Bastionado de Redes e Sistemas.md",
-    "Incidentes de Ciberseguridade/Phishing/Registros Anti-Spoofing.md",
     "img_misc/img.jpg"
   ]
 }
