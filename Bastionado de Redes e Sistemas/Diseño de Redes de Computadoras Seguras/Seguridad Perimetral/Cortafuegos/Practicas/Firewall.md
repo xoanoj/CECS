@@ -1,4 +1,4 @@
-Parte de [[Seguridad Perimetral]]
+Parte de [[Cortafuegos con IPTables]]
 
 ![[Pasted image 20250117184314.png]]
 

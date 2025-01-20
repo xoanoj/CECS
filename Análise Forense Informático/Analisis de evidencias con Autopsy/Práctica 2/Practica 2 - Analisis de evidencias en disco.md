@@ -85,7 +85,7 @@ Contienen dos carpetas, una con un instalador de TrueCrypt y otra con un archivo
 
 Tras analizar los documentos de la imagen descubrimos varios audios, uno de ellos tiene contenido y trata de un miembro de soporte TI haciendole a saber a una mujer que le enviara su nueva contraseña en un archivo cifrado y que la contraseña es su numero de telefono.
 
-Podemos encontrar el numero de telefono de la mujer en:
+Podemos encontrar el numero de telefono de la mujer en un fichero que asemeja ser un correo o parte corporativo:
 
 ![[Pasted image 20250113202831.png]]
 
@@ -103,7 +103,7 @@ Y finalmente vemos el contenido del documento
 >
 >https://drive.google.com/file/d/1PAtjrQlD1CokPasIK_ow5F7tDEKVeASk
 
-Creo el caso
+Creacion del caso:
 
 ![[Pasted image 20250113204406.png]]
 ### Enunciado A
@@ -147,6 +147,8 @@ Podemos verlo en Autopsy:
 
 ![[Pasted image 20250113212040.png]]
 
+Estos son todos los USBs conectados, los pendrives serian unicamente los 2 dispositivos SanDisk que se aprecian, podemos dar por hecho que son distintos dispositivos por su ID.
+
 ### Enunciado E
 
 >Averiguar si el usuario buscó información sobre armas de fuego, su uso, compraventa, etc. Aquí, para no alargar demasiado, basta con una única búsqueda en la web y una única página visitada de prueba, no hace falta encontrar todas.
@@ -183,7 +185,7 @@ Segun Autopsy:
 
 >¿Cómo se llama la otra persona que tiene acceso a las cuentas en la nube de jcloudy?
 
-Podemos ver en este archivo que menciona dejar claves a las copias de sus archivos a un tal Paul:
+Podemos ver en este archivo que menciona dejar claves a las copias de sus archivos a un individuo llamado Paul:
 
 ![[img.jpg]]
 
