@@ -486,3 +486,13 @@ Para indicar que ademas de carpetas, tambien descubra ficheros, podemos indicarl
 ffuf -u http://192.168.56.103/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -e .php,.txt,.html,.zip
 ```
 
+Para activar la recursion, podemos usar -recursion (no -r, que es seguir redirects)
+
+---
+
+Otro ataque aparte de hydra y medusa, existe patator:
+
+``` bash
+patator ssh_login host=192.168.56.103 user=root password=FILE0 0=rockyou.txt -x free=host:code=0 -t 5
+```
+
