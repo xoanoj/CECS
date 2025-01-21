@@ -11,10 +11,14 @@
             "id": "8027990fdf9a375e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Gift"
             }
           }
         ]
@@ -161,8 +165,8 @@
   },
   "active": "8027990fdf9a375e",
   "lastOpenFiles": [
-    "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
     "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
     "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
     "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
     "Hacking Ético/Enumeracion de Servicios/Documentacion con nmap.md",

@@ -366,6 +366,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-01-21 19:42:
 Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-01-21 19:44:32
 ```
 
+---
 ### Ejercicio: Enumerar gift:
 
 Como pudimos ver anteriormente tenemos la salida de NMAP:
@@ -462,3 +463,26 @@ HMVtyr543FG
 ```
 
 Esta es la flag de root!
+
+---
+
+En cuanto a tener enumerado el servicio http, podriamos usar curl -I para ver las cabeceras, utilizar un script the nmap para ver los metodos HTTP que tenemos habilitados (http-methods.nse) etc...
+
+Tambien podriamos habe rhecho fuzzing, con dirbuster, gobuster, wfuzz, ffuf, o la GOAT feroxbuster (objetivamente superior)
+
+Ejemplo con ffuf:
+
+``` bash
+ffuf -u http://192.168.56.103/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt
+```
+
+(La wordlist podria ser cualquiera, como la clasica medium-2.3)
+
+Por defecto ffuf no considera comentarios, asi que en diccionarios de seclists podemos borrarlos o usar una flag que hace que ignore comentarios.
+
+Para indicar que ademas de carpetas, tambien descubra ficheros, podemos indicarle las extensiones que nos interesan:
+
+``` bash
+ffuf -u http://192.168.56.103/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -e .php,.txt,.html,.zip
+```
+
