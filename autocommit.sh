@@ -18,7 +18,6 @@ schedule["17:40-18:30"]="NC"
 schedule["18:30-19:20"]="HE"
 schedule["19:20-20:10"]="HE"
 schedule["20:10-21:00"]="HE"
-schedule["21:00-21:50"]="ICS"
 
 # Wednesday (MÉRCORES)
 schedule["16:00-16:50"]="BRS"
