@@ -22,5 +22,7 @@ Comandos de ftp serian:
 - help {comando}: ver que hace un comando
 - pwd: ver directorio
 - dir / ls: ver directorio
+- !: ejecutar comandos en la maquina local (!ls para listar la maquina local)
+- put: intentar subir ficheros
 
 Si estamos en una situacion en la que estamos en un carpeta sin nada, significa que podriamos estar enjaulados, podemos intentar escapar usando cd con rutas relativas o absolutas.
