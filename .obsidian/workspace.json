@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Presentacion de Evidencias/Defensa del Informe.md",
+                "file": "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/Práctica VLAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Defensa del Informe"
+              "title": "Práctica VLAN"
             }
           }
         ]
@@ -164,9 +164,18 @@
   },
   "active": "f88af63ff97b2d01",
   "lastOpenFiles": [
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/VLAN.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/Práctica VLAN.md",
+    "Pasted image 20250124194036.png",
+    "img_misc/Pasted image 20250124193946.png",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs",
+    "img_misc/Pasted image 20250124192054.png",
+    "img_misc/Pasted image 20250124191220.png",
+    "img_misc/Pasted image 20250124185857.png",
+    "img_misc/Pasted image 20250124185745.png",
     "Análise Forense Informático/Presentacion de Evidencias/Contrapericiales.md",
-    "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
     "Análise Forense Informático/Presentacion de Evidencias/Defensa del Informe.md",
+    "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
     "Análise Forense Informático/Presentacion de Evidencias/Presentacion del Informe.md",
     "Análise Forense Informático/Presentacion de Evidencias/Presentacion de Evidencias.md",
     "Análise Forense Informático/Analisis de evidencias con Autopsy/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
@@ -190,20 +199,11 @@
     "Hacking Ético/Bash/Ejercicio Bash.md",
     "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad/Taxonomia.md",
     "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad/Ejercicio Taxonomia.md",
-    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad/Auditoria de Incidentes.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Tareas/Tarea - DMZ.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas/Firewall II.md",
     "img_misc/Pasted image 20250120170046.png",
     "img_misc/Pasted image 20250120170029.png",
     "img_misc/Pasted image 20250120170010.png",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/DMZ",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos",
-    "img_misc/Pasted image 20250120164724.png",
-    "img_misc/Pasted image 20250120164419.png",
-    "img_misc/Pasted image 20250120164343.png",
-    "img_misc/Pasted image 20250120164313.png",
-    "img_misc/Pasted image 20250120164254.png",
-    "img_misc/Pasted image 20250120164152.png",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas",
     "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad",
     "Análise Forense Informático/Analisis de evidencias con Autopsy"
