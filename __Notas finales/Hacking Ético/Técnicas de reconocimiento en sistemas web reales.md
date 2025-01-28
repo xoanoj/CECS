@@ -64,7 +64,7 @@ En este campo, las metodologías activas se emplean principalmente para identifi
 
 Por esta razón, también emplearemos herramientas de recolección de datos a partir de fuentes abiertas, como Waybackurls. Otras herramientas relevantes incluyen Waymore y Gau, aunque no se profundizará en su funcionamiento en este contexto.
 
-1- Comenzaremos por waybackurls, se trata de una herramienta creada por @tomnomnom, un contribuidor de projectdiscovery en GitHub. Emplea conla fuente WayBackMachine del InternetArchive para retornar las URLs que existieron de un sistema web, esto también implica que dichas URLs podrían no llevar a recursos existentes en el presente. Su uso es sencillo:
+1- Comenzaremos por waybackurls, se trata de una herramienta creada por @tomnomnom, un contribuidor de projectdiscovery en GitHub. Emplea la fuente WayBackMachine del InternetArchive para retornar las URLs que existieron de un sistema web en el pasado, esto también implica que dichas URLs podrían no llevar a recursos existentes en el presente. Su uso es sencillo:
 
 ``` bash
 cat subs_httpx_output_[fecha_hora].txt | waybackurls > waybackurls_output.txt
@@ -97,3 +97,7 @@ Si se busca otra herramienta menos potente pero regularmente más sencilla y rá
 ## Parseo de información
 
 Este paso es muy subjetivo y en algunos casos puede considerarse no necesario, no obstante poder separar las URLs obtenidas en categorías y poder modificarlas para prepararlas para fuzzing es muy útil. Para esto se emplean dos herramientas de Tomnomnom: Qsreplace y Gf
+
+Qsreplace funciona de una forma similar al comando tr, lo cual nos permite preparar URLs para fuzzing y asi realizar pruebas como LFI, XSS etc.
+
+Gf es esencialmente un comando grep con funciones de regex bajo palabras clave, lo cual es extremadamente util para por ejemplo extraer todas las URLs que podrian ser potencialmente vulnerables a XSS, Open Redirect, SQLi...
