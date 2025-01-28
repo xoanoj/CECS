@@ -1,4 +1,4 @@
-Parte de [[Normativa]]
+Parte de [[Bases do Cumplimento Normativo]]
 
 - Compliance: Significa cumplimento da normativa.
 - OCDE: Organización para la cooperación y el desarrollo económicos
