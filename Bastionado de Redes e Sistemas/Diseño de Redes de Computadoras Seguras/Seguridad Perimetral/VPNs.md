@@ -11,3 +11,12 @@ Cuanto mas bajo sea el nivel de la VPN, mas compleja sera la especificacion de s
 ---
 
 Esencialmente, funcionan estableciendo una conexion entre el PC del usuario y un servidor VPN situado conectado mediante un router a la red interna de la organizacion.
+
+---
+
+Principales ventajas de las VPNs:
+- Confidencialidad de los datos
+- Integridad de los datos
+- Autenticacion de extremo a extremo
+- Aislamiento de flujos de datos
+- Aplicacion de politicas de seguridad corporativas

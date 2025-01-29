@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Explotacion/Maquina -  Unit.md",
+                "file": "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - IPSec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina -  Unit"
+              "title": "Practica - IPSec"
             }
           }
         ]
@@ -163,12 +163,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7090e3047aef5343",
+  "active": "d8044095dc56202e",
   "lastOpenFiles": [
-    "Hacking Ético/Explotacion/Practica - Bind y Reverse Shells con netcat.md",
-    "Hacking Ético/Explotacion/Maquina -  Unit.md",
-    "Hacking Ético/Explotacion/Untitled",
+    "img_misc/Pasted image 20250129173459.png",
+    "img_misc/Pasted image 20250129173315.png",
+    "img_misc/Pasted image 20250129173039.png",
+    "img_misc/Pasted image 20250129172611.png",
+    "img_misc/Pasted image 20250129172509.png",
+    "img_misc/Pasted image 20250129172301.png",
+    "img_misc/Pasted image 20250129172056.png",
+    "img_misc/Pasted image 20250129171939.png",
+    "img_misc/Pasted image 20250129170737.png",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/VPN IPSec.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - Tuneles.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Tareas/Tarea - Tuneles.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - IPSec.md",
+    "img_misc/Pasted image 20250129170509.png",
+    "img_misc/Pasted image 20250129170449.png",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VPNs.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Dispositivos de red.md",
     "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
+    "Hacking Ético/Explotacion/Maquina -  Unit.md",
+    "Hacking Ético/Explotacion/Practica - Bind y Reverse Shells con netcat.md",
+    "Hacking Ético/Explotacion/Untitled",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Delitos.md",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Prevencion y sancion de delitos vinculados a internet.md",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Legislacion para el cumplimiento de la responsabilidad penal.md",
@@ -179,13 +197,7 @@
     "Normativa/Bases do cumplimento normativo/Bases do Cumplimento Normativo.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/Práctica VLAN.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/VLAN.md",
-    "img_misc/Pasted image 20250124194036.png",
-    "img_misc/Pasted image 20250124193946.png",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs",
-    "img_misc/Pasted image 20250124192054.png",
-    "img_misc/Pasted image 20250124191220.png",
-    "img_misc/Pasted image 20250124185857.png",
-    "img_misc/Pasted image 20250124185745.png",
     "Análise Forense Informático/Presentacion de Evidencias/Contrapericiales.md",
     "Análise Forense Informático/Presentacion de Evidencias/Defensa del Informe.md",
     "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
@@ -193,23 +205,11 @@
     "Análise Forense Informático/Presentacion de Evidencias/Presentacion de Evidencias.md",
     "Análise Forense Informático/Analisis de evidencias con Autopsy/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
     "Análise Forense Informático/Analisis de evidencias con Autopsy/Analisis de Evidencias con Autopsy.md",
-    "Análise Forense Informático/Taller Charla/Analisis de imagenes.md",
-    "Hacking Ético/Explotacion/Explotación.md",
-    "Hacking Ético/Enumeracion de Servicios/Enumeracion de FTP.md",
     "Hacking Ético/Explotacion",
-    "Hacking Ético/Enumeracion de Servicios/Exploracion de puertos.md",
-    "Hacking Ético/Enumeracion de Servicios/Scripting Engine de nmap.md",
-    "Hacking Ético/Enumeracion de Servicios/Maquinas/Gift.md",
-    "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
-    "img_misc/Pasted image 20250120202009.png",
     "Análise Forense Informático/Presentacion de Evidencias",
-    "img_misc/Pasted image 20250120170046.png",
-    "img_misc/Pasted image 20250120170029.png",
-    "img_misc/Pasted image 20250120170010.png",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/DMZ",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas",
-    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy"
+    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad"
   ]
 }
