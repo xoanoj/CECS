@@ -168,6 +168,44 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 $ 
 ```
 
+---
+
+Nota de clase (no mi resolucion):
+
+Somos el usuario www-data ya que es el usuario que corre el servidor web nginx, por lo que tenemos los permisos de ese usuario no privilegiado.
+
+Podemos estabilizar la terminal para tener mas comodidad, hay varias formas de hacerlo, por ejemplo:
+
+``` bash
+script -qc /bin/bash /dev/null
+CTRL+Z (para pasar a segundo plano)
+stty -a (tomar nota de rows y columns)(en este caso rows 49; columns 103;)
+stty raw -echo; fg
+export TERM=XTERM
+stty rows 49 columns 103
+```
+
+Y ahora podriamos usar el autocompletado, CTRL+L, CTRL+C etc.
+
+Otro ejemplo seria con python, o utilzar rlwrap con netcat.
+
+---
+Enumeracion interna del sistema (resolucion de regal)
+
+``` bash
+id (ver quien soy)
+pwd (donde estoy)
+ls -lhF /home/ (ver que hay en /home/ para ver usuarios)
+cat /etc/passwd (ver que usuarios hay en el sistema)
+cat /etc/shadow (ver si podemos ver el fichero de contraseñas)
+ls -lhF /var/www/ (si somos www-data o superior, ver ficheros del servidor web (quizas podria haber una contraseña en claro de base de datos))
+sudo -l (ver que puedo ejecutar mediante sudo)
+```
+
+Con GTFOBins podemos ver que hacer con los comandos que podemos ejecutar con sudo.
+
+---
+
 Ahora en cuanto a la escalada de privilegios, veamos:
 
 ``` bash

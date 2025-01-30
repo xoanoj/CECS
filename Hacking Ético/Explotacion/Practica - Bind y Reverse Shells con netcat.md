@@ -49,5 +49,4 @@ En cuanto a que puerto/puertos a utilizar. En caso de bind shell, una que permit
 
 ---
 
-## Ejercicio
 
