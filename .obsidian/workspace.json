@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "53055d431a6c07b9",
+        "id": "f856a906751fd570",
         "type": "tabs",
         "children": [
           {
-            "id": "6d4bf1fd54711269",
+            "id": "9798c9192cd0d71e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Cortafuegos con IPTables.md",
+                "file": "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cortafuegos con IPTables"
+              "title": "NF - Presentacion y Defensa del informe"
             }
           }
         ]
@@ -34,19 +34,6 @@
         "id": "83db5b54a2a065eb",
         "type": "tabs",
         "children": [
-          {
-            "id": "d8044095dc56202e",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
           {
             "id": "8ab10ab5d498ccdd",
             "type": "leaf",
@@ -73,8 +60,22 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "29bb4168399edb63",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -164,34 +165,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d4bf1fd54711269",
+  "active": "9798c9192cd0d71e",
   "lastOpenFiles": [
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas/Firewall II.md",
+    "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
+    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
+    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Artefactos y el Registro de Windows.md",
+    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Adquisicion de Evidencias.md",
+    "__Notas finales/Análise Forense Informático/NF - Análise Forense Informático.md",
+    "Análise Forense Informático/Presentacion de Evidencias/Presentacion del Informe.md",
+    "Análise Forense Informático/Presentacion de Evidencias/Presentacion de Evidencias.md",
+    "Análise Forense Informático/Presentacion de Evidencias/Defensa del Informe.md",
+    "Análise Forense Informático/Presentacion de Evidencias/Contrapericiales.md",
+    "Análise Forense Informático/Analisis de evidencias con Autopsy/Artefactos Windows.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
+    "Análise Forense Informático/Toma de evidencias/Toma de evidencias.md",
+    "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",
+    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
+    "Análise Forense Informático/Toma de evidencias/Directrices.md",
+    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
+    "Análise Forense Informático/Analisis de evidencias con Autopsy/Analisis de Evidencias con Autopsy.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Cortafuegos con IPTables.md",
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas/Firewall II.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas/Firewall.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - IPSec.md",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - Tuneles.md",
     "Análise Forense Informático/Analisis de evidencias con Autopsy/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy/Analisis de Evidencias con Autopsy.md",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy/Artefactos Windows.md",
     "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Fundamentos de la criptografía.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P2 - Firma Digital.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P1 - Criptografía.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P3 - Certificados.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Criptografía.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Prácticas/P4 -  Certificados de cliente.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/Práctica VLAN.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs/VLAN.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VPNs.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Tecnologias Inalambricas.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Seguridad Perimetral.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Dispositivos de red.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Ataques de red comunes.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Tareas/Tarea - Subnetting.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Tareas/Tarea - DMZ.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/CIDR VLSM.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Protocolos de Red.md",
     "img_misc/Pasted image 20241125212913.png",
     "img_misc/Pasted image 20241128201616.png",
     "img_misc/Pasted image 20241204200926.png",
