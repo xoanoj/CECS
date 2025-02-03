@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f856a906751fd570",
+        "id": "e14fffb1cc77582e",
         "type": "tabs",
         "children": [
           {
-            "id": "9798c9192cd0d71e",
+            "id": "ef9935e64ce37211",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
+                "file": "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NF - Presentacion y Defensa del informe"
+              "title": "Bind y Reverse Shells"
             }
           }
         ]
@@ -165,34 +165,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9798c9192cd0d71e",
+  "active": "ef9935e64ce37211",
   "lastOpenFiles": [
-    "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
-    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
+    "__Notas finales/Hacking Ético/Trimestre 1/NF - Cheatsheet Hacking Etico - Examen 1.md",
+    "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
+    "Hacking Ético/Enumeracion de Servicios/Enumeracion de FTP.md",
+    "Hacking Ético/Enumeracion de Servicios/Documentacion con nmap.md",
+    "Hacking Ético/Enumeracion de Servicios/Descubrimiento de Hosts por ICMP.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Gift.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Barrido de enumeracion completa.md",
+    "Hacking Ético/Enumeracion de Servicios/ARP Sweep.md",
+    "Hacking Ético/Enumeracion de Servicios/Exploracion de puertos.md",
+    "Hacking Ético/Enumeracion de Servicios/Scripting Engine de nmap.md",
+    "Hacking Ético/Enumeracion de Servicios/Enumeracion de Servicios.md",
+    "Hacking Ético/Recopilación de información/Retos/Reto 2.md",
+    "Hacking Ético/Recopilación de información/Retos/Reto 1.md",
+    "Hacking Ético/Recopilación de información/Retos/Reto 4.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
+    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
+    "Hacking Ético/Recopilación de información/Info Gathering.md",
+    "Hacking Ético/Recopilación de información/Sistemas DNS.md",
+    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
     "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Artefactos y el Registro de Windows.md",
+    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
     "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Adquisicion de Evidencias.md",
+    "__Notas finales/Hacking Ético/Trimestre 1",
+    "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
     "__Notas finales/Análise Forense Informático/NF - Análise Forense Informático.md",
     "Análise Forense Informático/Presentacion de Evidencias/Presentacion del Informe.md",
     "Análise Forense Informático/Presentacion de Evidencias/Presentacion de Evidencias.md",
-    "Análise Forense Informático/Presentacion de Evidencias/Defensa del Informe.md",
-    "Análise Forense Informático/Presentacion de Evidencias/Contrapericiales.md",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy/Artefactos Windows.md",
-    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
-    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
-    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
-    "Análise Forense Informático/Toma de evidencias/Toma de evidencias.md",
-    "Análise Forense Informático/Toma de evidencias/Pasos de la recolección.md",
-    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
-    "Análise Forense Informático/Toma de evidencias/Directrices.md",
-    "Análise Forense Informático/Toma de evidencias/Clonación de discos.md",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy/Analisis de Evidencias con Autopsy.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Cortafuegos con IPTables.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas/Firewall II.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas/Firewall.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - IPSec.md",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas/Practica - Tuneles.md",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
-    "Bastionado de Redes e Sistemas/Criptografía/Sistemas Criptográficos.md",
     "img_misc/Pasted image 20241125212913.png",
     "img_misc/Pasted image 20241128201616.png",
     "img_misc/Pasted image 20241204200926.png",
@@ -211,7 +212,6 @@
     "Análise Forense Informático/Presentacion de Evidencias",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/DMZ",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas",
-    "Incidentes de Ciberseguridade/Auditoria de incidentes de ciberseguridad"
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos/Practicas"
   ]
 }

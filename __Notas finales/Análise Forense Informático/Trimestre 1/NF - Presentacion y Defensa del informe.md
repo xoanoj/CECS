@@ -41,11 +41,9 @@ La identificacion debe contener:
 	- Fecha de emision
 
 
-
 - Tachas: Advertencias que se hacen al tribunal sobre la imparcialidad del perito
 	- El perito hace constar su imparcialidad
 	- Hace uso del sistema de tachas si lo considera necesario
-
 
 El juramento incluido generalmente seria:
 
@@ -65,7 +63,6 @@ Un indice que contenga
 - Codigo de referencia
 - Numero de pagina actual
 - Numero total de paginas
-
 
 El cuerpo del informe debe contener:
 - Objeto
@@ -114,7 +111,7 @@ El cuerpo del informe debe contener:
 		- Entidades que nos presten servicios adicionales
 - Conclusiones:
 	- Deben estar estrictamente relacionadas con el capitul "Objeto" del informe
-		- Cuestion de solicitante - Respuesta del perito (las cosas a mayores se deben comunicar a quien nos contrato, y de ser relavantes se redactara otro informe. Si lo que se descubre es un delito debes notificarlo a la parte que te contrata, si no hace nad, debes denunciarlo)
+		- Cuestion de solicitante - Respuesta del perito (las cosas a mayores se deben comunicar a quien nos contrato, y de ser relavantes se redactara otro informe. Si lo que se descubre es un delito debes notificarlo a la parte que te contrata, si no hace nada al respecto, debes denunciarlo)
 			- De todos modos, las respuestas pueden ser tan matizadas como se considere
 	- Deben describir los hechos de forma objetiva
 	- La interpretacion tecnica debe ser inequivoca
