@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e14fffb1cc77582e",
+        "id": "62bd1b9e261f474f",
         "type": "tabs",
         "children": [
           {
-            "id": "ef9935e64ce37211",
+            "id": "b78233f036a5779c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Malware.md",
+                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Malware"
+              "title": "Maquina - Ciber1"
             }
           }
         ]
@@ -165,12 +165,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bb4168399edb63",
+  "active": "b78233f036a5779c",
   "lastOpenFiles": [
+    "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
+    "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Malware.md",
     "img_misc/Pasted image 20250212173008.png",
     "img_misc/Pasted image 20250212172945.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Malware.md",
     "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
     "__Notas finales/Hacking Ético/Trimestre 1/NF - Cheatsheet Hacking Etico - Examen 1.md",
@@ -195,7 +197,6 @@
     "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
     "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Adquisicion de Evidencias.md",
     "__Notas finales/Hacking Ético/Trimestre 1",
-    "Análise Forense Informático/Presentacion de Evidencias/Informes Periciales.md",
     "img_misc/Pasted image 20241125212913.png",
     "img_misc/Pasted image 20241128201616.png",
     "img_misc/Pasted image 20241204200926.png",
@@ -204,7 +205,6 @@
     "img_misc/Pasted image 20250129173315.png",
     "img_misc/Pasted image 20250129173039.png",
     "img_misc/Pasted image 20250129172611.png",
-    "img_misc/Pasted image 20250129172509.png",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
     "Hacking Ético/Explotacion/Untitled",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal",
