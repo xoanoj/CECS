@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "62bd1b9e261f474f",
+        "id": "30ccca0571a54d2c",
         "type": "tabs",
         "children": [
           {
-            "id": "b78233f036a5779c",
+            "id": "0da2af9ffb102405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
+                "file": "Análise Forense Informático/Analisis de RAM en Windows con Volatility.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - Ciber1"
+              "title": "Analisis de RAM en Windows con Volatility"
             }
           }
         ]
@@ -165,13 +165,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b78233f036a5779c",
+  "active": "29bb4168399edb63",
   "lastOpenFiles": [
-    "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
+    "img_misc/Pasted image 20250213211059.png",
+    "img_misc/Pasted image 20250213211030.png",
+    "img_misc/Pasted image 20250213211015.png",
+    "img_misc/Pasted image 20250213210715.png",
+    "img_misc/Pasted image 20250213205740.png",
+    "img_misc/Pasted image 20250213205144.png",
+    "img_misc/Pasted image 20250213203713.png",
+    "Análise Forense Informático/Gestion de Procesos y memoria en Windows.md",
+    "Análise Forense Informático/Analisis de RAM en Windows con Volatility.md",
     "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
+    "img_misc/Pasted image 20250213202428.png",
+    "img_misc/Pasted image 20250213202224.png",
+    "img_misc/Pasted image 20250213201942.png",
+    "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Malware.md",
     "img_misc/Pasted image 20250212173008.png",
-    "img_misc/Pasted image 20250212172945.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
     "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
@@ -193,18 +204,7 @@
     "Hacking Ético/Recopilación de información/Info Gathering.md",
     "Hacking Ético/Recopilación de información/Sistemas DNS.md",
     "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
-    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Artefactos y el Registro de Windows.md",
-    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
-    "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Adquisicion de Evidencias.md",
     "__Notas finales/Hacking Ético/Trimestre 1",
-    "img_misc/Pasted image 20241125212913.png",
-    "img_misc/Pasted image 20241128201616.png",
-    "img_misc/Pasted image 20241204200926.png",
-    "img_misc/Pasted image 20241211162149.png",
-    "img_misc/Pasted image 20250129173459.png",
-    "img_misc/Pasted image 20250129173315.png",
-    "img_misc/Pasted image 20250129173039.png",
-    "img_misc/Pasted image 20250129172611.png",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
     "Hacking Ético/Explotacion/Untitled",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal",
