@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "30ccca0571a54d2c",
+        "id": "62cc2b34a0cce354",
         "type": "tabs",
         "children": [
           {
-            "id": "0da2af9ffb102405",
+            "id": "bb37a3863883294e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Analisis de RAM en Windows con Volatility.md",
+                "file": "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Analisis de RAM en Windows con Volatility"
+              "title": "Configuracion de dispositivos y sistemas"
             }
           }
         ]
@@ -165,8 +165,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bb4168399edb63",
+  "active": "bb37a3863883294e",
   "lastOpenFiles": [
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/HIDS-HIPS, EDRs y SIEMs.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Malware.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Untitled.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Proteccion de Endpoints.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints",
+    "Análise Forense Informático/Analisis de RAM en Windows con Volatility.md",
     "img_misc/Pasted image 20250213211059.png",
     "img_misc/Pasted image 20250213211030.png",
     "img_misc/Pasted image 20250213211015.png",
@@ -175,15 +182,11 @@
     "img_misc/Pasted image 20250213205144.png",
     "img_misc/Pasted image 20250213203713.png",
     "Análise Forense Informático/Gestion de Procesos y memoria en Windows.md",
-    "Análise Forense Informático/Analisis de RAM en Windows con Volatility.md",
     "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
     "img_misc/Pasted image 20250213202428.png",
     "img_misc/Pasted image 20250213202224.png",
     "img_misc/Pasted image 20250213201942.png",
     "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Malware.md",
-    "img_misc/Pasted image 20250212173008.png",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
     "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
     "__Notas finales/Hacking Ético/Trimestre 1/NF - Cheatsheet Hacking Etico - Examen 1.md",
@@ -202,8 +205,6 @@
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento pasivo.md",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
     "Hacking Ético/Recopilación de información/Info Gathering.md",
-    "Hacking Ético/Recopilación de información/Sistemas DNS.md",
-    "Hacking Ético/Recopilación de información/DNS Zone Transfer.md",
     "__Notas finales/Hacking Ético/Trimestre 1",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
     "Hacking Ético/Explotacion/Untitled",
@@ -211,7 +212,6 @@
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs",
     "Hacking Ético/Explotacion",
     "Análise Forense Informático/Presentacion de Evidencias",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/DMZ",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/Cortafuegos"
+    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/DMZ"
   ]
 }

@@ -1,0 +1,1 @@
+Parte de [[Configuracion de dispositivos y sistemas]]
