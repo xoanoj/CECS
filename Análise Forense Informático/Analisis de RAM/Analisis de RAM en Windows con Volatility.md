@@ -1,4 +1,4 @@
-Parte de [[Analise Forense]]
+Parte de [[Analisis de RAM]]
 
 Un buen analisis de RAM ofrece informacion sobre:
 - Procesos en ejecucion (exes, DLL cargadas, ficheros abiertos...)
