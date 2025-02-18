@@ -110,7 +110,7 @@ Changing the URL to hxxp://10.10.10.245/data/0 shows different information than 
 
 ![[Pasted image 20250218194258.png]]
 
-We find FTP the user nathan:Buck3tH4TF0RM3!
+We find FTP user cred: nathan:Buck3tH4TF0RM3!
 
 ``` java
 ❯ ftp 10.10.10.245

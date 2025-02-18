@@ -11,10 +11,14 @@
             "id": "ccb4db1eeb576616",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Hacking Ético/Otras maquinas/HTB - Cap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTB - Cap"
             }
           }
         ]
@@ -163,10 +167,10 @@
   },
   "active": "ccb4db1eeb576616",
   "lastOpenFiles": [
+    "Hacking Ético/Otras maquinas/Maquinas de THM y HTB.md",
     "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
     "Hacking Ético/Otras maquinas/HTB - Cap.md",
     "Pasted image 20250218194258.png",
-    "Hacking Ético/Otras maquinas/Maquinas de THM y HTB.md",
     "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
     "Hacking Ético/Otras maquinas",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
