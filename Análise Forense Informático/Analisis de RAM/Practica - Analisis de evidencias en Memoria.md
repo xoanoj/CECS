@@ -1,4 +1,4 @@
-
+Parte de [[Analisis de RAM]]
 ## Objetivo
 
 > El objetivo de esta práctica es que el alumno se familiarice con el uso de herramientas de análisis forense y sea capaz de encontrar información relevante a partir de imágenes de memoria. A mayores, el alumno también se familiarizará con los retos CTF y con los writeups que explican cómo llegar a la solución
