@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ea22b80f3dba2490",
+        "id": "f262421eafa6824f",
         "type": "tabs",
         "children": [
           {
-            "id": "84ec808562d049ba",
+            "id": "37bb3bdc2b999710",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
+                "file": "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practica - Wordpress MITM"
+              "title": "Práctica 3 - Análisis de evidencias en memoria"
             }
           }
         ]
@@ -165,18 +165,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "84ec808562d049ba",
+  "active": "29bb4168399edb63",
   "lastOpenFiles": [
-    "Pasted image 20250219170822.png",
+    "img_misc/Pasted image 20250219193933.png",
+    "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
+    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
+    "img_misc/Pasted image 20250219183424.png",
+    "img_misc/Pasted image 20250219182617.png",
+    "img_misc/Pasted image 20250219182556.png",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
+    "img_misc/Pasted image 20250219170822.png",
     "img_misc/Pasted image 20250219170510.png",
     "img_misc/Pasted image 20250219170031.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
     "img_misc/Pasted image 20250218194258.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas",
     "Hacking Ético/Otras maquinas/HTB - Cap.md",
     "Hacking Ético/Otras maquinas/Maquinas de THM y HTB.md",
-    "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
     "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
     "Hacking Ético/Otras maquinas",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
@@ -199,15 +204,10 @@
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints",
     "img_misc/Pasted image 20250213211059.png",
     "img_misc/Pasted image 20250213211030.png",
-    "img_misc/Pasted image 20250213211015.png",
-    "img_misc/Pasted image 20250213210715.png",
-    "img_misc/Pasted image 20250213205740.png",
-    "img_misc/Pasted image 20250213205144.png",
     "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
     "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
     "__Notas finales/Hacking Ético/Trimestre 1/NF - Cheatsheet Hacking Etico - Examen 1.md",
-    "Hacking Ético/Enumeracion de Servicios/Enumeracion de FTP.md",
     "__Notas finales/Hacking Ético/Trimestre 1",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
     "Hacking Ético/Explotacion/Untitled",
