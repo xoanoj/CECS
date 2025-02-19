@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
+                "file": "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Práctica 3 - Análisis de evidencias en memoria"
+              "title": "Tarea Splunk"
             }
           }
         ]
@@ -165,11 +165,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bb4168399edb63",
+  "active": "37bb3bdc2b999710",
   "lastOpenFiles": [
+    "Pasted image 20250219205844.png",
+    "img_misc/Pasted image 20250219204737.png",
+    "Incidentes de Ciberseguridade/Splunk/Splunk.md",
+    "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
+    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
+    "Incidentes de Ciberseguridade/Splunk",
     "img_misc/Pasted image 20250219193933.png",
     "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
-    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
     "img_misc/Pasted image 20250219183424.png",
     "img_misc/Pasted image 20250219182617.png",
     "img_misc/Pasted image 20250219182556.png",
@@ -202,16 +207,11 @@
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/HIDS-HIPS, EDRs y SIEMs.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Proteccion de Endpoints.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints",
-    "img_misc/Pasted image 20250213211059.png",
-    "img_misc/Pasted image 20250213211030.png",
     "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
-    "Hacking Ético/Explotacion/Bind y Reverse Shells.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
-    "__Notas finales/Hacking Ético/Trimestre 1/NF - Cheatsheet Hacking Etico - Examen 1.md",
     "__Notas finales/Hacking Ético/Trimestre 1",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
     "Hacking Ético/Explotacion/Untitled",
-    "Normativa/Legislacion para el cumplimiento de la responsabilidad penal",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Seguridad Perimetral/VLANs"
+    "Normativa/Legislacion para el cumplimiento de la responsabilidad penal"
   ]
 }
