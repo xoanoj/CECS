@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f262421eafa6824f",
+        "id": "6c661ba7068b67f4",
         "type": "tabs",
         "children": [
           {
-            "id": "37bb3bdc2b999710",
+            "id": "6828f5edce537e59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
+                "file": "Hacking Ético/Deteccion de vulnerabilidades/Escaneos con Nessus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tarea Splunk"
+              "title": "Escaneos con Nessus"
             }
           }
         ]
@@ -165,12 +165,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "37bb3bdc2b999710",
+  "active": "29bb4168399edb63",
   "lastOpenFiles": [
-    "Pasted image 20250219205844.png",
+    "img_misc/Pasted image 20250220190812.png",
+    "img_misc/Pasted image 20250220190712.png",
+    "img_misc/Pasted image 20250220183103.png",
+    "img_misc/Pasted image 20250220182031.png",
+    "img_misc/Pasted image 20250220181925.png",
+    "Hacking Ético/Deteccion de vulnerabilidades/Deteccion de vulnerabilidades.md",
+    "Hacking Ético/Deteccion de vulnerabilidades/Escaneos con Nessus.md",
+    "Hacking Ético/Deteccion de vulnerabilidades",
+    "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
+    "img_misc/Pasted image 20250219205844.png",
     "img_misc/Pasted image 20250219204737.png",
     "Incidentes de Ciberseguridade/Splunk/Splunk.md",
-    "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
     "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
     "Incidentes de Ciberseguridade/Splunk",
     "img_misc/Pasted image 20250219193933.png",
@@ -179,11 +187,7 @@
     "img_misc/Pasted image 20250219182617.png",
     "img_misc/Pasted image 20250219182556.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
-    "img_misc/Pasted image 20250219170822.png",
-    "img_misc/Pasted image 20250219170510.png",
-    "img_misc/Pasted image 20250219170031.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
-    "img_misc/Pasted image 20250218194258.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas",
     "Hacking Ético/Otras maquinas/HTB - Cap.md",
     "Hacking Ético/Otras maquinas/Maquinas de THM y HTB.md",
@@ -194,7 +198,6 @@
     "Hacking Ético/Hacking Ético.md",
     "Hacking Ético/Flujo de pestañas con Kitty.md",
     "Hacking Ético/Bash/Comandos Bash.md",
-    "img_misc/Pasted image 20250217211326.png",
     "Análise Forense Informático/Analisis de RAM/Analisis de RAM en Windows con Volatility.md",
     "Análise Forense Informático/Analisis de RAM/Analisis de RAM.md",
     "Análise Forense Informático/Analisis de RAM",
@@ -205,13 +208,10 @@
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Malware.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/HIDS-HIPS, EDRs y SIEMs.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Proteccion de Endpoints.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints",
-    "Hacking Ético/Enumeracion de Servicios/Enumeracion SMB-SAMBA.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
     "__Notas finales/Hacking Ético/Trimestre 1",
     "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
-    "Hacking Ético/Explotacion/Untitled",
-    "Normativa/Legislacion para el cumplimiento de la responsabilidad penal"
+    "Hacking Ético/Explotacion/Untitled"
   ]
 }
