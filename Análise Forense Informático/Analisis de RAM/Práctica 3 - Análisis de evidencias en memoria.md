@@ -37,7 +37,7 @@ cat ~/afi/caso1/caso1Volatility.dmp.MD5.txt
 
 El perfil apropiado será **Win7SP1x64**
 
-1. ¿Cuál es el nombre del equipo?
+ >1. ¿Cuál es el nombre del equipo?
 
 Comando:
 
@@ -64,7 +64,7 @@ python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 envars > 
 
 El nombre del equipo es W7BASE
 
-2. El usuario tenía establecida una conexión FTP con un organismo público español. ¿Cuál es?
+>2. El usuario tenía establecida una conexión FTP con un organismo público español. ¿Cuál es?
 
 ``` bash
 python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 netscan > ~/afi/caso1/netscan.txt
@@ -78,7 +78,7 @@ Vemos el segmento:
 
 Mediante Whois vemos que 130.206.13.2 pertenece a la Red Académica y de Investigación Española (RedIRIS)
 
-3. Hay por lo menos un proceso que contiene malware. ¿Cuál es su nombre y su PID? Deberás justificar que está infectado usando comandos de Volatility sobre procesos.
+>3. Hay por lo menos un proceso que contiene malware. ¿Cuál es su nombre y su PID? Deberás justificar que está infectado usando comandos de Volatility sobre procesos.
 
 Pruebo a descubrirlo con:
 
@@ -151,7 +151,7 @@ conecta a ciertos servidores para recibir intrucciones C2 del atacante.
 
 Podemos con bastante seguridad concluír que este proceso (pytcw.exe) es malicioso
 
-4. Hay un proceso infectado que tiene establecida una conexión HTTPS. ¿Cuál es la dirección IP a la que está conectado? Deberás justificar que es un proceso infectado.
+>4. Hay un proceso infectado que tiene establecida una conexión HTTPS. ¿Cuál es la dirección IP a la que está conectado? Deberás justificar que es un proceso infectado.
 
 Vemos el escaneo previamente realizado con netscan y observamos que el proceso malicioso del apartado 3 ha realizado una conexión a 160.153.75.34:443 (Puerto propio de HTTPS).
 
@@ -170,7 +170,7 @@ cat ~/afi/caso1/netscan.txt| grep 443
 
 Justificando que el proceso es malicioso, podemos ver en el apartado 3 que el hash 5fb7a141841eb0899b97912666fef794a23b38bb (generado del volcado de memoria del proceso) es reconocido como Gen:VariantZusy por 2 entidades en VirusTotal.
 
-5. Hay una contraseña de un fichero comprimido escrita en el bloc de notas. ¿Cuál es?
+>5. Hay una contraseña de un fichero comprimido escrita en el bloc de notas. ¿Cuál es?
 
 Busco el PID del proceso y vuelco su memoria:
 
@@ -205,7 +205,7 @@ Gracias a:
 cat ~/afi/caso1/2732_encoded.txt | grep zip
 ```
 
-6. Existe un fichero ZIP accesible en la memoria RAM. ¿Qué animal se encuentra dentro?
+>6. Existe un fichero ZIP accesible en la memoria RAM. ¿Qué animal se encuentra dentro?
 
 Lo encuentro mediante filescan:
 
@@ -238,20 +238,184 @@ Es un Koala:
 >
 >Utiliza Volatility 3 para contestar las siguientes preguntas (1 punto por pregunta):
 
-1. ¿Cuál es el PID del proceso del Microsoft Paint? ¿Cuál es el nombre de su proceso padre?
+>1. ¿Cuál es el PID del proceso del Microsoft Paint? ¿Cuál es el nombre de su proceso padre?
+
+Utilizare pstree:
+
+![[Pasted image 20250224190700.png]]
+
+Pasado a texto:
+
+``` bash
+python vol.py -f ~/evidencias/caso2/Windows11.dmp windows.pstree | grep -C 3 mspaint
+
+**** 7648  100.03524	conhost.exe scan0xad06c45840c0	5	-	1	False	2023-10-11 10:22:13.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\conhost.exe	\??\C:\Windows\system32\conhost.exe 0x4	C:\Windows\system32\conhost.exe
+**** 6516	3524	DumpIt.exe	0xad06c49430c0	7	-	1	False	2023-10-11 10:27:18.000000 UTC	N/A	\Device\HarddiskVolume3\Users\usuario\Desktop\Comae Toolkit- Dumpit\x64\DumpIt.exe	"C:\Users\usuario\Desktop\Comae Toolkit- Dumpit\x64\DumpIt.exe"	C:\Users\usuario\Desktop\Comae Toolkit- Dumpit\x64\DumpIt.exe
+*** 2616	4312	VBoxTray.exe	0xad06c479d080	11	-	1	False	2023-10-11 10:20:01.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\VBoxTray.exe	"C:\Windows\System32\VBoxTray.exe" 	C:\Windows\System32\VBoxTray.exe
+*** 9008	4312	mspaint.exe	0xad06c4f10080	11	-	1	False	2023-10-11 10:20:19.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files\WindowsApps\Microsoft.Paint_11.2304.33.0_x64__8wekyb3d8bbwe\PaintApp\mspaint.exe	"C:\Program Files\WindowsApps\Microsoft.Paint_11.2304.33.0_x64__8wekyb3d8bbwe\PaintApp\mspaint.exe" "C:\Users\usuario\Desktop\plano.png"	C:\Program Files\WindowsApps\Microsoft.Paint_11.2304.33.0_x64__8wekyb3d8bbwe\PaintApp\mspaint.exe
+*** 1112	4312	SecurityHealth	0xad06c3c340c0	1	-	1	False	2023-10-11 10:20:00.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\System32\SecurityHealthSystray.exe	"C:\Windows\System32\SecurityHealthSystray.exe" 	C:\Windows\System32\SecurityHealthSystray.exe
+*** 5180	4312	OneDrive.exe	0xad06c4d970c0	25	-	1	False	2023-10-11 10:20:01.000000 UTC	N/A	\Device\HarddiskVolume3\Users\usuario\AppData\Local\Microsoft\OneDrive\OneDrive.exe	"C:\Users\usuario\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background	C:\Users\usuario\AppData\Local\Microsoft\OneDrive\OneDrive.exe
+*** 5112	4312	msedge.exe	0xad06c4a94080	49	-	1	False	2023-10-11 10:20:01.000000 UTC	N/A	\Device\HarddiskVolume3\Program Files (x86)\Microsoft\Edge\Application\msedge.exe	"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-startup-window --win-session-start /prefetch:5	C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+```
+
+Podemos ver que el PID de mspaint.exe es 9008 y que su PPID es 4312, asi que podemos utilizar:
+
+![[Pasted image 20250224191033.png]]
+
+``` bash
+python vol.py -f ~/evidencias/caso2/Windows11.dmp windows.pstree | grep 4312
+
+** 4312	4232	explorer.exe	0xad06c43ec0c0	68	-	1	False	2023-10-11 10:19:46.000000 UTC	N/A	\Device\HarddiskVolume3\Windows\explorer.exe	C:\Windows\Explorer.EXE	C:\Windows\Explorer.EXE
+```
+
+De este modo descubrimos que el proceso padre de mspaint es Explorer.exe con el PID 4312
+ 
+ > 2. En el equipo existe un usuario llamado andres, ¿cuál es su contraseña de acceso al equipo?
+
+Podemos emplear hashdump para ver la memoria del proceso LSASS.exe:
+
+![[Pasted image 20250224191333.png]]
+
+De donde extraemos como información útil:
+
+``` bash
+python vol.py -f ~/evidencias/caso2/Windows11.dmp windows.hashdump
+
+Volatility 3 Framework 2.21.0
+Progress:  100.00		PDB scanning finished                                
+User	rid	lmhash	nthash
+
+andres	1001	aad3b435b51404eeaad3b435b51404ee	3ec585243c919f4217175e1918e07780
+```
+
+Ahora podemos intentar obtener los valores iniciales para los hashes, por ejemplo con crackstation y el hash NTLM:
+
+![[Pasted image 20250224191458.png]]
+
+De esta forma descubrimos que la contraseña de Andres es abc123.
+
+ >3. En el Escritorio del usuario usuario existe un fichero de texto con las instrucciones para llevar a cabo unas gamberradas. ¿De qué barrio de Ferrol es el cómplice del organizador?
+
+Podria utilizar windows.filescan y filtrar la salida por la ruta Desktop, pero gracias a la salida del apartado 1 ya se de un archivo llamado FasesDoAtaque.txt:
+
+![[Pasted image 20250224191946.png]]
+
+``` bash
+python vol.py -f ~/evidencias/caso2/Windows11.dmp windows.filescan | grep Desktop | grep FasesDoAtaque
+
+0xad06c33a5cd0.0\Users\usuario\Desktop\FasesDoAtaque.v2.zip
+0xad06c33a7da0	\Users\usuario\Desktop\FasesDoAtaque.txt
+```
+
+Podemos leer el fichero mediante dumpfiles y el offset:
+
+![[Pasted image 20250224192447.png]]
+
+![[Pasted image 20250224192428.png]]
+
+``` bash
+python vol.py -f ~/evidencias/caso2/Windows11.dmp windows.dumpfiles --physaddr 0xad06c33a7da0
+
+Volatility 3 Framework 2.21.0
+Progress:  100.00		PDB scanning finished                                
+Cache	FileObject	FileName	Result
 
 
+cat file.0xad06c33a7da0.0xad06c306b020.DataSectionObject.FasesDoAtaque.txt.dat
 
-2. En el equipo existe un usuario llamado andres, ¿cuál es su contraseña de acceso al equipo?
+Organizador: Andrés
+Cómplice: Aprendiz afincado en Caranza.
+
+2)    Primeira feitura: Antes que nada, bootear o día en Ferrol cunha boa taza de café. A cafetería que che indico ten a mellor conexión para ciberlatrocinios de alta velocidade.
+
+3)   Espionaxe pola mañá: Dar unha volta pola RAM da Praza de Vilar de Barrio para escoitar os segredos que se intercambian entre os bits. Non hai mellor fonte de información galega que as ondas dixitais da vila.
+
+4)    Hacking gastronómico: Invadir as receitas cifradas das aboas de Mondoñedo para roubar os trucos dun pulpo á feira 2.0. Coñécese agora como "ciber-pulpo en hexadecimal".
+
+5)    Ataques melódicos: Lanzar virus de música galega aditiva na Rede Galega de Concellos Dixitais. Que todo o mundo acabe bailando a muíñeira do malware mentres os algoritmos tratan de descifrar o ritmo.
+
+6)    Substitución de billetes: Cambiar os billetes de euros polas antigas pesetas galegas usando un algoritmo de cifrado avanzado na Praza do Concello de Ortigueira. A confusión está asegurada entre os comerciantes e os bancos locais.%                                            
+```
+
+El contenido del archivo revela que el cómplice esta afincado en Caranza, Ferrol.
+
+> 4. La última versión del plan, que incluye el último paso a realizar, se encuentra en un fichero ZIP cifrado en el Escritorio del usuario. No es posible encontrar la clave de descifrado en la memoria pero, ¿eres capaz de descifrar el contenido y saber cuál será el último de los pasos que piensan dar?
+
+Similar al apartado anterior, puedo volcar el archivo a mi sistema para crackear la contraseña. Una opción tipica sería utlizar zip2john y john para esta tarea:
+
+Primero vuelco el zip:
+
+![[Pasted image 20250224194249.png]]
+
+En este caso tuve que utilizar --virtaddr para volcarlo
+
+``` bash
+python vol.py -f ~/evidencias/caso2/Windows11.dmp windows.dumpfiles --virtaddr 0xad06c33a5cd0
 
 
+Volatility 3 Framework 2.21.0
+Progress:  100.00		PDB scanning finished                                
+Cache	FileObject	FileName	Result
 
-3. En el Escritorio del usuario usuario existe un fichero de texto con las instrucciones para llevar a cabo unas gamberradas. ¿De qué barrio de Ferrol es el cómplice del organizador?
+DataSectionObject	0xad06c33a5cd0	FasesDoAtaque.v2.zip	Error dumping file
+```
+
+Para el crackeo, dado que estoy usando el repositorio Seclists y no las wordlists defectivas de Kali la dirección de mi diccionario rockyou.txt es:
+/usr/share/wordlists/seclists/Passwords/Leaked-Databases/rockyou.txt
+
+Primero convierto el zip (que he renombrado a FasesDoAtaque.v2.zip) a un formato manejable para john:
+
+![[Pasted image 20250224195422.png]]
+
+Ahora podemos ejecutar john utilizando rockyou como diccionario:
+
+![[Pasted image 20250224195609.png]]
+
+``` bash
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 8 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+abc              (FasesDoAtaque.v2.zip/FasesDoAtaque.v2.txt)
+1g 0:00:00:00 DONE (2025-02-24 19:55) 25.00g/s 2048Kp/s 2048Kc/s 2048KC/s rossoneri..janiece
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+```
+
+Ahora sabemos que la contraseña es abc, se puede comprobar mediante:
+
+``` bash
+unzip -t FasesDoAtaque.v2.zip
+
+Archive:  FasesDoAtaque.v2.zip
+[FasesDoAtaque.v2.zip] FasesDoAtaque.v2.txt password: 
+    testing: FasesDoAtaque.v2.txt     OK
+No errors detected in compressed data of FasesDoAtaque.v2.zip.
+```
+
+Y finalmente leemos el contenido:
+
+``` bash
+unzip FasesDoAtaque.v2.txt
+Archive:  FasesDoAtaque.v2.zip
+[FasesDoAtaque.v2.zip] FasesDoAtaque.v2.txt password: 
+  inflating: FasesDoAtaque.v2.txt    
 
 
+cat FasesDoAtaque.v2.txt
 
-4. La última versión del plan, que incluye el último paso a realizar, se encuentra en un fichero ZIP cifrado en el Escritorio del usuario. No es posible encontrar la clave de descifrado en la memoria pero, ¿eres capaz de descifrar el contenido y saber cuál será el último de los pasos que piensan dar?
+7)    Primeira feitura: Antes que nada, bootear o día en Ferrol cunha boa taza de café. A cafetería que che indico ten a mellor conexión para ciberlatrocinios de alta velocidade.
 
+8)   Espionaxe pola mañá: Dar unha volta pola RAM da Praza de Vilar de Barrio para escoitar os segredos que se intercambian entre os bits. Non hai mellor fonte de información galega que as ondas dixitais da vila.
+
+9)    Hacking gastronómico: Invadir as receitas encriptadas das aboas de Mondoñedo para roubar os trucos dun pulpo á feira 2.0. Coñécese agora como "ciber-pulpo en hexadecimal".
+
+10)    Ataques melódicos: Lanzar virus de música galega aditiva na Rede Galega de Concellos Dixitais. Que todo o mundo acabe bailando a muíñeira do malware mentres os algoritmos tratan de descifrar o ritmo.
+
+11)    Substitución de billetes: Cambiar os billetes de euros polas antigas pesetas galegas usando un algoritmo de cifrado avanzado na Praza do Concello de Ortigueira. A confusión está asegurada entre os comerciantes e os bancos locais.
+
+12) Último toque no Estadio de Riazor. Hacker o sistema multimedia do estadio e substituír o himno oficial do equipo pola muiñeira de Chantada e proxectar nas pantallas do estadio a última entrevista de Gayoso a Lito Panorama no Luar.%  
+```
 
 ## Pistas:
 

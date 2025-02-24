@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Deteccion de vulnerabilidades/Escaneos con Nessus.md",
+                "file": "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Escaneos con Nessus"
+              "title": "Práctica 3 - Análisis de evidencias en memoria"
             }
           }
         ]
@@ -167,25 +167,26 @@
   },
   "active": "29bb4168399edb63",
   "lastOpenFiles": [
-    "img_misc/Pasted image 20250220190812.png",
-    "img_misc/Pasted image 20250220190712.png",
-    "img_misc/Pasted image 20250220183103.png",
-    "img_misc/Pasted image 20250220182031.png",
-    "img_misc/Pasted image 20250220181925.png",
-    "Hacking Ético/Deteccion de vulnerabilidades/Deteccion de vulnerabilidades.md",
+    "img_misc/Pasted image 20250224195609.png",
+    "img_misc/Pasted image 20250224195422.png",
+    "img_misc/Pasted image 20250224194249.png",
+    "img_misc/Pasted image 20250224193221.png",
+    "img_misc/Pasted image 20250224192447.png",
+    "img_misc/Pasted image 20250224192428.png",
+    "img_misc/Pasted image 20250224191946.png",
+    "img_misc/Pasted image 20250224191458.png",
+    "img_misc/Pasted image 20250224191333.png",
+    "img_misc/Pasted image 20250224191033.png",
+    "img_misc/Pasted image 20250224190700.png",
+    "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
+    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
+    "Análise Forense Informático/Analisis de RAM/Analisis de RAM en Windows con Volatility.md",
     "Hacking Ético/Deteccion de vulnerabilidades/Escaneos con Nessus.md",
+    "Hacking Ético/Deteccion de vulnerabilidades/Deteccion de vulnerabilidades.md",
     "Hacking Ético/Deteccion de vulnerabilidades",
     "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
-    "img_misc/Pasted image 20250219205844.png",
-    "img_misc/Pasted image 20250219204737.png",
     "Incidentes de Ciberseguridade/Splunk/Splunk.md",
-    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
     "Incidentes de Ciberseguridade/Splunk",
-    "img_misc/Pasted image 20250219193933.png",
-    "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
-    "img_misc/Pasted image 20250219183424.png",
-    "img_misc/Pasted image 20250219182617.png",
-    "img_misc/Pasted image 20250219182556.png",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas",
@@ -198,7 +199,6 @@
     "Hacking Ético/Hacking Ético.md",
     "Hacking Ético/Flujo de pestañas con Kitty.md",
     "Hacking Ético/Bash/Comandos Bash.md",
-    "Análise Forense Informático/Analisis de RAM/Analisis de RAM en Windows con Volatility.md",
     "Análise Forense Informático/Analisis de RAM/Analisis de RAM.md",
     "Análise Forense Informático/Analisis de RAM",
     "Análise Forense Informático/Gestion de Procesos y memoria en Windows.md",
