@@ -267,6 +267,13 @@ Es un Koala (visualizado en el host):
 >
 >Utiliza Volatility 3 para contestar las siguientes preguntas (1 punto por pregunta):
 
+Verifico la integridad del archivo
+
+``` bash
+shasum -a 256 Windows11.dmp
+a1d84fe21f42cd8073b8630c91494992303b84061b493f91ccf28333cecc7040  Windows11.dmp
+```
+
 >1. ¿Cuál es el PID del proceso del Microsoft Paint? ¿Cuál es el nombre de su proceso padre?
 
 Utilizare pstree:
