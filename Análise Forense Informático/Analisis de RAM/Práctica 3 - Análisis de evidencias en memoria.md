@@ -17,6 +17,12 @@ Práctica de [[Analisis de RAM]]
 
 ## Ejercicios
 
+Creo un contenedor de Kali para tener una instalación limpia y evitar conflictos entre python2 y python3:
+
+``` bash
+docker run -it --name my_kali --hostname kali -v ~/evidencias:/root/afi kalilinux/kali-rolling
+```
+
 ### Caso 1:
 
 >Utiliza Volatility 2 para contestar las siguientes preguntas (1 punto por pregunta):
@@ -39,14 +45,19 @@ El perfil apropiado será **Win7SP1x64**
 
  >1. ¿Cuál es el nombre del equipo?
 
-Comando:
+Utilizo envars para ver las variables de entorno:
+
+![[Pasted image 20250225193207.png]]
+
+Pasado a texto:
 
 ``` bash
 python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 envars > ~/afi/caso1/envars.txt
 ```
 
 ``` bash
-❯ cat ~/afi/caso1/envars.txt | grep NAME
+cat ~/afi/caso1/envars.txt | grep NAME
+
      320 csrss.exe            0x0000000000411320 USERNAME                       SYSTEM
      368 wininit.exe          0x00000000002e9b20 COMPUTERNAME                   W7BASE
      368 wininit.exe          0x00000000002e9b20 USERNAME                       SYSTEM
@@ -66,6 +77,10 @@ El nombre del equipo es W7BASE
 
 >2. El usuario tenía establecida una conexión FTP con un organismo público español. ¿Cuál es?
 
+![[Pasted image 20250225193326.png]]
+
+Mediante el comando:
+
 ``` bash
 python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 netscan > ~/afi/caso1/netscan.txt
 ```
@@ -76,7 +91,9 @@ Vemos el segmento:
 0x5b034ae0         TCPv4    10.0.2.15:49171                130.206.13.2:21      ESTABLISHED      2424     ftp.exe 
 ```
 
-Mediante Whois vemos que 130.206.13.2 pertenece a la Red Académica y de Investigación Española (RedIRIS)
+Mediante Curl vemos que 130.206.13.2 pertenece a la Red Académica y de Investigación Española (RedIRIS):
+
+![[Pasted image 20250225193722.png]]
 
 >3. Hay por lo menos un proceso que contiene malware. ¿Cuál es su nombre y su PID? Deberás justificar que está infectado usando comandos de Volatility sobre procesos.
 
@@ -99,23 +116,25 @@ Encontramos mencionados muchos procesos extraños:
 
 Dumpeo por ejemplo la memoria de explorer.exe y AsustoMucho.ex, despues genero hashes y los valido con VirusTotal
 
+El comando para volcar la memoria de los procesos sera:
+
 ``` bash
-python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 memdump -p 1004 -D ~/afi/caso1
+python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 memdump -p [PID] -D ~/afi/caso1
+```
 
-Volatility Foundation Volatility Framework 2.6.1
-************************************************************************
-Writing AsustoMucho.ex [  1004] to 1004.dmp
+En este caso:
 
+![[Pasted image 20250225194033.png]]
+
+Pasando los hashes a texto:
+
+``` bash
 shasum -a 1 ~/afi/caso1/1004.dmp
 
 04e7aa2f6e370a9051ed52f022acfc5acd4242d1  /home/kali/afi/caso1/1004.dmp
 
-python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 memdump -p 896 -D ~/afi/caso1
-Volatility Foundation Volatility Framework 2.6.1
-************************************************************************
-Writing explorer.exe [   896] to 896.dmp
- 
 shasum -a 1 ~/afi/caso1/896.dmp
+
 61e29f5c2a9b7c7f9989f3f4f678b24d4ce360d9  /home/kali/afi/caso1/896.dmp
 ```
 
@@ -131,13 +150,11 @@ En el segundo:
 
 Otro proceso que llama la atención particularmente es pyctw.exe, repetimos el proceso:
 
+![[Pasted image 20250225194206.png]]
+
+El hash en texto:
+
 ``` bash
-python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 memdump -p 3996 -D ~/afi/caso1
-
-Volatility Foundation Volatility Framework 2.6.1
-************************************************************************
-Writing pytcw.exe [  3996] to 3996.dmp
-
 shasum -a 1 ~/afi/caso1/3996.dmp
 5fb7a141841eb0899b97912666fef794a23b38bb  /home/kali/afi/caso1/3996.dmp
 ```
@@ -154,6 +171,10 @@ Podemos con bastante seguridad concluír que este proceso (pytcw.exe) es malicio
 >4. Hay un proceso infectado que tiene establecida una conexión HTTPS. ¿Cuál es la dirección IP a la que está conectado? Deberás justificar que es un proceso infectado.
 
 Vemos el escaneo previamente realizado con netscan y observamos que el proceso malicioso del apartado 3 ha realizado una conexión a 160.153.75.34:443 (Puerto propio de HTTPS).
+
+![[Pasted image 20250225194415.png]]
+
+En formato texto:
 
 ``` bash
 cat ~/afi/caso1/netscan.txt| grep 443
@@ -175,7 +196,7 @@ Justificando que el proceso es malicioso, podemos ver en el apartado 3 que el ha
 Busco el PID del proceso y vuelco su memoria:
 
 ``` bash
-❯ python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 pstree | grep notepad
+python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 pstree | grep notepad
 
 Volatility Foundation Volatility Framework 2.6.1
 . 0xfffffa80022b2b30:notepad.exe                     2732    896      4    291 2020-12-07 18:20:23 UTC+0000
@@ -192,6 +213,14 @@ Tras buscar en los strings legibles y no encontrar nada decido extraer solo los 
 strings -e l ~/afi/caso1/2732.dmp > ~/afi/caso1/2732_encoded.txt
 ```
 
+Imagen del proceso:
+
+![[Pasted image 20250225194624.png]]
+
+Analizando el fichero generado:
+
+![[Pasted image 20250225194759.png]]
+
 En la linea 2962 podemos ver:
 
 ``` bash
@@ -202,7 +231,7 @@ En la linea 2962 podemos ver:
 Gracias a:
 
 ``` bash
-cat ~/afi/caso1/2732_encoded.txt | grep zip
+cat ~/afi/caso1/2732_encoded.txt | grep -C 3 zip
 ```
 
 >6. Existe un fichero ZIP accesible en la memoria RAM. ¿Qué animal se encuentra dentro?
@@ -226,9 +255,9 @@ Puedo dumpear el archivo mediante:
 python2 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 dumpfiles -Q 0x000000007f52e070 --name fichero.zip -D ~/afi/caso1/
 ```
 
-Es un Koala:
+Es un Koala (visualizado en el host):
 
-![[Pasted image 20250219193933.png]]
+![[Pasted image 20250225195058.png]]
 
 ### Caso 2
 
