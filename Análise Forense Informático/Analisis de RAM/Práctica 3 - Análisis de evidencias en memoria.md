@@ -148,6 +148,19 @@ En el segundo:
 
 ![[Pasted image 20250219182617.png]]
 
+Mediante cmdline podemos ver mas especificaciones del proceso de PID 1004 (AsustoMucho.ex).
+
+``` bash
+python2.7 vol.py -f ~/afi/caso1/caso1Volatility.dmp --profile=Win7SP1x64 cmdline -p 1004 
+
+Volatility Foundation Volatility Framework 2.6.1
+************************************************************************
+AsustoMucho.ex pid: 1004
+Command line : "C:\ProgramData\{f1da652f-fe14-d64d-f1da-a652ffe194bf}\AsustoMucho.exe" --startup=1
+```
+
+--startup=1 es un indicativo de persistencia, con lo que podemos concluír con bastante seguridad que AsustoMucho.ex es un proceso malicioso
+
 Otro proceso que llama la atención particularmente es pyctw.exe, repetimos el proceso:
 
 ![[Pasted image 20250225194206.png]]

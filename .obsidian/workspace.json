@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6c661ba7068b67f4",
+        "id": "f5e39c0e6344f236",
         "type": "tabs",
         "children": [
           {
-            "id": "6828f5edce537e59",
+            "id": "7e182ae93ca51015",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
+                "file": "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Introduccion al Analisis Forense de dispositivos móviles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Práctica 3 - Análisis de evidencias en memoria"
+              "title": "Introduccion al Analisis Forense de dispositivos móviles"
             }
           }
         ]
@@ -165,8 +165,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bb4168399edb63",
+  "active": "7e182ae93ca51015",
   "lastOpenFiles": [
+    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Analisis Forense de Dispositivos Moviles.md",
+    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Introduccion al Analisis Forense de dispositivos móviles.md",
+    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
+    "Hacking Ético/Explotacion/Meterpreter.md",
+    "Hacking Ético/Hacking Ético.md",
+    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
+    "Hacking Ético/Postexplotacion/Pivoting.md",
+    "Hacking Ético/Postexplotacion/Postexplotacion.md",
+    "Hacking Ético/Postexplotacion",
+    "Hacking Ético/Explotacion/Payload de Metasploit.md",
+    "Análise Forense Informático/Analisis de RAM/Analisis de RAM.md",
     "img_misc/Pasted image 20250225195058.png",
     "img_misc/Pasted image 20250225194759.png",
     "img_misc/Pasted image 20250225194624.png",
@@ -177,9 +188,7 @@
     "img_misc/Pasted image 20250225193326.png",
     "img_misc/Pasted image 20250225193207.png",
     "img_misc/Pasted image 20250224195609.png",
-    "img_misc/Pasted image 20250224195422.png",
     "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
-    "Análise Forense Informático/Analisis de RAM/Práctica 3 - Análisis de evidencias en memoria.md",
     "Análise Forense Informático/Analisis de RAM/Analisis de RAM en Windows con Volatility.md",
     "Hacking Ético/Deteccion de vulnerabilidades/Escaneos con Nessus.md",
     "Hacking Ético/Deteccion de vulnerabilidades/Deteccion de vulnerabilidades.md",
@@ -196,22 +205,13 @@
     "Hacking Ético/Otras maquinas",
     "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
     "Hacking Ético/Recopilación de información/Info Gathering.md",
-    "Hacking Ético/Hacking Ético.md",
     "Hacking Ético/Flujo de pestañas con Kitty.md",
     "Hacking Ético/Bash/Comandos Bash.md",
-    "Análise Forense Informático/Analisis de RAM/Analisis de RAM.md",
     "Análise Forense Informático/Analisis de RAM",
     "Análise Forense Informático/Gestion de Procesos y memoria en Windows.md",
     "Análise Forense Informático/Analise Forense.md",
-    "Análise Forense Informático/Analisis de evidencias con Autopsy/Práctica 2/Practica 2 - Analisis de evidencias en disco.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Monitorizacion de procesos.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Malware.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/HIDS-HIPS, EDRs y SIEMs.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
-    "__Notas finales/Hacking Ético/Trimestre 1",
-    "Bastionado de Redes e Sistemas/Diseño de Redes de Computadoras Seguras/Practicas",
-    "Hacking Ético/Explotacion/Untitled"
+    "__Notas finales/Hacking Ético/Trimestre 1"
   ]
 }
