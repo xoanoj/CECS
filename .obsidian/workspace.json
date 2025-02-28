@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Introduccion al Analisis Forense de dispositivos móviles.md",
+                "file": "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/DLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduccion al Analisis Forense de dispositivos móviles"
+              "title": "DLP"
             }
           }
         ]
@@ -167,8 +167,20 @@
   },
   "active": "7e182ae93ca51015",
   "lastOpenFiles": [
-    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Analisis Forense de Dispositivos Moviles.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/DPI.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/DLP.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Malware.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Proteccion de Endpoints.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Monitorizacion de procesos.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/HIDS-HIPS, EDRs y SIEMs.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
+    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
+    "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
+    "img_misc/Pasted image 20250228170829.png",
+    "img_misc/Pasted image 20250228170808.png",
     "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Introduccion al Analisis Forense de dispositivos móviles.md",
+    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Analisis Forense de Dispositivos Moviles.md",
     "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
     "Hacking Ético/Explotacion/Meterpreter.md",
     "Hacking Ético/Hacking Ético.md",
@@ -186,30 +198,18 @@
     "img_misc/Pasted image 20250225194033.png",
     "img_misc/Pasted image 20250225193722.png",
     "img_misc/Pasted image 20250225193326.png",
-    "img_misc/Pasted image 20250225193207.png",
-    "img_misc/Pasted image 20250224195609.png",
     "Análise Forense Informático/Analisis de RAM/Practica - Analisis de evidencias en Memoria.md",
     "Análise Forense Informático/Analisis de RAM/Analisis de RAM en Windows con Volatility.md",
     "Hacking Ético/Deteccion de vulnerabilidades/Escaneos con Nessus.md",
     "Hacking Ético/Deteccion de vulnerabilidades/Deteccion de vulnerabilidades.md",
     "Hacking Ético/Deteccion de vulnerabilidades",
-    "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
     "Incidentes de Ciberseguridade/Splunk/Splunk.md",
     "Incidentes de Ciberseguridade/Splunk",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
-    "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas",
     "Hacking Ético/Otras maquinas/HTB - Cap.md",
     "Hacking Ético/Otras maquinas/Maquinas de THM y HTB.md",
-    "Hacking Ético/Enumeracion de Servicios/Maquinas/Maquina - Ciber1.md",
     "Hacking Ético/Otras maquinas",
-    "Hacking Ético/Recopilación de información/Metodologías de reconocimiento activo.md",
-    "Hacking Ético/Recopilación de información/Info Gathering.md",
-    "Hacking Ético/Flujo de pestañas con Kitty.md",
-    "Hacking Ético/Bash/Comandos Bash.md",
     "Análise Forense Informático/Analisis de RAM",
-    "Análise Forense Informático/Gestion de Procesos y memoria en Windows.md",
-    "Análise Forense Informático/Analise Forense.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas",
     "__Notas finales/Hacking Ético/Trimestre 1"

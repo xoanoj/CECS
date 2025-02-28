@@ -64,3 +64,14 @@ kIagerfield
 
 Frothly_marketing_campaign_Q317-old.pptx.crypt
 
+...
+
+> 27. Para mantener la persistencia en la red Frothly, Taedonggang APT configuró varias tareas programadas para volver a su servidor C2. ¿Qué página web es la más contactada por estas tareas programadas?
+
+Es:
+
+![[Pasted image 20250228170829.png]]
+
+![[Pasted image 20250228170808.png]]
+
+45.77.65.211
