@@ -1,6 +1,6 @@
 Es un [[Payload de Metasploit]]
 
-Es un payload con comandos incluidos, tipicamente de post-explotacion.
+Es un payload con comandos incluidos, tipicamente de [[Postexplotacion]].
 
 Para mejorar una sesion shell a meterpreter, una opcion es:
 
