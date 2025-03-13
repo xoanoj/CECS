@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Postexplotacion/Persistencia.md",
+                "file": "Hacking Ético/Explotacion/Maquina - Eternal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Persistencia"
+              "title": "Maquina - Eternal"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "aa43ea56122d348f",
   "lastOpenFiles": [
-    "Hacking Ético/Explotacion/Meterpreter.md",
     "Hacking Ético/Postexplotacion/Persistencia.md",
+    "Hacking Ético/Explotacion/Payload de Metasploit.md",
+    "Hacking Ético/Explotacion/Meterpreter.md",
+    "Hacking Ético/Explotacion/Maquina - Eternal.md",
     "Hacking Ético/Postexplotacion/Pivoting.md",
     "Hacking Ético/Postexplotacion/Postexplotacion.md",
     "Normativa/Legislacion y jurisprudencia en materia de proteccion de datos/Jurisprudencia en materia de proteccion de datos.md",
@@ -192,10 +194,8 @@
     "__Notas finales/Análise Forense Informático/Trimestre 1/NF - Presentacion y Defensa del informe.md",
     "__Notas finales/Hacking Ético/Trimestre 1/NF - Cheatsheet Hacking Etico - Examen 1.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Proteccion de Endpoints/Proteccion de Endpoints.md",
-    "Incidentes de Ciberseguridade/Splunk/Tarea Splunk.md",
     "img_misc/Pasted image 20250228170829.png",
     "img_misc/Pasted image 20250228170808.png",
-    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Introduccion al Analisis Forense de dispositivos móviles.md",
     "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
     "Hacking Ético/Postexplotacion",
     "img_misc/Pasted image 20250225195058.png",
