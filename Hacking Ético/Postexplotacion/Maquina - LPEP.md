@@ -414,3 +414,7 @@ Otro ejemplo mucho mas simple de contraseñas filtradas seria ver el historial, 
 ```
 
 Que ademas, el historial se escribe en .bash_history en home/user cuando se cierra sesion. Esto puede ser especialmente problematico si la empresa tiene SIEM porque los tecnicos podran ver la contraseña.
+
+Otra opcion seria ver si exiten claves SSH expuestas para acceder al sistema, ademas, si se consigue, aunque el usuario cambie la contraseña seguimos teniendo persistencia ya que la clave privada no cambia.
+
+Otro ejemplo mas seria el sudo shell scape. Como por ejemplo en vim, less, more ... O cualquier binario que tenga salidas a comandos, podemos ver muchos ejemplos en GTFOBins. Si por ejemplo podemos usar cat como sudo podriamos ver /etc/shadow, pero habria que crackear contraseñas, pero sin embargo podemos por ejemplo leer claves SSH de admins.
