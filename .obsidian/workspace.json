@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d909e0b59755dc42",
+        "id": "94e89c580f161bd9",
         "type": "tabs",
         "children": [
           {
-            "id": "283dc6df6600d05e",
+            "id": "89f1d5a76c922260",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Postexplotacion/Escalada de Privilegios.md",
+                "file": "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Práctica 5 - Análisis de evidencias en Android.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Escalada de Privilegios"
+              "title": "Práctica 5 - Análisis de evidencias en Android"
             }
           }
         ]
@@ -165,10 +165,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "283dc6df6600d05e",
+  "active": "89f1d5a76c922260",
   "lastOpenFiles": [
-    "Hacking Ético/Postexplotacion/Maquina - LPEP.md",
+    "Normativa/Pasted image 20250320202437.png",
+    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles/Práctica 5 - Análisis de evidencias en Android.md",
+    "img_misc/Pasted image 20250320202259.png",
+    "img_misc/Pasted image 20250320202237.png",
+    "img_misc/Pasted image 20250320201731.png",
+    "img_misc/Pasted image 20250320201522.png",
+    "img_misc/Pasted image 20250320201240.png",
+    "img_misc/Pasted image 20250320201115.png",
+    "img_misc/Pasted image 20250320200318.png",
+    "img_misc/Pasted image 20250320200114.png",
     "Hacking Ético/Postexplotacion/Escalada de Privilegios.md",
+    "Hacking Ético/Postexplotacion/Maquina - LPEP.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
@@ -192,20 +202,9 @@
     "Normativa/Bases do cumplimento normativo/Bases do Cumplimento Normativo.md",
     "Normativa/Legislacion y jurisprudencia en materia de proteccion de datos",
     "Normativa/Bases do cumplimento normativo/Compliance.md",
-    "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Legislacion para el cumplimiento de la responsabilidad penal.md",
-    "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Delitos.md",
     "img_misc/Pasted image 20250228170829.png",
-    "img_misc/Pasted image 20250228170808.png",
     "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
     "Hacking Ético/Postexplotacion",
-    "img_misc/Pasted image 20250225195058.png",
-    "img_misc/Pasted image 20250225194759.png",
-    "img_misc/Pasted image 20250225194624.png",
-    "img_misc/Pasted image 20250225194415.png",
-    "img_misc/Pasted image 20250225194206.png",
-    "img_misc/Pasted image 20250225194033.png",
-    "img_misc/Pasted image 20250225193722.png",
-    "img_misc/Pasted image 20250225193326.png",
     "Hacking Ético/Deteccion de vulnerabilidades",
     "Incidentes de Ciberseguridade/Splunk",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas",
