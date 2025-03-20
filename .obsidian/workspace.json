@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hacking Ético/Postexplotacion/Maquina - LPEP.md",
+                "file": "Hacking Ético/Postexplotacion/Escalada de Privilegios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Maquina - LPEP"
+              "title": "Escalada de Privilegios"
             }
           }
         ]
@@ -165,9 +165,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29bb4168399edb63",
+  "active": "283dc6df6600d05e",
   "lastOpenFiles": [
     "Hacking Ético/Postexplotacion/Maquina - LPEP.md",
+    "Hacking Ético/Postexplotacion/Escalada de Privilegios.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Wordpress MITM.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Practicas/Practica - Escaneo Wordpress.md",
     "Bastionado de Redes e Sistemas/Configuracion de dispositivos y sistemas/Configuracion de dispositivos y sistemas.md",
@@ -193,7 +194,6 @@
     "Normativa/Bases do cumplimento normativo/Compliance.md",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Legislacion para el cumplimiento de la responsabilidad penal.md",
     "Normativa/Legislacion para el cumplimiento de la responsabilidad penal/Delitos.md",
-    "Análise Forense Informático/Toma de evidencias/Modos de adquisición.md",
     "img_misc/Pasted image 20250228170829.png",
     "img_misc/Pasted image 20250228170808.png",
     "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
