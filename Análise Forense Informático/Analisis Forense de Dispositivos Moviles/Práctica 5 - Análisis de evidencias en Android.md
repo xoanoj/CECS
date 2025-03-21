@@ -89,26 +89,76 @@ Si contrastamos el JID con los contactos, podemos ver que es Mathew:
 
 >6. Mulero sacó dos fotos con la cámara del móvil en su fiesta de cumpleaños en la playa. ¿Podrías decir en qué playa se celebró la fiesta?
 
+Busacmos imagenes compartidas en la carpeta de evidencia de Mulero. Localizo la imagen en el sistema de archivos:
 
+![[Pasted image 20250321165008.png]]
+
+Y la analizo con exiftool:
+
+![[Pasted image 20250321165115.png]]
+
+Si buscamos las coordenadas en maps: 43.503611, -8.319444
+
+Se trata de la plaia en O Outeiro, Ferrol 
+
+![[Pasted image 20250321165352.png]]
 
 >7. Mulero estaba interesado en invertir en criptomonedas y visitó algunas páginas web con información al respecto. ¿Qué páginas visitó?
 
+En las cookies de firefox podemos ver multiples que pertenecen a una academia de trading llamada novatostradingclub.com:
 
+![[Pasted image 20250321170048.png]]
+
+En la ruta /home/kali/AFDM/ALEAPP_Reports_2025-03-20_Thursday_200709/
 
 ---
 ### Matón
 
 >8. El día 7 de octubre de 2023, Matón intercambió varios mensajes con Capo por Telegram (Usuario en Telegram: Ernesto Capote), sobre un chivatazo recibido. En el tercer mensaje del día Capo le envía una localización de una calle a las afueras de Ourense. ¿Eres capaz de recuperar la localización de los mensajes de Telegram y decir qué calle es?
 
+Podemos ver los datos de telegram en /home/kali/AFDM/Maton/APK Downgrade/org.telegram.messenger/apps/org.telegram.messenger/files/cache4.db y voy a la table messages_v2. En el apartado data podemos ver los mensajes:
+
+![[Pasted image 20250321172135.png]]
+
+Con chatGPT extraigo el link facilmente:
+
+![[Pasted image 20250321172208.png]]
+
+Se trata de: https://maps.app.goo.gl/GTBT9atyWAoH8UJ19
+
+![[Pasted image 20250321172250.png]]
+
+Se trata de Rúa do Castelo Ramido, Ourense.
 
 
 >9. En los últimos mensajes de Telegram intercambiados entre Matón y Capo se podría deducir quién mató a Mulero. ¿Quién fue y cuándo lo hizo?
 
+Podemos ver una serie de mensajes:
 
+![[Pasted image 20250321173413.png]]
+![[Pasted image 20250321173430.png]]
+![[Pasted image 20250321173544.png]]
+![[Pasted image 20250321173554.png]]
+
+Podemos entender que es Matón quien realizo el asesinato y que fue el 2023-10-16 (ya que menciona que fue "ayer")
 
 >10. Ahora que sabemos la fecha del asesinato, mira en las fotos sacadas con el móvil de Matón ese día a ver si nos da una pista del sitio donde se produjo. ¿Puedes indicar la localización exacta?
 
+Veamos las imagenes de la evidencia de Maton:
 
+![[Pasted image 20250321173905.png]]
+
+Muchas de las imagenes tienen la fecha del asesinato. Utilicemos exiftool con una de ellas para ver si encontramos las coordenadas:
+
+![[Pasted image 20250321174020.png]]
+
+Se trata de: 43.505950, -8.205110
+
+Viendolo en earth:
+
+![[Pasted image 20250321174231.png]]
+
+Se trata de la Rúa Petrolero Arteaga, en A Pallota, Ferrol. En frente del Centro Comercial "Parque Ferrol"
 
 ---
 ## Herramientas
