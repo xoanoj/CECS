@@ -1,4 +1,4 @@
-Practica de [[Explotación]]
+ncat Practica de [[Explotación]]
 
 netcat, llamado mediante el comando nc, es un conjunto de implementaciones, una de las mas modernas por ejemplo es ncat. Las implementaciones pueden establecer comunicaciones entre ellas sin problema.
 
