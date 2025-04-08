@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Finding the path of least resistance with caliper.py.md",
+                "file": "Hacking Ético/Postexplotacion/Postexplotacion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finding the path of least resistance with caliper.py"
+              "title": "Postexplotacion"
             }
           }
         ]
@@ -165,9 +165,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7711ec242407ed0b",
+  "active": "29bb4168399edb63",
   "lastOpenFiles": [
+    "img_misc/Pasted image 20250408204349.png",
+    "img_misc/Pasted image 20250408202929.png",
+    "img_misc/Pasted image 20250408194418.png",
     "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Finding the path of least resistance with caliper.py.md",
+    "Hacking Ético/Postexplotacion/Untitled.md",
     "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Caliper Images",
     "Análise Forense Informático/Analisis Forense en Linux/Analisis de Memoria en Linux.md",
     "img_misc/Pasted image 20250403201113.png",
@@ -196,15 +200,12 @@
     "Análise Forense Informático/Analisis Forense en Linux/Historial de comandos y acceso a ficheros.md",
     "Análise Forense Informático/Analisis Forense en Linux/Backdoors.md",
     "img_misc/Pasted image 20250331213720.png",
-    "img_misc/Pasted image 20250331213644.png",
-    "img_misc/Pasted image 20250331213507.png",
     "Análise Forense Informático/Analisis Forense en Linux",
     "Bastionado de Redes e Sistemas/Docker/Volúmenes y Networks.md",
     "Bastionado de Redes e Sistemas/Docker/Básicas de Docker.md",
     "Bastionado de Redes e Sistemas/Configuracion de los sistemas informaticos/Cambiar password de root desde recovery mode de GRUB.md",
     "Bastionado de Redes e Sistemas/Configuracion de los sistemas informaticos/Configuracion de los sistemas informaticos.md",
     "Bastionado de Redes e Sistemas/Configuracion de los sistemas informaticos/Contexto de Seguridad en Windows.md",
-    "Hacking Ético/Postexplotacion/Maquina - LPEP.md",
     "Bastionado de Redes e Sistemas/Configuracion de los sistemas informaticos",
     "Normativa/Legislacion y jurisprudencia en materia de proteccion de datos",
     "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
