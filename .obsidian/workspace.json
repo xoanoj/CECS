@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Tarea Splunk.md",
+                "file": "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Benchmarking de WAFs con Caliper.py.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tarea Splunk"
+              "title": "Benchmarking de WAFs con Caliper.py"
             }
           }
         ]
@@ -167,9 +167,11 @@
   },
   "active": "27cbcfe15f4d1a62",
   "lastOpenFiles": [
-    "Pasted image 20250423212124.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423202953.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Benchmarking de WAFs con Caliper.py.md",
+    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423212124.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/NF - Bastionado de Redes e Sistemas.md",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Tarea Splunk.md",
+    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423202953.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423205220.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423204058.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423203444.png",
@@ -180,9 +182,7 @@
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423195917.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Untitled.md",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk",
-    "Pasted image 20250423195329.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk",
-    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Finding the path of least resistance with caliper.py.md",
     "Hacking Ético/Hacking Web/Máquina - DVWA.md",
     "Hacking Ético/Hacking Web/Hacking Web.md",
     "Hacking Ético/Hacking Web",
@@ -207,7 +207,6 @@
     "Hacking Ético/Explotacion/Maquina - Noob.md",
     "Análise Forense Informático/Analisis Forense en Linux/Montaje de imagenes en Linux.md",
     "Análise Forense Informático/Analisis Forense en Linux/Historial de comandos y acceso a ficheros.md",
-    "Análise Forense Informático/Analisis Forense en Linux/Backdoors.md",
     "Análise Forense Informático/Analisis Forense en Linux",
     "Bastionado de Redes e Sistemas/Configuracion de los sistemas informaticos",
     "Normativa/Legislacion y jurisprudencia en materia de proteccion de datos",
