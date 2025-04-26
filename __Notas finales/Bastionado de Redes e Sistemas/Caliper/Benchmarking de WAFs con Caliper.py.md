@@ -62,3 +62,146 @@ chmod +x install.sh && ./install.sh # Instalación de dependencias
 ```
 
 Los usuarios de Fedora o de cualquier otra distribución de Linux que no utilice los gestores APT o PACMAN deberán instalar las dependencias a través de PIP.
+
+---
+
+## Preparación del Entorno de Pruebas
+
+Para la demostración de concepto de la herramienta, desplegaré dos laboratorios basados en **Docker**, disponibles en el siguiente repositorio:
+
+- [https://github.com/XoanOuteiro/WAF_Labs](https://github.com/XoanOuteiro/WAF_Labs)
+
+
+Utilizaremos específicamente:
+
+- **Laboratorio "XSS"**: para evidenciar el funcionamiento en **modo evaluación**.
+
+- **Laboratorio "DATAI"**: para ilustrar el **modo de vectorización**, en particular el módulo JDI.
+
+### Puesta en marcha del laboratorio XSS
+
+Ejecuta los siguientes comandos:
+
+``` bash
+git clone https://github.com/XoanOuteiro/WAF_Labs # Clonado del repositorio
+cd ./WAF_Labs/XSS # Entrada al directorio de trabajo
+make build && make run # Inicio del laboratorio
+```
+
+Para detener y limpiar el escenario:
+
+``` bash 
+make clean
+```
+
+De forma análoga, para desplegar el laboratorio DATAI:
+
+``` bash
+git clone https://github.com/XoanOuteiro/WAF_Labs # Clonado del repositorio
+cd ./WAF_Labs/DATAI # Entrada al directorio de trabajo
+make up # Inicio del laboratorio
+```
+
+Y para eliminar el laboratorio:
+
+``` bash
+make down
+```
+
+---
+
+## PoC #1 - Descubriendo Payloads de XSS Válidos en WAFs Basados en RegEx
+
+![[xss_setup.png]]
+
+En la imagen podemos observar la estructura básica del laboratorio:
+
+- Un proxy NGINX encargado del filtrado por RegEx de las peticiones (127.0.0.1:80).
+- Una aplicación web escrita en Flask, vulnerable a HTMLi y XSS (127.0.0.1:5000).
+
+Accederemos a la web a través de `http://127.0.0.1`, lo que dirige nuestras peticiones al proxy NGINX por defecto.
+
+![[initial_web_xss.png]]
+
+La web es sencilla y contiene un parámetro oculto, el cual típicamente se descubriría mediante fuzzing; sin embargo, en este caso omitimos ese paso. El parámetro es `input` y refleja el contenido de la siguiente manera::
+
+![[reflection_xss_test.png]]
+
+Probamos a ejecutar un payload clásico de XSS para verificar si el sistema lo ejecuta:
+
+![[forbidden.png]]
+
+Como podemos observar, NGINX está bloqueando las peticiones que se asemejan a ataques XSS típicos.
+
+Existen múltiples herramientas para realizar fuzzing de XSS. En este caso, **Caliper** incluye el módulo `EVAL`, que viene con un diccionario de sintaxis HTML para facilitar esta tarea dentro de la aplicación. A continuación, vemos el menú de ayuda del modo evaluación, donde podemos observar cómo estructurar nuestro comando:
+
+![[EVAL_HELP_MENU.png]]
+
+Los argumentos del módulo de evaluación son bastante sencillos:
+
+- `-u/--url`: Especifica la URL objetivo.
+
+- `-p/--parameter`: Indica el parámetro de la URL que se evaluará.
+
+- `-st/--syntax-type`: Define el diccionario a utilizar.
+
+Entonces un comando para este caso concreto seria:
+
+``` bash
+python3 caliper.py EVAL --url "http://127.0.0.1?input=test" --parameter input --syntax-type HTML
+```
+
+La ejecución:
+
+![[eval_run.mp4]]
+
+**Nota:** La velocidad está limitada artificialmente a 10 peticiones por segundo. Si se elimina esta restricción, la aplicación podría realizar entre 100 y 800 peticiones por segundo.
+
+Los resultados se agrupan por código de respuesta. Tres payloads han logrado evadir el firewall:
+
+``` bash
+[!] RESULT -> Response Code 200:
+<img src=x onerror=eval(atob('YWxlcnQoMSk=')), <svg/onload=alert(1)//, " autofocus onfocus=alert(1)
+```
+
+Aunque no podemos asegurar que estos payloads funcionen, sabemos con certeza que el firewall no los bloquea. Al probarlos, observamos que el segundo payload ejecuta un script válido, demostrando las vulnerabilidades HTMLi y RXSS en la web:
+
+![[RXSS.png]]
+
+Finalmente podemos ver como funciona el filtro RegEx de NGINX:
+
+``` bash
+<script.*?>.*?</script>
+<img.*?onerror=.*?>
+```
+
+Este filtro es extremadamente simple y bloquea dos de los tipos de payloads más comunes. En nuestro caso, el payload `<svg/onload=alert(1)//` logró evadir el filtro, ya que no utiliza etiquetas de tipo `script` ni `img`, además de no cerrar la etiqueta de manera convencional, lo que impediría su detección por un WAF con un filtrado insuficiente.
+
+---
+
+## PoC #2 - Descubriendo los Límites de un WAF
+
+El modo Evaluación de Caliper es extremadamente sencillo y está diseñado para realizar pruebas rápidas sobre un WAF en el que se esté trabajando. Esta funcionalidad es básica, ya que se limita al uso del método HTTP GET para probar diferentes payloads.
+
+Sin embargo, el objetivo de Caliper no es simplemente probar qué payloads funcionan, sino identificar posibles fallos en la configuración de un WAF. Para ello, se utiliza el **modo VEC** (Vectorización), que se centra en modificar el vector de ataque mediante distintas técnicas de evasión.
+
+### Enfoque del PoC
+
+En este caso, no utilizaremos múltiples payloads, sino que, a partir de un único payload y una petición HTTP en texto plano, intentaremos descubrir cómo modificar dicha petición para que el WAF permita que sea interpretada correctamente por la aplicación web.
+
+Para ilustrar este concepto, utilizaremos el **laboratorio DATAI**, el cual simula una situación relativamente realista:
+
+> Estamos ante un panel de control para administradores, en el que se realiza una petición con un **ID de usuario** y se recibe en respuesta información relacionada con ese usuario.
+> 
+> Dado que los desarrolladores son conscientes de la vulnerabilidad **SQLi** (inyección de SQL), implementaron una protección utilizando un filtro RegEx para bloquear las peticiones que contengan sintaxis SQL. Sin embargo, este enfoque es costoso en términos de recursos, ya que el filtro debe analizar el paquete completo para detectar patrones de SQL.
+> 
+> Los desarrolladores, para mitigar este coste, decidieron aplicar una estrategia: **ignorar la comparación de RegEx en peticiones que superen un tamaño específico**, determinado por un umbral X cercano a los 10 KB. Este tamaño no es conocido por un atacante, pero crea una oportunidad para evadir el filtro.
+
+### Técnica de Evasión: Junk Data Injection (JDI)
+
+Para atacar esta aplicación, utilizaremos la técnica conocida como **Junk Data Injection (JDI)**, que consiste en inyectar grandes cantidades de "datos basura" (comentarios, por ejemplo) en el cuerpo de la petición HTTP con el objetivo de aumentar su tamaño. Esta técnica puede tener uno de dos comportamientos en un WAF vulnerable a ella:
+
+1. **Ignorar peticiones que superen el umbral de tamaño X**: Este es el comportamiento que buscamos en este caso, ya que permite que la solicitud pase sin ser evaluada por el filtro RegEx.
+
+2. **Evaluar solo peticiones hasta el tamaño X**: Este comportamiento es más común en soluciones de Firewall como servicio (FaaS), donde solo se analiza el tráfico hasta un cierto límite.
+

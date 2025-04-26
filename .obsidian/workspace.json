@@ -165,21 +165,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "27cbcfe15f4d1a62",
+  "active": "29bb4168399edb63",
   "lastOpenFiles": [
-    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Benchmarking de WAFs con Caliper.py.md",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423212124.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/RXSS.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/eval_run.mp4",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/EVAL_HELP_MENU.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/EVAL_help.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/forbidden.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/reflection_xss_test.png",
+    "Pasted image 20250426221159.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/initial_web_xss.png",
     "__Notas finales/Bastionado de Redes e Sistemas/NF - Bastionado de Redes e Sistemas.md",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/Benchmarking de WAFs con Caliper.py.md",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/xss_setup.png",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images",
+    "__Notas finales/Bastionado de Redes e Sistemas/Caliper/caliper_images/xss_setup.png",
+    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423212124.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Tarea Splunk.md",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423202953.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423205220.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423204058.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423203444.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423200453.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423202658.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423201623.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423201444.png",
-    "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250423195917.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Untitled.md",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk",
@@ -209,8 +212,6 @@
     "Análise Forense Informático/Analisis Forense en Linux/Historial de comandos y acceso a ficheros.md",
     "Análise Forense Informático/Analisis Forense en Linux",
     "Bastionado de Redes e Sistemas/Configuracion de los sistemas informaticos",
-    "Normativa/Legislacion y jurisprudencia en materia de proteccion de datos",
-    "Análise Forense Informático/Analisis Forense de Dispositivos Moviles",
-    "Hacking Ético/Postexplotacion"
+    "Normativa/Legislacion y jurisprudencia en materia de proteccion de datos"
   ]
 }
