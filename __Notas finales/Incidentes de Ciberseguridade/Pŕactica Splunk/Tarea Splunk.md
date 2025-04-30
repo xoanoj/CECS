@@ -177,35 +177,107 @@ Con lo que la IP es 23.22.63.114
 Mediante:
 
 ``` bash
-index="botsv1" sourcetype="stream:http" "*.exe" dest_ip="192.168.250.70" src_ip="40.80.148.42" | chart count by uri
+index="botsv1" sourcetype="stream:http" http_method=POST dest_ip="192.168.250.70" *.exe 
 ```
 
+Busco por POST y filtrando por extensiones .exe y descubrimos el archivo 3791.exe:
+
+![[Pasted image 20250430180648.png]]
 
 
 >14. ¿Cuál fue la primera contraseña de fuerza bruta utilizada? (Puedes investigar sobre el comando transaction)
 
+``` bash
+index=botsv1 sourcetype=stream:http dest_ip=192.168.250.70 http_method=POST
+src_ip=23.22.63.114 | stats count by form_data, _time
+``` 
 
+Al buscar esto y ordenar por tiempo ascendiente podemos ver que la primera contraseña fue 12345678 
+
+![[Pasted image 20250430180921.png]]
 
 >15. ¿Cuál fue la contraseña correcta para acceder como administrador al sistema de gestión de contenidos que ejecuta "imreallynotbatman.com"?
 
+``` bash
+index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST | rex field=form_data "passwd=(?<password>\w+)" | stats count by password
+```
 
+Con esta query y ordenando por count podemos que ver que la unica contraseña que se emplea dos veces es batman, ya que esto se puede explicar porque el atacante inicia sesion despues de comprobar que es válida.
 
 >16. ¿Cuál fue la longitud promedio de las contraseñas utilizadas en el intento de fuerza bruta? (Redondea al número entero más cercano. Por ejemplo, "5" y no "5.23213")
 
+``` bash
+index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST | rex field=form_data "passwd=(?<password>\w+)" | eval length = len(password) | stats avg(length) as _median | eval rounding = round(_median,0)
+``` 
+
+Podemos calcular con este comando que obtiene la longitud de cada contraseña, hace una media y la redondea:
+
+![[Pasted image 20250430183314.png]]
+
+El resultado es 6.
 
 
 >17. ¿Cuántos segundos transcurrieron entre el escaneo de fuerza bruta que identificó la contraseña correcta y el inicio de sesión comprometido? Redondea a 2 decimales.
 
+``` bash
+index=botsv1 sourcetype=stream:http http_method=POST uri_path="/joomla/administrator/index.php" | rex field=form_data "passwd=(?<password>\w+)" | search password="batman" | transaction password| table duration | eval roundup = round(duration, 2)
+```
 
+Mediante este comando obtenemos el uso de la contraseña batman y redondeamos la diferencia de tiempo entre ambas.
+
+![[Pasted image 20250430183553.png]]
+
+El resultado es 92.17
 
 >18. ¿Cuántas contraseñas únicas se intentaron en el ataque de fuerza bruta?
 
+Simplemente utilizamos dc (distinct count) para ver usos individuales de contraseñas:
 
+``` bash
+index=botsv1 sourcetype=stream:http dest_ip="192.168.250.70" http_method=POST | rex field=form_data "passwd=(?<password>\w+)" | stats dc(password)
+``` 
+
+El resultado:
+
+![[Pasted image 20250430183915.png]]
+
+Se utilizaron 412 contraseñas únicas.
 
 >19. Escribe una regla sigma que compruebe si el Windows Security Event ID (EventID) es 4656 o 4663. (Es suficiente con poner solo los campos obligatorios).
 
-
+``` bash
+title: Detecta eventos de acceso a objetos sensibles (4656 o 4663)
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID:
+      - 4656
+      - 4663
+  condition: selection
+level: low
+```
 
 >20. Dada la siguiente consulta en Splunk escribe la regla sigma equivalente source="WinEventLog:*" AND ((Image="*\\excel.exe" OR Image="*\\mspub.exe" OR Image="*\\onenote.exe" OR Image="*\\onenoteim.exe" OR Image="*\\outlook.exe" OR Image="*\\powerpnt.exe" OR Image="*\\winword.exe") AND ImageLoaded="*\\kerberos.dll")
 
+``` bash
+title: Detecta ejecución de aplicaciones de Office cargando kerberos.dll
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    Image:
+      - '*\\excel.exe'
+      - '*\\mspub.exe'
+      - '*\\onenote.exe'
+      - '*\\onenoteim.exe'
+      - '*\\outlook.exe'
+      - '*\\powerpnt.exe'
+      - '*\\winword.exe'
+    ImageLoaded: '*\\kerberos.dll'
+  condition: selection
+level: high
 
+```
