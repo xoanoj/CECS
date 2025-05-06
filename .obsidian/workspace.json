@@ -11,10 +11,14 @@
             "id": "27cbcfe15f4d1a62",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Hacking Ético/Explotacion/Maquina - Druida.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Maquina - Druida"
             }
           }
         ]
@@ -163,6 +167,7 @@
   },
   "active": "27cbcfe15f4d1a62",
   "lastOpenFiles": [
+    "Hacking Ético/Explotacion/Maquina - Druida.md",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Tarea Splunk.md",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250430183915.png",
     "__Notas finales/Incidentes de Ciberseguridade/Pŕactica Splunk/Imagenes Splunk/Pasted image 20250430183553.png",
